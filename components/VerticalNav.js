@@ -11,7 +11,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 
 const useStyles = makeStyles((theme) => ({
   verticalNav: {
-    height: "100%",
+    height: "100vh",
     width: "75px",
     position: "fixed",
     background: "rgba(255, 255, 255, 0.2)",
@@ -58,6 +58,7 @@ const VerticalNav = (props) => {
         setIndex(4);
         break;
       default:
+        setIndex(0);
         break;
    } 
   }, [setIndex]);
@@ -87,7 +88,7 @@ const VerticalNav = (props) => {
         >
           <Button style={{ width: "100%" }} className={index === 1 ? classes.active : undefined}>
             <img
-              src="home.svg"
+              src="/home.svg"
               className={classes.icon}
               width="48px"
               height="48px"
@@ -105,7 +106,7 @@ const VerticalNav = (props) => {
         >
           <Button style={{ width: "100%" }} className={index === 2 ? classes.active : undefined}>
             <img
-              src="spoon.svg"
+              src="/spoon.svg"
               className={classes.icon}
               width="48px"
               height="48px"
@@ -121,9 +122,9 @@ const VerticalNav = (props) => {
           href="/rooms"
           justify="center"
         >
-          <Button style={{ width: "100%" }}>
+          <Button style={{ width: "100%" }} className={index === 3 ? classes.active : undefined}>
             <img
-              src="bed.svg"
+              src="/bed.svg"
               className={classes.icon}
               width="48px"
               height="48px"
@@ -132,9 +133,9 @@ const VerticalNav = (props) => {
           </Button>
         </Grid>
         <Grid item container justify="center" component={Link} href="/contact">
-          <Button style={{ width: "100%" }}>
+          <Button style={{ width: "100%" }} className={index === 4 ? classes.active : undefined}>
             <img
-              src="message.svg"
+              src="/message.svg"
               className={classes.icon}
               width="48px"
               height="48px"
@@ -164,7 +165,7 @@ const VerticalNav = (props) => {
         >
           <Button>
             <img
-              src="tripadvisor.svg"
+              src="/tripadvisor.svg"
               className={classes.icon}
               width="48px"
               height="48px"

@@ -1,0 +1,350 @@
+{
+  "menus": [
+    {
+      "name": "Salads",
+      "img": "/menu/food/salads/greekSalad.webp",
+      "products": [
+        {
+          "name": "El Greco Salad",
+          "description": "El greco salad with lettuce, tomatoes, croutons, ham, yellow cheese, eggs and dressing.",
+          "img": "/menu/food/salads/elgrecoSalad.webp"
+        },
+        {
+          "name": "Mediterranean salad",
+          "description": "Mediterranean salad with beetroot, baby leaves, lettuce, spinach, rocket, cherry tomato, parmesan and balsamic vinegar.",
+          "img": "/menu/food/salads/mediterraneanSalad.webp"
+        },
+        {
+          "name": "Greek Salad",
+          "description": "Greek salad with tomatoes, cucumbers, green peppers, onions, olives, feta cheese, olive oil and oregano.",
+          "img": "/menu/food/salads/greekSalad.webp"
+        },
+        {
+          "name": "Tomato Salad",
+          "description": "Tomato Salad with cucumbers, green peppers, onions, olive oil and oregano.",
+          "img": "/menu/food/salads/tomatoSalad.webp"
+        },
+        {
+          "name": "Constantinople salad",
+          "description": "Constantinople salad with white and red cabbage, red and green peppers, carrot and celery.",
+          "img": "/menu/food/salads/constantinopleSalad.webp"
+        },
+        {
+          "name": "Lettuce salad",
+          "description": "Lettuce salad with fresh lettuce and green onion.",
+          "img": "/menu/food/salads/lettuceSalad.webp"
+        },
+        {
+          "name": "Season's greens",
+          "description": "Season's greens with lemon and olive oil.",
+          "img": "/menu/food/salads/greenSalad.webp"
+        },
+        {
+          "name": "Fresh beetroot",
+          "description": "",
+          "img": "/menu/food/salads/beetrootSalad.webp"
+        }
+      ]
+    },
+    {
+      "name": "Apperatives",
+      "img": "/menu/food/apperatives/zucchini.webp",
+      "products": [
+        {
+          "name": "Fried zucchini",
+          "description": "Fried zucchini with tzatziki on the side.",
+          "img": "/menu/food/apperatives/zucchini.webp"
+        },
+        {
+          "name": "Kefalotiri saganaki",
+          "description": "Fried kefalotiri cheese.",
+          "img": "/menu/food/apperatives/kefalotiri.webp"
+        },
+        {
+          "name": "Zucchini croquettes",
+          "description": "Fried zucchini croquettes with garlic dip in the side.",
+          "img": "/menu/food/apperatives/zucchiniCroquettes.webp"
+        },
+        {
+          "name": "Haloumi",
+          "description": "Grilled Haloumi cheese with roasted tomatoes and parsley.",
+          "img": "/menu/food/apperatives/haloumi.webp"
+        },
+        {
+          "name": "Cheese croquettes",
+          "description": "Cheese croquettes made with various types of cheese.",
+          "img": "/menu/food/apperatives/cheeseCroquettes.webp"
+        },
+        {
+          "name": "Fried Potatoes",
+          "description": "Fresh fried potatoes.",
+          "img": "/menu/food/apperatives/potatoes.webp"
+        },
+        {
+          "name": "Baked feta",
+          "description": "Baked feta cheese with tomato, green pepper, oregano and olive oil.",
+          "img": "/menu/food/apperatives/bakedFeta.webp"
+        },
+        {
+          "name": "Feta cheese",
+          "description": "Feta cheese with oregano and olive oil.",
+          "img": "/menu/food/apperatives/feta.webp"
+        },
+        {
+          "name": "Florina peppers",
+          "description": "Fresh roasted red long florina peppers.",
+          "img": "/menu/food/apperatives/florina.webp"
+        },
+        {
+          "name": "Hot pepper",
+          "description": "Hot green pepper with roasted tomato.",
+          "img": "/menu/food/apperatives/pepper.webp"
+        },
+        {
+          "name": "Roasted eggplant",
+          "description": "Roasted eggplant with feta cheese, tomatoes, garlic and olive oil.",
+          "img": "/menu/food/apperatives/eggplant.webp"
+        },
+        {
+          "name": "Roasted oyster mushrooms",
+          "description": "Grilled oyster mushrooms with olive & lemon dressing.",
+          "img": "/menu/food/apperatives/mushrooms.webp"
+        },
+        {
+          "name": "Baked potatoes",
+          "description": "Baked potatoes with ham, milk cream and yellow cheese.",
+          "img": "/menu/food/apperatives/bakedPotatoes.webp"
+        },
+        {
+          "name": "Smoked mackerel",
+          "description": "Salty mackerel smoked on grill.",
+          "img": "/menu/food/apperatives/mackerel.webp"
+        },
+        {
+          "name": "Marinated anchovies",
+          "description": "Marinated anchovies with garlic, parsley and olive oil.",
+          "img": "/menu/food/apperatives/anchovies.webp"
+        }
+      ]
+    },
+    {
+      "name": "Dips",
+      "img": "/menu/food/dips/tzatziki.webp",
+      "products": [
+        {
+          "name": "Potato salad",
+          "description": "Homemade potato salad with mayonnaise, egg, mustard and olive oil.",
+          "img": "/menu/food/dips/potatoSalad.webp"
+        },
+        {
+          "name": "Eggplant salad",
+          "description": "Homemade eggplant salad with boiled eggplant, peppers, garlic and olive oil.",
+          "img": "/menu/food/dips/eggplantSalad.webp"
+        },
+        {
+          "name": "Cheese spread",
+          "description": "Homemade cheese spread with feta anthotiro, spicy pepper and olive oil.",
+          "img": "/menu/food/dips/cheeseSpread.webp"
+        },
+        {
+          "name": "Tzatziki",
+          "description": "Homemade tzatziki made from first grade greek yogurt.",
+          "img": "/menu/food/dips/tzatziki.webp"
+        }
+      ]
+    },
+    {
+      "name": "Grill",
+      "img": "/menu/food/grill/burger.webp",
+      "products": [
+        {
+          "name": "Burger",
+          "description": "3 homemade burgers from pork and veal mince meat based on a recipe from 1976.",
+          "img": "/menu/food/grill/burger.webp"
+        },
+        {
+          "name": "Stuffed burger",
+          "description": "A big burger stuffed with feta, yellow cheese and peppers.",
+          "img": "/menu/food/grill/stuffedBurger.webp"
+        },
+        {
+          "name": "Pork souvlaki",
+          "description": "Pork souvlaki made with local pork thigh and pancetta, 60gr/piece.",
+          "img": "/menu/food/grill/porkSouvlaki.webp"
+        },
+        {
+          "name": "Traditional sausages",
+          "description": "3 traditional homemade sausages.",
+          "img": "/menu/food/grill/sausages.webp"
+        },
+        {
+          "name": "Chicken breast fillet",
+          "description": "Grilled chicken breast fillet.",
+          "img": "/menu/food/grill/chickenBreast.webp"
+        },
+        {
+          "name": "Chicken souvlaki",
+          "description": "3 chicken souvlakis made of marinated chicken thigh",
+          "img": "/menu/food/grill/chickenSouvlaki.webp"
+        },
+        {
+          "name": "Tender pork fillets",
+          "description": "Grilled tender pork fillets.",
+          "img": "/menu/food/grill/porkFillets.webp"
+        },
+        {
+          "name": "Pork chops",
+          "description": "Grilled pork chops.",
+          "img": "/menu/food/grill/porkChops.webp"
+        },
+        {
+          "name": "Fried pork meat",
+          "description": "Fried pork meat from the neck sauteed in olive oil and cooled with white wine and aromatic herbs.",
+          "img": "/menu/food/grill/friedPork.webp"
+        },
+        {
+          "name": "Lamb chops",
+          "description": "Greek lamb chops with aromatic herbs and lemon.",
+          "img": "/menu/food/grill/lampChops.webp"
+        },
+        {
+          "name": "El Greco Mix",
+          "description": "Various grilled cuts(souvlaki, burger, pork chop).",
+          "img": "/menu/food/grill/elgrecoMix.webp"
+        },
+        {
+          "name": "Pork rib eye steak",
+          "description": "Pork rib eye steak with aromatic herbs.",
+          "img": "/menu/food/grill/porkSteak.webp"
+        },
+        {
+          "name": "Beef rib eye steak",
+          "description": "Grilled beef rib eye boneless steak.",
+          "img": "/menu/food/grill/beefSteak.webp"
+        },
+        {
+          "name": "Chicken schnitzel",
+          "description": "Fried Chicken schnitzel.",
+          "img": "/menu/food/grill/schnitzel.webp"
+        }
+      ]
+    },
+    {
+      "name": "Fish",
+      "img": "/menu/food/fish/seaBream.webp",
+      "products": [
+        {
+          "name": "Fried kalamari",
+          "description": "Fried kalamari rings with yogurt sauce with garlic.",
+          "img": "/menu/food/fish/friedKalamari.webp"
+        },
+        {
+          "name": "Grilled kalamari",
+          "description": "Grilled kalamari with olive oil - lemon dressing and aromatic herbs.",
+          "img": "/menu/food/fish/grilledKalamari.webp"
+        },
+        {
+          "name": "Fried or Grilled shrimps",
+          "description": "Fried or grilled shrimps with olive oil - lemon dressing and yogurt sauce with garlic.",
+          "img": "/menu/food/fish/friedShrimps.webp"
+        },
+        {
+          "name": "Shrimps saganaki",
+          "description": "Shrimps saganaki fried with tomato sauce and feta cheese.",
+          "img": "/menu/food/fish/shrimpsSaganaki.webp"
+        },
+        {
+          "name": "Steam mussels",
+          "description": "Steam mussels with white wine, mustard and aromatic herbs.",
+          "img": "/menu/food/fish/steamMussels.webp"
+        },
+        {
+          "name": "Mussels saganaki",
+          "description": "Mussels saganaki with tomato sauce and mustard.",
+          "img": "/menu/food/fish/musselsSaganaki.webp"
+        },
+        {
+          "name": "Fried gavros",
+          "description": "",
+          "img": "/menu/food/fish/friedGavros.webp"
+        },
+        {
+          "name": "Gavros saganaki",
+          "description": "Gavros saganaki fried with tomato sauce, mustard, garlic, and various aromatic herbs.",
+          "img": "/menu/food/fish/gavrosSaganaki.webp"
+        },
+        {
+          "name": "Grilled sardines",
+          "description": "Grilled sardines with olive oil - lemon dressing and aromatic herbs.",
+          "img": "/menu/food/fish/sardines.webp"
+        },
+        {
+          "name": "Grilled sea bream",
+          "description": "Grilled sea bream with olive oil - lemon dressing, parsley and oregano.",
+          "img": "/menu/food/fish/seaBream.webp"
+        },
+        {
+          "name": "Grilled sea bass",
+          "description": "Grilled sea bass with olive oil - lemon dressing, parsley and oregano.",
+          "img": "/menu/food/fish/seaBass.webp"
+        },
+        {
+          "name": "Grilled octapus",
+          "description": "Grilled octapus with olive-oil & lemon dressing.",
+          "img": "/menu/food/fish/octapus.webp"
+        },
+        {
+          "name": "Fried Cod",
+          "description": "Traditional cod fish with garlic dip.",
+          "img": "/menu/food/fish/cod.webp"
+        }
+      ]
+    },
+    {
+      "name": "Pasta",
+      "img": "/menu/food/pasta/bolognese.webp",
+      "products": [
+        {
+          "name": "Spaghetti bolognese",
+          "description": "Spaghetti with beef minced meat and parmesan.",
+          "img": "/menu/food/pasta/bolognese.webp"
+        },
+        {
+          "name": "Spaghetti with feta",
+          "description": "Spaghetti with feta and parmesan.",
+          "img": "/menu/food/pasta/spaghettiFeta.webp"
+        },
+        {
+          "name": "Spaghetti with tomato sauce",
+          "description": "Spaghetti with tomato sauce and parmesan.",
+          "img": "/menu/food/pasta/spaghettiTomato.webp"
+        },
+        {
+          "name": "Spaghetti carbonara",
+          "description": "Spaghetti carbonara with smoked ham, milk cream and parmesan.",
+          "img": "/menu/food/pasta/carbonara.webp"
+        },
+        {
+          "name": "Shrimp spaghetti",
+          "description": "Shrimp spaghetti with small shrimps, garlic and tomatoes.",
+          "img": "/menu/food/pasta/shrimpSpaghetti.webp"
+        },
+        {
+          "name": "Fisherman's spaghetti",
+          "description": "Fisherman's spaghetti with mixed seafood(small shrimps, octopus, mussels).",
+          "img": "/menu/food/pasta/fishermans.webp"
+        },
+        {
+          "name": "Risotto with seafood",
+          "description": "",
+          "img": "/menu/food/pasta/risotto.webp"
+        },
+        {
+          "name": "Rice with mussels",
+          "description": "",
+          "img": "/menu/food/pasta/rice.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -46,6 +46,7 @@ const HorizontalNav = () => {
          setIndex(4);
          break;
        default:
+         setIndex(0);
          break;
     } 
    }, [setIndex]);
@@ -55,7 +56,7 @@ const HorizontalNav = () => {
     <Grid container className={classes.horizontalNav}>
       <Grid item container justify="center" alignContent="center" href="/" component={Link} className={index === 1 ? classes.active : undefined} xs>
       <img
-          src="home.svg"
+          src="/home.svg"
           className={classes.icon}
           width="48px"
           height="48px"
@@ -64,7 +65,7 @@ const HorizontalNav = () => {
       </Grid>
       <Grid item container justify="center" alignContent="center" href="/tavern" component={Link} className={index === 2 ? classes.active : undefined} xs>
         <img
-          src="spoon.svg"
+          src="/spoon.svg"
           className={classes.icon}
           width="48px"
           height="48px"
@@ -73,7 +74,7 @@ const HorizontalNav = () => {
       </Grid>
       <Grid item container justify="center" alignContent="center" href="/rooms" component={Link} className={index === 3 ? classes.active : undefined} xs>
         <img
-          src="bed.svg"
+          src="/bed.svg"
           className={classes.icon}
           width="48px"
           height="48px"
@@ -82,7 +83,7 @@ const HorizontalNav = () => {
       </Grid>
       <Grid item container justify="center" alignContent="center" href="/contact" component={Link} className={index === 4 ? classes.active : undefined} xs>
         <img
-          src="message.svg"
+          src="/message.svg"
           className={classes.icon}
           width="48px"
           height="48px"

@@ -17,11 +17,11 @@ const useStyles = makeStyles((theme) => ({
 export default function Tavern() {
   const classes = useStyles();
   const theme = useTheme();
-  const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
+  const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <div className={classes.mainContainer}>
-      {matchesSM ? <HorizontalNav /> : <VerticalNav />}
+      {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <TavernBody />
     </div>
   );

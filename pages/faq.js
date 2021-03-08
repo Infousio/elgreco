@@ -13,7 +13,7 @@ import AccordionDetails from "@material-ui/core/AccordionDetails";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
-import faq from "../public/faq.json";
+import faq from "../json/faq.json";
 
 const useStyles = makeStyles((theme) => ({
   container: {
