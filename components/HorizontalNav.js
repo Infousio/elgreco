@@ -80,7 +80,7 @@ const HorizontalNav = () => {
           alt="ElGreco Rooms"
         />
       </Grid>
-      <Grid item container justify="center" alignContent="center" href="/contact" component={Link} href="/tavern" className={index === 4 ? classes.active : undefined} xs>
+      <Grid item container justify="center" alignContent="center" href="/contact" component={Link} className={index === 4 ? classes.active : undefined} xs>
         <img
           src="message.svg"
           className={classes.icon}

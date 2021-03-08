@@ -1,0 +1,54 @@
+{
+  "FAQ_Taverna": [
+    {
+      "Question": "What kind of food does El Greco offers?",
+      "Answer": "At out restaurant you can try both local greek meat and local fresh seafood."
+    },
+    {
+      "Question": "Do I need to make a reservation?",
+      "Answer": "Reservations are not required but they are strongly recommended especially in Friday, Saturday"
+    },
+    {
+      "Question": "How do i make a reservation?",
+      "Answer": "You can call us on +302397022063 or +306946018981 even on Viber."
+    },
+    {
+      "Question": "What happens if I'm running late?",
+      "Answer": "Call the restaurant. If we are sold out we are gonna hold your reservation for 30 minutes."
+    },
+    {
+      "Question": "What are the restaurants hours?",
+      "Answer": "El Greco Tavern is open on Summer, every day from 19:00 to 24:00."
+    },
+    {
+      "Question": "Do you accept credit cards and which ones?",
+      "Answer": "Our Restaurant accept most major credit cards. Visa, Master Card, American Express."
+    }
+  ],
+  "FAQ_Rooms": [
+    {
+      "Question": "What time are the standard check-in and check-out times?",
+      "Answer": "The standard check-in is at 12:00. The standard check-out is at 11:00."
+    },
+    {
+      "Question": "Does El Greco Rooms offer free parking?",
+      "Answer": "We have unlimited parking space around the hotel."
+    },
+    {
+      "Question": "What is the cancellation policy at El Greco Rooms?",
+      "Answer": "We have a 2 day cancellation policy. This means that you can cancel two days before arrival, otherwise we are eligible to keep the advanced payment."
+    },
+    {
+      "Question": "How far is El Greco Rooms from the airport?",
+      "Answer": "The closest airport is the airport of Thessaloniki which is 40 minutes away."
+    },
+    {
+      "Question": "Do you have a dining center?",
+      "Answer": "No, but 400 meters awayt is our Restaurant where you can enjoy Greek Cusine."
+    },
+    {
+      "Question": "Is the WI-FI free?",
+      "Answer": "Yes, WI-FI is free for all guests."
+    }
+  ]
+}

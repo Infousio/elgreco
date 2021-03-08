@@ -197,7 +197,7 @@ const TavernBody = () => {
           alignContent="center"
           lg={8}
           className={classes.staticImage}
-          style={{ backgroundImage: "url(/taverna2.webp)" }}
+          style={{ backgroundImage: matchesMD ? "url(/taverna2-720.webp)" : "url(/taverna2-1080.webp)" }}
         >
           <Typography variant="h3" className={classes.textOnImage}>
             About Us
