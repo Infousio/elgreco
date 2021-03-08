@@ -91,6 +91,7 @@ const TavernBody = () => {
             src="/tavernBackground.webp"
             alt="El Greco Tavern"
             layout="fill"
+            priority
             className={classes.bgImage}
           />
           <img
