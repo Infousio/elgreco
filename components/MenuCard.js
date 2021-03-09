@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { makeStyles } from "@material-ui/core/styles";
-import Grid from '@material-ui/core/Grid';
+import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
@@ -11,9 +12,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
     margin: "2vh 4vw",
-    [theme.breakpoints.down('lg')]: {
-      margin: "2vh 3vw"
-    }
+    [theme.breakpoints.down("lg")]: {
+      margin: "2vh 3vw",
+    },
   },
 }));
 
@@ -22,14 +23,31 @@ export default function MenuCard(props) {
 
   return (
     <Grid component={Card} item xs={12} sm={6} md={4} className={classes.root}>
-      <CardActionArea >
-        <Image style={{margin: "auto"}} src={props.img} alt={props.name} height="198" width="352"/>
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            {props.name}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
+      <Link href={`food/${props.name}`} >
+        <CardActionArea>
+          <div style={{ backgroundImage: "url(/menu/food/background.webp)" }}>
+            <Image
+              style={{
+                margin: "auto",
+              }}
+              src={props.img}
+              alt={props.name}
+              height="194"
+              width="345"
+            />
+          </div>
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              {props.name}
+            </Typography>
+            {props.description ? (
+              <Typography variant="body1" component="p">
+                {props.description}
+              </Typography>
+            ) : null}
+          </CardContent>
+        </CardActionArea>
+      </Link>
     </Grid>
   );
 }
