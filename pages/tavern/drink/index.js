@@ -1,7 +1,5 @@
-import Link from "next/link";
-
-import foodMenu from "../../../json/foodMenu.json";
 import MenuCard from "../../../components/MenuCard";
+import drinkMenu from "../../../json/drinkMenu.json";
 
 import HorizontalNav from "../../../components/HorizontalNav";
 import VerticalNav from "../../../components/VerticalNav";
@@ -25,23 +23,20 @@ const useStyles = makeStyles((theme) => ({
     width: "100vw",
     minHeight: "100vh",
   },
-  link: {
-
-  }
 }));
 
-export default function Product(props) {
+export default function Drink(props) {
   const theme = useTheme();
   const classes = useStyles();
   const matchesMD = useMediaQuery(theme.breakpoints.down("sm"));
 
-  const products = props.products.map((product, index) => {
+  const mainMenu = props.menu.map((product, index) => {
     return (
       <MenuCard
         key={index}
         img={product.img}
         name={product.name}
-        description={product.description}
+        link={`drink/${product.name}`}
       />
     );
   });
@@ -65,14 +60,11 @@ export default function Product(props) {
             variant="h4"
             gutterBottom
           >
-            <Link href="/tavern/food">
-              <span style={{cursor: "pointer"}}>Menu /{" "}</span>
-            </Link>
-            {props.name}
+            Elgreco Drink Menu
           </Typography>
         </Grid>
         <Grid item container justify="space-evenly">
-          {products}
+          {mainMenu}
         </Grid>
       </Grid>
       <Footer />
@@ -80,25 +72,15 @@ export default function Product(props) {
   );
 }
 
-export async function getStaticPaths() {
-  const names = foodMenu.menus.map((category) => {
-    return category.name.trim();
-  });
+export async function getStaticProps(context) {
+  
+  const menu = drinkMenu.menus.map(category => {
+    return ({name: category.name, img: category.img});
+  })
 
-  const paths = names.map((name) => ({
-    params: { id: name },
-  }));
-
-  return { paths, fallback: false };
-}
-
-export async function getStaticProps({ params }) {
-  const category = foodMenu.menus.filter(
-    (category) => category.name === params.id
-  );
-
-  const products = category[0].products;
-  const name = category[0].name;
-
-  return { props: { products, name } };
+  return {
+    props: {
+      menu
+    },
+  };
 }

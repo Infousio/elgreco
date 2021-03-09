@@ -271,7 +271,7 @@ const TavernBody = () => {
           className={classes.menu}
           style={{ backgroundImage: "url(/wine.webp)" }}
         >
-          <Button component={Link} href="/tavern/drinks">
+          <Button component={Link} href="/tavern/drink">
             <Typography variant="h3" className={classes.textOnImage}>
               Drink Menu
             </Typography>

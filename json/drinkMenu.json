@@ -1,0 +1,245 @@
+{
+  "menus": [
+    {
+      "name": "Soft Drinks",
+      "img": "/menu/drink/soft/soft.webp",
+      "products": [
+        {
+          "name": "Coca Cola",
+          "img": "/menu/drink/soft/cola.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Coca Cola Zero",
+          "img": "/menu/drink/soft/colazero.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Fanta Orange",
+          "img": "/menu/drink/soft/fantaorange.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Fanta Lemon",
+          "img": "/menu/drink/soft/fantalemon.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Sprite",
+          "img": "/menu/drink/soft/sprite.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Souroti",
+          "img": "/menu/drink/soft/souroti.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Fuzetea Peach",
+          "img": "",
+          "description": "250ml"
+        },
+        {
+          "name": "Fuzetea Lemon",
+          "img": "",
+          "description": "250ml"
+        },
+        {
+          "name": "Orange Juice",
+          "img": "/menu/drink/soft/orange.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Sour Cherry Juice",
+          "img": "/menu/drink/soft/sourcherry.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Peach Juice",
+          "img": "/menu/drink/soft/peach.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Apple Juice",
+          "img": "/menu/drink/soft/apple.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Mixed Fruit Juice",
+          "img": "/menu/drink/soft/mixed.webp",
+          "description": "250ml"
+        }
+      ]
+    },
+    {
+      "name": "Beer",
+      "img": "/menu/drink/beer/beers.webp",
+      "products": [
+        {
+          "name": "Amstel",
+          "img": "/menu/drink/beer/amstel.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Amstel Radler",
+          "img": "/menu/drink/beer/amstelradler.webp",
+          "description": "330ml"
+        },
+        {
+          "name": "Amstel Free",
+          "img": "/menu/drink/beer/amstelfree.webp",
+          "description": "330ml"
+        },
+        {
+          "name": "Heineken",
+          "img": "",
+          "description": "500ml"
+        },
+        {
+          "name": "Mythos",
+          "img": "/menu/drink/beer/mythos.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Alfa",
+          "img": "/menu/drink/beer/alfa.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Nymfi",
+          "img": "/menu/drink/beer/nymfi.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Mamos",
+          "img": "/menu/drink/beer/mamos.webp",
+          "description": "500ml"
+        }
+      ]
+    },
+    {
+      "name": "Retsina",
+      "img": "/menu/drink/retsina/retsina.webp",
+      "products": [
+        {
+          "name": "Malamatina",
+          "img": "/menu/drink/retsina/malamatina.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Georgiadi",
+          "img": "/menu/drink/retsina/georgiadi.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Vasiliki",
+          "img": "/menu/drink/retsina/vasiliki.webp",
+          "description": "500ml"
+        }
+      ]
+    },
+    {
+      "name": "Wine",
+      "img": "/menu/drink/wine/wines.webp",
+      "products": [
+        {
+          "name": "Draft White wine dry",
+          "img": "",
+          "description": "500ml & 250ml"
+        },
+        {
+          "name": "Caravia White Dry",
+          "img": "/menu/drink/wine/whitedry.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Caravia White Semi Sweet",
+          "img": "/menu/drink/wine/whitesemisweet.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Caravia Red Dry",
+          "img": "/menu/drink/wine/reddry.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Caravia Red Semi Sweet",
+          "img": "/menu/drink/wine/redsemisweet.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Caravia Roze Dry",
+          "img": "/menu/drink/wine/rozedry.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Caravia Roze Semi Dry",
+          "img": "/menu/drink/wine/rozesemidry.webp",
+          "description": "500ml"
+        }
+      ]
+    },
+    {
+      "name": "Ouzo Tsipouro",
+      "img": "",
+      "products": [
+        {
+          "name": "Ouzo Tsantali",
+          "img": "",
+          "description": "250ml"
+        },
+        {
+          "name": "Ouzo Plomari",
+          "img": "",
+          "description": "250ml"
+        },
+        {
+          "name": "Ouzo Mpampatzim",
+          "img": "",
+          "description": "250ml"
+        },
+        {
+          "name": "Tsipouro Mpampatzim",
+          "img": "",
+          "description": "250ml"
+        },
+        {
+          "name": "Tsipouro Idoniko",
+          "img": "",
+          "description": "250ml"
+        },
+        {
+          "name": "Draft Tsipouro",
+          "img": "",
+          "description": "250ml"
+        }
+      ]
+    },
+    {
+      "name": "Spirits",
+      "img": "",
+      "products": [
+        {
+          "name": "Whiskey",
+          "img": "",
+          "description": "70ml"
+        },
+        {
+          "name": "Gin",
+          "img": "",
+          "description": "70ml"
+        },
+        {
+          "name": "Vodka",
+          "img": "",
+          "description": "70ml"
+        },
+        {
+          "name": "Campari",
+          "img": "",
+          "description": "70ml"
+        }
+      ]
+    }
+  ]
+}

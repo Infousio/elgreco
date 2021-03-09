@@ -37,6 +37,7 @@ export default function Food(props) {
         key={index}
         img={product.img}
         name={product.name}
+        link={`food/${product.name}`}
       />
     );
   });

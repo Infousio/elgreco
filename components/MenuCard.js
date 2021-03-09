@@ -23,14 +23,35 @@ export default function MenuCard(props) {
 
   return (
     <Grid component={Card} item xs={12} sm={6} md={4} className={classes.root}>
-      <Link href={`food/${props.name}`} >
-        <CardActionArea>
+      {props.link ? (
+        <Link href={props.link}>
+          <CardActionArea>
+            <div style={{ backgroundImage: "url(/menu/food/background.webp)" }}>
+              <Image
+                style={{
+                  margin: "auto",
+                }}
+                src={props.img ? props.img : "/noimage.webp"}
+                alt={props.name}
+                height="194"
+                width="345"
+              />
+            </div>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                {props.name}
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Link>
+      ) : (
+        <CardActionArea disableRipple style={{cursor: "default"}}>
           <div style={{ backgroundImage: "url(/menu/food/background.webp)" }}>
             <Image
               style={{
                 margin: "auto",
               }}
-              src={props.img}
+              src={props.img ? props.img : "/noimage.webp"}
               alt={props.name}
               height="194"
               width="345"
@@ -47,7 +68,7 @@ export default function MenuCard(props) {
             ) : null}
           </CardContent>
         </CardActionArea>
-      </Link>
+      )}
     </Grid>
   );
 }

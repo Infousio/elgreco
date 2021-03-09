@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import foodMenu from "../../../json/foodMenu.json";
+import drinkMenu from "../../../json/drinkMenu.json";
 import MenuCard from "../../../components/MenuCard";
 
 import HorizontalNav from "../../../components/HorizontalNav";
@@ -65,7 +65,7 @@ export default function Product(props) {
             variant="h4"
             gutterBottom
           >
-            <Link href="/tavern/food">
+            <Link href="/tavern/drink">
               <span style={{cursor: "pointer"}}>Menu /{" "}</span>
             </Link>
             {props.name}
@@ -81,8 +81,8 @@ export default function Product(props) {
 }
 
 export async function getStaticPaths() {
-  const names = foodMenu.menus.map((category) => {
-    return category.name.trim();
+  const names = drinkMenu.menus.map((category) => {
+    return category.name;
   });
 
   const paths = names.map((name) => ({
@@ -93,7 +93,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const category = foodMenu.menus.filter(
+  const category = drinkMenu.menus.filter(
     (category) => category.name === params.id
   );
 
