@@ -7,8 +7,8 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    width: "100vw",
-    height: "100vh",
+    width: "100%",
+    height: "100%",
   },
 }));
 
