@@ -31,6 +31,7 @@ export default function Index() {
         alt="Nea Vrasna Drone View"
         layout="fill"
         priority
+        quality={100}
         className={classes.bgImage}
       />
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
