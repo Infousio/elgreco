@@ -11,30 +11,35 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
-    margin: "2vh 4vw",
+    margin: "2vh 2vw",
     [theme.breakpoints.down("lg")]: {
-      margin: "2vh 3vw",
+      margin: "2vh 4vw",
     },
   },
 }));
 
 export default function MenuCard(props) {
   const classes = useStyles();
-
   return (
     <Grid component={Card} item xs={12} sm={6} md={4} className={classes.root}>
       {props.link ? (
         <Link href={props.link}>
           <CardActionArea>
-            <div style={{ backgroundImage: "url(/menu/food/background.webp)" }}>
+            <div
+              style={{
+                backgroundImage: "url(/menu/food/background.webp)"
+              }}
+            >
               <Image
                 style={{
                   margin: "auto",
                 }}
                 src={props.img ? props.img : "/noimage.webp"}
                 alt={props.name}
-                height="194"
-                width="345"
+                height="194px"
+                width="345px"
+                priority={props.prio ? true : false}
+                loading={props.prio ? undefined : "lazy"}
               />
             </div>
             <CardContent>
@@ -45,16 +50,20 @@ export default function MenuCard(props) {
           </CardActionArea>
         </Link>
       ) : (
-        <CardActionArea disableRipple style={{cursor: "default"}}>
-          <div style={{ backgroundImage: "url(/menu/food/background.webp)" }}>
+        <CardActionArea disableRipple style={{ cursor: "default" }}>
+          <div
+            style={{
+              backgroundImage: "url(/menu/food/background.webp)",
+            }}
+          >
             <Image
               style={{
                 margin: "auto",
               }}
               src={props.img ? props.img : "/noimage.webp"}
               alt={props.name}
-              height="194"
-              width="345"
+              height="194px"
+              width="345px"
             />
           </div>
           <CardContent>

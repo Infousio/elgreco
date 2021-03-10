@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Food(props) {
   const theme = useTheme();
   const classes = useStyles();
-  const matchesMD = useMediaQuery(theme.breakpoints.down("sm"));
+  const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
 
   const mainMenu = props.menu.map((product, index) => {
     return (
@@ -38,6 +38,7 @@ export default function Food(props) {
         img={product.img}
         name={product.name}
         link={`food/${product.name}`}
+        prio={index === 0 || index === 1 ? true : false}
       />
     );
   });
@@ -49,7 +50,7 @@ export default function Food(props) {
         container
         direction="column"
         style={{
-          paddingLeft: matchesMD ? "0" : "5vw",
+          paddingLeft: matchesMD ? "0" : "3vw",
           paddingTop: "3vh",
           marginBottom: "5vh",
         }}

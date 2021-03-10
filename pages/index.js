@@ -10,7 +10,7 @@ import HorizontalNav from "../components/HorizontalNav";
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
     width: "100vw",
-    height: "100vh",
+    height: "100%"
   },
   bgImage: {
     objectFit: "cover",

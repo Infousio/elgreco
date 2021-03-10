@@ -8,11 +8,10 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
  
 const useStyles = makeStyles((theme) => ({
   container: {
-    height: "100vh",
-    paddingTop: "auto",
-    paddingBottom: "50vh",
+    height: "100%",
+    paddingTop: "15vh",
     [theme.breakpoints.down("xs")]: {
-      paddingBottom: "15vh"
+      paddingTop: "5vh"
     }
   },
   bodyContainer: {

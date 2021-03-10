@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   },
   land: {
     height: "100vh",
-    width: "100%",
+    width: "100vw",
   },
   bgImage: {
     zIndex: "-2",
@@ -73,7 +73,6 @@ const TavernBody = () => {
   const classes = useStyles();
   const theme = useTheme();
   const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
-  const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
   const matchesXS = useMediaQuery(theme.breakpoints.down("xs"));
 
   return (
@@ -130,6 +129,7 @@ const TavernBody = () => {
         style={{
           height: matchesMD ? "30vh" : "20vh",
           backgroundColor: "#FFF0F5",
+          marginTop: matchesMD ? "-75px" : "0"
         }}
       >
         <Grid

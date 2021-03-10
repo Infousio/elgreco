@@ -1,19 +1,18 @@
-
+import RoomsBody from '../../containers/RoomsBody';
 import HorizontalNav from "../../components/HorizontalNav";
 import VerticalNav from "../../components/VerticalNav";
-import TavernBody from "../../containers/TavernBody";
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    width: "100%",
-    height: "100%",
+    width: "100vw",
+    height: "100vh",
   },
 }));
 
-export default function Tavern() {
+export default function Romms() {
   const classes = useStyles();
   const theme = useTheme();
   const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
@@ -21,7 +20,8 @@ export default function Tavern() {
   return (
     <div className={classes.mainContainer}>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
-      <TavernBody />
+      <RoomsBody />
     </div>
   );
-}
+};
+
