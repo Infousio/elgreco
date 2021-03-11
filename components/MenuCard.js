@@ -38,8 +38,7 @@ export default function MenuCard(props) {
                 alt={props.name}
                 height="194px"
                 width="345px"
-                priority={props.prio ? true : false}
-                loading={props.prio ? undefined : "lazy"}
+                priority={props.prio}
               />
             </div>
             <CardContent>

@@ -42,7 +42,7 @@ export default function Product(props) {
         img={product.img}
         name={product.name}
         description={product.description}
-        prio={index === 0 || index === 1 ? true : false}
+        prio={index === 0 || index === 1}
       />
     );
   });

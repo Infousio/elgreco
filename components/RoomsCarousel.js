@@ -3,9 +3,11 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 import Grid from "@material-ui/core/Grid";
+import ArrowForward from "@material-ui/icons/ArrowForwardIos";
+import ArrowBack from "@material-ui/icons/ArrowBackIos";
 
 import carouselImages from "../json/carouselImages.json";
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles, useTheme } from "@material-ui/core/styles";
 
 const variants = {
   show: { opacity: 1 },
@@ -15,28 +17,51 @@ const variants = {
 const useStyles = makeStyles((theme) => ({
   container: {
     width: "100vw",
-    height: "100vh",
-  },
-  image: {
-    zIndex: "-2",
-    objectFit: "cover",
-    objectPosition: "50% 30%",
-  },
-  overlay: {
-    zIndex: "-1",
-    position: "absolute",
-    width: "100%",
-    height: "100%",
-    backgroundColor: "rgba(34,34,34,0.3)",
+    height: "56vw",
   },
   navigationBars: {
     width: "20vw",
-    height: "100vh",
+    height: "56vw",
+    maxHeight: "100vh",
     position: "absolute",
-    "&:hover": {
-      cursor: "url(right-arrow.svg), auto"
+    zIndex: "1",
+    [theme.breakpoints.down("md")]: {
+      display: "none",
     },
   },
+  arrows: {
+    fontSize: "5rem",
+    color: "white",
+  },
+  dot: {
+    width: "13px",
+    height: "13px",
+    border: "2px solid #fff",
+    borderRadius: "50px",
+    listStyleType: "none",
+    [theme.breakpoints.down("sm")]: {
+      width: "10px",
+      height: "10px"
+    }
+  },
+  dotCont: {
+    marginBottom: "5em",
+    width: "20vw",
+    zIndex: "2",
+    [theme.breakpoints.down("sm")]: {
+      width: "40vw",
+      marginBottom: "1em"
+    },
+  },
+  mobileNav: {
+    position: "absolute",
+    width: "100vw",
+    zIndex: "2",
+    height: "56vw",
+    [theme.breakpoints.up("lg")]: {
+      display: "none",
+    },
+  }
 }));
 
 export default function RoomsCarousel(props) {
@@ -51,14 +76,30 @@ export default function RoomsCarousel(props) {
         animate={isIndex === index ? "show" : "hidden"}
         variants={variants}
         key={image}
+        transition={{ duration: 1 }}
       >
         <Image
           layout="fill"
-          className={classes.image}
           src={image}
           alt={image}
+          quality={95}
+          objectFit="contain"
+          objectPosition="top"
         />
       </motion.div>
+    );
+  });
+
+  const dots = carouselImages.images.map((image, index) => {
+    return (
+      <li
+        key={image}
+        style={{
+          background:
+            index === isIndex ? "rgba(255,255,255,1)" : "rgba(0,0,0,0)",
+        }}
+        className={classes.dot}
+      />
     );
   });
 
@@ -68,6 +109,7 @@ export default function RoomsCarousel(props) {
       return;
     }
     setIndex(isIndex + 1);
+    return;
   };
 
   const previousHandler = () => {
@@ -76,30 +118,82 @@ export default function RoomsCarousel(props) {
       return;
     }
     setIndex(isIndex - 1);
+    return;
+  };
+
+  let initX = null;
+  let endX = null;
+  const touchStartHandler = (e) => {
+    initX = e.targetTouches[0].clientX;
+    return;
+  };
+  const touchMoveHandler = (e) => {
+    endX = e.targetTouches[0].clientX;
+    return;
+  };
+  const touchEndHandler = () => {
+    if (initX - endX > 100) {
+      nextHandler();
+      return;
+    }
+    if (initX - endX < -100) {
+      previousHandler();
+    }
+    return;
   };
 
   return (
-    <div className={classes.container}>
-      <div className={classes.overlay}></div>
-      <Grid container>
-        <Grid item container>
-          {images}
-        </Grid>
-        <Grid
-          item
-          style={{ left: "0%" }}
-          className={classes.navigationBars}
-          onClick={() => previousHandler()}
-        />
-        <Grid
-          item
-          style={{
-            right: "0%",
-          }}
-          className={classes.navigationBars}
-          onClick={() => nextHandler()}
-        />
+    <Grid container direction="column" justify="flex-end" className={classes.container}>
+      <Grid item container>
+        {images}
       </Grid>
-    </div>
+      <Grid
+        item
+        container
+        style={{ left: "75px" }}
+        className={classes.navigationBars}
+        onClick={() => previousHandler()}
+        justify="center"
+        alignItems="center"
+      >
+        <ArrowBack className={classes.arrows} />
+      </Grid>
+      <Grid
+        item
+        container
+        style={{
+          right: "0%",
+        }}
+        className={classes.navigationBars}
+        onClick={() => nextHandler()}
+        justify="center"
+        alignItems="center"
+      >
+        <ArrowForward className={classes.arrows} />
+      </Grid>
+      <Grid
+        item
+        onTouchStart={(event) => touchStartHandler(event)}
+        onTouchMove={(event) => touchMoveHandler(event)}
+        onTouchEnd={() => touchEndHandler()}
+        className={classes.mobileNav}
+      />
+      <Grid
+        item
+        container
+        alignItems="center"
+        justify="space-between"
+        direction="column"
+      >
+        <Grid
+          item
+          container
+          justify="space-evenly"
+          className={classes.dotCont}
+        >
+          {dots}
+        </Grid>
+      </Grid>
+    </Grid>
   );
 }

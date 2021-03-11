@@ -10,14 +10,18 @@ export default class MyDocument extends Document {
         <Head>
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap"
-            rel="stylesheet"
-          />
+            <link
+              rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            />
+            <link
+              href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap"
+              rel="stylesheet"
+            />
+            <link
+              href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+              rel="stylesheet"
+            />
         </Head>
         <body>
           <Main />

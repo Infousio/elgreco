@@ -38,7 +38,7 @@ export default function Food(props) {
         img={product.img}
         name={product.name}
         link={`food/${product.name}`}
-        prio={index === 0 || index === 1 ? true : false}
+        prio={index === 0 || index === 1}
       />
     );
   });
