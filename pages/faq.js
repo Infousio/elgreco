@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Head from "next/head";
 
 import HorizontalNav from "../components/HorizontalNav";
 import VerticalNav from "../components/VerticalNav";
@@ -63,7 +64,7 @@ export default function Faq() {
           aria-controls={`panel${index}bh=content`}
           id={`panel${index}bh=-header`}
         >
-          <Typography className={classes.heading} >
+          <Typography className={classes.heading}>
             {question.Question}
           </Typography>
         </AccordionSummary>
@@ -76,24 +77,38 @@ export default function Faq() {
 
   const questionsTaverna = faq.FAQ_Taverna.map((question, index) => {
     return (
-      <Accordion
-        expanded={expandedTaverna === `panel${index}`}
-        onChange={handleChangeTaverna(`panel${index}`)}
-        style={{ width: "80vw" }}
-      >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls={`panel${index}bh=content`}
-          id={`panel${index}bh=-header`}
+      <>
+        <Head>
+          <title key="title">
+            El Greco - F.A.Q | Frequently Asked Questions
+          </title>
+          <meta
+          name="description"
+          key="description"
+          content="Frequently asked question about El Greco Restaraunt and Rooms."
+        />
+        <meta property="og:title" content="El Greco | F.A.Q." key="og:title"/>
+        <link rel="canonical" key="canonical" href="elgreco.vercel.app/faq"/>
+        </Head>
+        <Accordion
+          expanded={expandedTaverna === `panel${index}`}
+          onChange={handleChangeTaverna(`panel${index}`)}
+          style={{ width: "80vw" }}
         >
-          <Typography className={classes.heading}>
-            {question.Question}
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>{question.Answer}</Typography>
-        </AccordionDetails>
-      </Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls={`panel${index}bh=content`}
+            id={`panel${index}bh=-header`}
+          >
+            <Typography className={classes.heading}>
+              {question.Question}
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>{question.Answer}</Typography>
+          </AccordionDetails>
+        </Accordion>
+      </>
     );
   });
 
@@ -112,7 +127,7 @@ export default function Faq() {
             className={classes.mono}
             variant={matchesSM ? "h4" : matchesMD ? "h3" : "h2"}
             gutterBottom
-            style={{textAlign: "center"}}
+            style={{ textAlign: "center" }}
           >
             Frequently asked questions
           </Typography>

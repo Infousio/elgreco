@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://elgreco.vercel.app/contact</loc>
+    <lastmod>2021-03-12</lastmod>
+  </url>,<url>
+    <loc>https://elgreco.vercel.app/faq</loc>
+    <lastmod>2021-03-12</lastmod>
+  </url>,<url>
+    <loc>https://elgreco.vercel.app</loc>
+    <lastmod>2021-03-12</lastmod>
+  </url>,<url>
+    <loc>https://elgreco.vercel.app/rooms/index</loc>
+    <lastmod>2021-03-12</lastmod>
+  </url>,<url>
+    <loc>https://elgreco.vercel.app/tavern/drink/index</loc>
+    <lastmod>2021-03-12</lastmod>
+  </url>,<url>
+    <loc>https://elgreco.vercel.app/tavern/drink/[id]</loc>
+    <lastmod>2021-03-11</lastmod>
+  </url>,<url>
+    <loc>https://elgreco.vercel.app/tavern/food/index</loc>
+    <lastmod>2021-03-12</lastmod>
+  </url>,<url>
+    <loc>https://elgreco.vercel.app/tavern/food/[id]</loc>
+    <lastmod>2021-03-10</lastmod>
+  </url>,<url>
+    <loc>https://elgreco.vercel.app/tavern/index</loc>
+    <lastmod>2021-03-12</lastmod>
+  </url>
+</urlset>

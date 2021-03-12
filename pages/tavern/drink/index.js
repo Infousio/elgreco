@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import MenuCard from "../../../components/MenuCard";
 import drinkMenu from "../../../json/drinkMenu.json";
 
@@ -44,6 +46,19 @@ export default function Drink(props) {
 
   return (
     <div className={classes.container}>
+      <Head>
+        <title key='title'>
+          El Greco Restaurant - Drink Menu
+        </title>
+        <meta
+          name="description"
+          key="description"
+          content="El Greco Restaurant Drink Menu. Check out all the drinks which
+          you can accompany the food with. Wine, beer, Ouzo, Tsipouro and more."
+        />
+        <meta property="og:title" content="El Greco Restaurant | Drink Menu" key="og:title"/>
+        <link rel="canonical" key="canonical" href="elgreco.vercel.app/tavern/drink"/>
+      </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <Grid
         container

@@ -1,3 +1,4 @@
+import Head from "next/head";
 
 import MenuCard from "../../../components/MenuCard";
 import foodMenu from "../../../json/foodMenu.json";
@@ -45,6 +46,19 @@ export default function Food(props) {
 
   return (
     <div className={classes.container}>
+      <Head>
+        <title key="title">
+          El Greco Restaurant - Greek Food Menu - Nea Vrasna
+        </title>
+        <meta
+          name="description"
+          key="description"
+          content="El Greco Restaurant Menu. Don't miss out, see all the tasty
+          dishes we provide. Fishes, seafood, grilled Meat and more."
+        />
+        <meta property="og:title" content="El Greco Restaurant | Food Menu" key="og:title"/>
+        <link rel="canonical" key="canonical" href="elgreco.vercel.app/tavern/food"/>
+      </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <Grid
         container

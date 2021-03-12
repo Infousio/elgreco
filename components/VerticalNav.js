@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from "react";
 import Link from "../src/Link";
 
 import { makeStyles } from "@material-ui/core/styles";
@@ -34,8 +34,8 @@ const useStyles = makeStyles((theme) => ({
   },
   active: {
     border: "2px solid rgba(255,255,255,0.4)",
-    boxShadow: "1px 2px 1px 1px rgba(0, 0, 0, 0.4)"
-  }
+    boxShadow: "1px 2px 1px 1px rgba(0, 0, 0, 0.4)",
+  },
 }));
 
 const VerticalNav = (props) => {
@@ -44,10 +44,10 @@ const VerticalNav = (props) => {
   const [index, setIndex] = useState(1);
 
   useEffect(() => {
-   switch(window.location.pathname) {
-     case "/":
-       setIndex(1);
-       break;
+    switch (window.location.pathname) {
+      case "/":
+        setIndex(1);
+        break;
       case "/tavern":
         setIndex(2);
         break;
@@ -60,7 +60,7 @@ const VerticalNav = (props) => {
       default:
         setIndex(0);
         break;
-   } 
+    }
   }, [setIndex]);
 
   return (
@@ -86,7 +86,11 @@ const VerticalNav = (props) => {
           href="/"
           justify="center"
         >
-          <Button style={{ width: "100%" }} className={index === 1 ? classes.active : undefined}>
+          <Button
+            style={{ width: "100%" }}
+            className={index === 1 ? classes.active : undefined}
+            aria-label="Home Icon"
+          >
             <img
               src="/home.svg"
               className={classes.icon}
@@ -104,7 +108,11 @@ const VerticalNav = (props) => {
           href="/tavern"
           justify="center"
         >
-          <Button style={{ width: "100%" }} className={index === 2 ? classes.active : undefined}>
+          <Button
+            style={{ width: "100%" }}
+            className={index === 2 ? classes.active : undefined}
+            aria-label="Tevern Icon"
+          >
             <img
               src="/spoon.svg"
               className={classes.icon}
@@ -122,7 +130,11 @@ const VerticalNav = (props) => {
           href="/rooms"
           justify="center"
         >
-          <Button style={{ width: "100%" }} className={index === 3 ? classes.active : undefined}>
+          <Button
+            style={{ width: "100%" }}
+            className={index === 3 ? classes.active : undefined}
+            aria-label="Rooms Icon"
+          >
             <img
               src="/bed.svg"
               className={classes.icon}
@@ -133,7 +145,11 @@ const VerticalNav = (props) => {
           </Button>
         </Grid>
         <Grid item container justify="center" component={Link} href="/contact">
-          <Button style={{ width: "100%" }} className={index === 4 ? classes.active : undefined}>
+          <Button
+            style={{ width: "100%" }}
+            className={index === 4 ? classes.active : undefined}
+            aria-label="Contact Icon"
+          >
             <img
               src="/message.svg"
               className={classes.icon}
@@ -163,7 +179,7 @@ const VerticalNav = (props) => {
           component={Link}
           href="https://www.tripadvisor.com/Restaurant_Review-g1574369-d8826858-Reviews-El_Greco_Tavern-Vrasna_Thessaloniki_Region_Central_Macedonia.html?m=19905"
         >
-          <Button>
+          <Button aria-label="Trip Advisor Icon">
             <img
               src="/tripadvisor.svg"
               className={classes.icon}
@@ -178,10 +194,14 @@ const VerticalNav = (props) => {
           container
           component={Link}
           justify="center"
+          aria-label="Instagram Icon"
           href="https://www.instagram.com/elgreco_vrasna"
         >
-          <Button>
-            <InstagramIcon className={classes.icon} />
+          <Button aria-label="Instagram Icon">
+            <InstagramIcon
+              aria-label="Instagram Icon"
+              className={classes.icon}
+            />
           </Button>
         </Grid>
         <Grid
@@ -189,10 +209,11 @@ const VerticalNav = (props) => {
           container
           justify="center"
           component={Link}
+          aria-label="Facebook Icon"
           href="https://www.facebook.com/elgrecovrasna"
         >
-          <Button>
-            <FacebookIcon className={classes.icon} />
+          <Button aria-label="Facebook Icon">
+            <FacebookIcon aria-label="Facebook Icon" className={classes.icon} />
           </Button>
         </Grid>
       </Grid>
