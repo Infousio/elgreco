@@ -8,6 +8,8 @@ import ArrowBack from "@material-ui/icons/ArrowBackIos";
 
 import carouselImages from "../json/carouselImages.json";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+
 
 const variants = {
   show: { opacity: 1 },
@@ -16,8 +18,10 @@ const variants = {
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    width: "100vw",
+    width: "100%",
     height: "56vw",
+    maxHeight: "100vh",
+    position: "absolute"
   },
   navigationBars: {
     width: "20vw",
@@ -41,8 +45,8 @@ const useStyles = makeStyles((theme) => ({
     listStyleType: "none",
     [theme.breakpoints.down("sm")]: {
       width: "10px",
-      height: "10px"
-    }
+      height: "10px",
+    },
   },
   dotCont: {
     marginBottom: "5em",
@@ -50,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
     zIndex: "2",
     [theme.breakpoints.down("sm")]: {
       width: "40vw",
-      marginBottom: "1em"
+      marginBottom: "1em",
     },
   },
   mobileNav: {
@@ -61,11 +65,13 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("lg")]: {
       display: "none",
     },
-  }
+  },
 }));
 
 export default function RoomsCarousel(props) {
   const classes = useStyles();
+  const theme = useTheme();
+  const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
 
   const [isIndex, setIndex] = useState(0);
 
@@ -83,7 +89,7 @@ export default function RoomsCarousel(props) {
           src={image}
           alt={image}
           quality={95}
-          objectFit="contain"
+          objectFit={matchesMD ? "contain" : "fill"}
           objectPosition="top"
         />
       </motion.div>
@@ -143,7 +149,12 @@ export default function RoomsCarousel(props) {
   };
 
   return (
-    <Grid container direction="column" justify="flex-end" className={classes.container}>
+    <Grid
+      container
+      direction="column"
+      justify="flex-end"
+      className={classes.container}
+    >
       <Grid item container>
         {images}
       </Grid>
@@ -185,12 +196,7 @@ export default function RoomsCarousel(props) {
         justify="space-between"
         direction="column"
       >
-        <Grid
-          item
-          container
-          justify="space-evenly"
-          className={classes.dotCont}
-        >
+        <Grid item container justify="space-evenly" className={classes.dotCont}>
           {dots}
         </Grid>
       </Grid>
