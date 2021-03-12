@@ -10,8 +10,8 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
     margin: "0 auto",
     [theme.breakpoints.down("sm")]: {
-      width: "90vw"
-    }
+      width: "90vw",
+    },
   },
   image: {
     objectFit: "contain",
@@ -92,8 +92,12 @@ export default function RoomsGallery() {
           />
         </Grid>
       </Grid>
-      <Grid container item style={{ width: "100%" }}>
-        <Grid item style={{ padding: "10px" }} md sm={7}>
+      <Grid
+        container
+        item
+        style={{ width: "100%" }}
+      >
+        <Grid item style={{ width: "100%", padding: "10px" }} md={matchesSM ? undefined : 7}>
           <Image
             src="/rooms/gallery/8.webp"
             layout="responsive"
@@ -104,10 +108,10 @@ export default function RoomsGallery() {
         <Grid
           container
           item
-          justify={matchesSM ? null : "space-between"}
+          justify={matchesSM ? "flex-start" : "space-between"}
           direction="column"
           style={{ width: "100%" }}
-          sm={5}
+          md={matchesSM ? undefined : 5}
         >
           <Grid item style={{ padding: "10px", width: "100%" }}>
             <Image
