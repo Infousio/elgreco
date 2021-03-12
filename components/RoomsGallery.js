@@ -1,13 +1,17 @@
 import Image from "next/image";
 
 import Grid from "@material-ui/core/Grid";
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles, useTheme } from "@material-ui/core/styles";
+import { useMediaQuery } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   container: {
     width: "70vw",
     height: "100%",
     margin: "0 auto",
+    [theme.breakpoints.down("sm")]: {
+      width: "90vw"
+    }
   },
   image: {
     objectFit: "contain",
@@ -16,6 +20,8 @@ const useStyles = makeStyles((theme) => ({
 
 export default function RoomsGallery() {
   const classes = useStyles();
+  const theme = useTheme();
+  const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
 
   return (
     <Grid
@@ -98,7 +104,7 @@ export default function RoomsGallery() {
         <Grid
           container
           item
-          justify="space-between"
+          justify={matchesSM ? null : "space-between"}
           direction="column"
           style={{ width: "100%" }}
           sm={5}
