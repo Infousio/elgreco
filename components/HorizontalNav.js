@@ -1,8 +1,10 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from "react";
 import Link from "../src/Link";
+import ReactGA from "react-ga";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
+import { LaptopWindows } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   horizontalNav: {
@@ -22,8 +24,8 @@ const useStyles = makeStyles((theme) => ({
   },
   active: {
     border: "2px solid rgba(255,255,255,0.4)",
-    boxShadow: "1px 2px 1px 1px rgba(0, 0, 0, 0.4)"
-  }
+    boxShadow: "1px 2px 1px 1px rgba(0, 0, 0, 0.4)",
+  },
 }));
 
 const HorizontalNav = () => {
@@ -31,31 +33,45 @@ const HorizontalNav = () => {
 
   const [index, setIndex] = useState(1);
 
+  const [previousURL, SetPreviousURL] = useState("");
+
   useEffect(() => {
-    switch(window.location.pathname) {
+    if (previousURL !== window.location.pathname) {
+      SetPreviousURL(window.location.pathname);
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }
+    switch (window.location.pathname) {
       case "/":
         setIndex(1);
         break;
-       case "/tavern":
-         setIndex(2);
-         break;
-       case "/rooms":
-         setIndex(3);
-         break;
-       case "/contact":
-         setIndex(4);
-         break;
-       default:
-         setIndex(0);
-         break;
-    } 
-   }, [setIndex]);
- 
+      case "/tavern":
+        setIndex(2);
+        break;
+      case "/rooms":
+        setIndex(3);
+        break;
+      case "/contact":
+        setIndex(4);
+        break;
+      default:
+        setIndex(0);
+        break;
+    }
+  }, [setIndex]);
 
   return (
     <Grid container className={classes.horizontalNav}>
-      <Grid item container justify="center" alignContent="center" href="/" component={Link} className={index === 1 ? classes.active : undefined} xs>
-      <img
+      <Grid
+        item
+        container
+        justify="center"
+        alignContent="center"
+        href="/"
+        component={Link}
+        className={index === 1 ? classes.active : undefined}
+        xs
+      >
+        <img
           src="/home.svg"
           className={classes.icon}
           width="48px"
@@ -63,7 +79,16 @@ const HorizontalNav = () => {
           alt="ElGreco Tavern"
         />
       </Grid>
-      <Grid item container justify="center" alignContent="center" href="/tavern" component={Link} className={index === 2 ? classes.active : undefined} xs>
+      <Grid
+        item
+        container
+        justify="center"
+        alignContent="center"
+        href="/tavern"
+        component={Link}
+        className={index === 2 ? classes.active : undefined}
+        xs
+      >
         <img
           src="/spoon.svg"
           className={classes.icon}
@@ -72,7 +97,16 @@ const HorizontalNav = () => {
           alt="ElGreco Tavern"
         />
       </Grid>
-      <Grid item container justify="center" alignContent="center" href="/rooms" component={Link} className={index === 3 ? classes.active : undefined} xs>
+      <Grid
+        item
+        container
+        justify="center"
+        alignContent="center"
+        href="/rooms"
+        component={Link}
+        className={index === 3 ? classes.active : undefined}
+        xs
+      >
         <img
           src="/bed.svg"
           className={classes.icon}
@@ -81,7 +115,16 @@ const HorizontalNav = () => {
           alt="ElGreco Rooms"
         />
       </Grid>
-      <Grid item container justify="center" alignContent="center" href="/contact" component={Link} className={index === 4 ? classes.active : undefined} xs>
+      <Grid
+        item
+        container
+        justify="center"
+        alignContent="center"
+        href="/contact"
+        component={Link}
+        className={index === 4 ? classes.active : undefined}
+        xs
+      >
         <img
           src="/message.svg"
           className={classes.icon}

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Link from "../src/Link";
+import ReactGA from 'react-ga';
 
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";

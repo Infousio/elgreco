@@ -57,7 +57,7 @@ export default function Drink(props) {
           you can accompany the food with. Wine, beer, Ouzo, Tsipouro and more."
         />
         <meta property="og:title" content="El Greco Restaurant | Drink Menu" key="og:title"/>
-        <link rel="canonical" key="canonical" href="elgreco.vercel.app/tavern/drink"/>
+        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app/tavern/drink"/>
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <Grid

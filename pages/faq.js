@@ -88,7 +88,7 @@ export default function Faq() {
           content="Frequently asked question about El Greco Restaraunt and Rooms."
         />
         <meta property="og:title" content="El Greco | F.A.Q." key="og:title"/>
-        <link rel="canonical" key="canonical" href="elgreco.vercel.app/faq"/>
+        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app/faq"/>
         </Head>
         <Accordion
           expanded={expandedTaverna === `panelt${index}`}

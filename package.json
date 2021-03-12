@@ -15,7 +15,8 @@
     "next": "10.0.7",
     "next-images": "^1.7.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-ga": "^3.3.0"
   },
   "devDependencies": {
     "fs-extra": "^9.1.0"

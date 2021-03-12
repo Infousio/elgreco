@@ -30,7 +30,7 @@ export default function Tavern() {
           yourself a meal in El Greco Restaurant."
         />
         <meta property="og:title" content="El Greco | Greek Restaurant" key="og:title"/>
-        <link rel="canonical" key="canonical" href="elgreco.vercel.app/tavern"/>
+        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app/tavern"/>
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <TavernBody />

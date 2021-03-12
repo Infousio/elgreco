@@ -1,10 +1,13 @@
 import React from "react";
+import ReactGA from 'react-ga';
 import PropTypes from "prop-types";
 import Head from "next/head";
 import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "../src/theme";
 import "../styles/app.css";
+
+ReactGA.initialize("G-L4D71D8LBM")
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;

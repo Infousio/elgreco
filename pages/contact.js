@@ -51,7 +51,7 @@ export default function Contact() {
           a room in the El Greco Rooms. You can contact us either by phone or email."
         />
         <meta property="og:title" content="El Greco | Contact us" key="og:title"/>
-        <link rel="canonical" key="canonical" href="elgreco.vercel.app/contact"/>
+        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app/contact"/>
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <Grid container direction="column" className={classes.container}>

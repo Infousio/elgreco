@@ -33,7 +33,7 @@ export default function Romms() {
           away from the sea. Located in a quiet neighbourhood for extra relaxation."
         />
         <meta property="og:title" content="El Greco Rooms | Homepage" key="og:title"/>
-        <link rel="canonical" key="canonical" href="elgreco.vercel.app/rooms"/>
+        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app/rooms"/>
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <RoomsBody />

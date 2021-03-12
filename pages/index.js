@@ -39,7 +39,7 @@ export default function Index() {
           Food and Accomodation."
         />
         <meta property="og:title" content="El Greco | Homepage" key="og:title"/>
-        <link rel="canonical" key="canonical" href="elgreco.vercel.app"/>
+        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app"/>
       </Head>
       <Image
         src="/backgroundMain.webp"
