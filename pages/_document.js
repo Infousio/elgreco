@@ -9,6 +9,7 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="shortcut icon" href="/elgreco.ico" />
+          <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|PT+Mono|Pacifico&display=swap"
@@ -21,7 +22,7 @@ export default class MyDocument extends Document {
           <meta property="og:image:width" content="1920" />
           <meta property="og:image:height" content="1080" />
           <meta property="og:image:alt" content="elgreo homapage" />
-          <mera property="og:url" content="https://elgreco.vercel.app" />
+          <meta property="og:url" content="https://elgreco.vercel.app" />
         </Head>
         <body>
           <Main />

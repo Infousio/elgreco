@@ -91,14 +91,14 @@ export default function Faq() {
         <link rel="canonical" key="canonical" href="elgreco.vercel.app/faq"/>
         </Head>
         <Accordion
-          expanded={expandedTaverna === `panel${index}`}
-          onChange={handleChangeTaverna(`panel${index}`)}
+          expanded={expandedTaverna === `panelt${index}`}
+          onChange={handleChangeTaverna(`panelt${index}`)}
           style={{ width: "80vw" }}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
-            aria-controls={`panel${index}bh=content`}
-            id={`panel${index}bh=-header`}
+            aria-controls={`panelt${index}bh=content`}
+            id={`panelt${index}bh=-header`}
           >
             <Typography className={classes.heading}>
               {question.Question}

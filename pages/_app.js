@@ -19,12 +19,17 @@ export default function MyApp(props) {
   return (
     <>
       <Head>
-        <title>My Page</title>
+        <title>El Greco - Restaurant | Rooms - Homepage</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
         <meta charSet="utf-8" />
+        <meta
+          name="description"
+          key="description"
+          content="El Greco - Restaurant | Rooms - Homepage"
+        />
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />

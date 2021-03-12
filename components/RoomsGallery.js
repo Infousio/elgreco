@@ -34,6 +34,7 @@ export default function RoomsGallery() {
         <Image
           src="/rooms/gallery/1.webp"
           layout="responsive"
+          alt="El Greco Room Interior"
           width={4288}
           height={2412}
         />
@@ -44,6 +45,7 @@ export default function RoomsGallery() {
             <Image
               src="/rooms/gallery/2.webp"
               layout="responsive"
+              alt="El Greco Room View"
               width={3797}
               height={2550}
             />
@@ -52,6 +54,7 @@ export default function RoomsGallery() {
             <Image
               src="/rooms/gallery/3.webp"
               layout="responsive"
+              alt="El Greco Room Kitchen"
               width={3797}
               height={2848}
             />
@@ -61,6 +64,7 @@ export default function RoomsGallery() {
           <Image
             src="/rooms/gallery/4.webp"
             layout="responsive"
+            alt="El Greco Room View"
             width={2848}
             height={3987}
           />
@@ -69,6 +73,7 @@ export default function RoomsGallery() {
       <Grid item style={{ width: "100%", padding: "10px" }}>
         <Image
           src="/rooms/gallery/5.webp"
+          alt="El Greco Room Interior"
           layout="responsive"
           width={4288}
           height={2412}
@@ -79,6 +84,7 @@ export default function RoomsGallery() {
           <Image
             src="/rooms/gallery/6.webp"
             layout="responsive"
+            alt="El Greco Room Garden"
             width={2848}
             height={2136}
           />
@@ -87,6 +93,7 @@ export default function RoomsGallery() {
           <Image
             src="/rooms/gallery/7.webp"
             layout="responsive"
+            alt="El Greco Room Garden"
             width={2848}
             height={2136}
           />
@@ -101,6 +108,7 @@ export default function RoomsGallery() {
           <Image
             src="/rooms/gallery/8.webp"
             layout="responsive"
+            alt="El Greco Room Bathroom"
             width={2827}
             height={3262}
           />
@@ -117,6 +125,7 @@ export default function RoomsGallery() {
             <Image
               src="/rooms/gallery/9.webp"
               layout="responsive"
+              alt="El Greco Room View"
               width={2848}
               height={2222}
             />
@@ -125,6 +134,7 @@ export default function RoomsGallery() {
             <Image
               src="/rooms/gallery/10.webp"
               layout="responsive"
+              alt="El Greco Room Reception"
               width={2848}
               height={2222}
             />
@@ -135,6 +145,7 @@ export default function RoomsGallery() {
         <Image
           src="/rooms/gallery/11.webp"
           layout="responsive"
+          alt="El Greco Room Interior"
           width={4288}
           height={2412}
         />
@@ -144,6 +155,7 @@ export default function RoomsGallery() {
           <Image
             src="/rooms/gallery/12.webp"
             layout="responsive"
+            alt="El Greco Room Artistic"
             width={2848}
             height={3797}
           />
@@ -152,6 +164,7 @@ export default function RoomsGallery() {
           <Image
             src="/rooms/gallery/13.webp"
             layout="responsive"
+            alt="El Greco Room Interior"
             width={2136}
             height={2848}
           />

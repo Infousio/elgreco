@@ -10,7 +10,6 @@ import carouselImages from "../json/carouselImages.json";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 
-
 const variants = {
   show: { opacity: 1 },
   hidden: { opacity: 0 },
@@ -21,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: "56vw",
     maxHeight: "100vh",
-    position: "absolute"
+    position: "absolute",
   },
   navigationBars: {
     width: "20vw",
