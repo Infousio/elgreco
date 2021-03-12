@@ -8,6 +8,20 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="shortcut icon" href="/elgreco.ico" />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|PT+Mono|Pacifico&display=swap"
+          />
+          {/* PWA primary color */}
+          <meta name="theme-color" content={theme.palette.primary.main} />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="https://i.imgur.com/OYyp2nu.png" />
+          <meta property="og:image:type" content="image/png" />
+          <meta property="og:image:width" content="1920" />
+          <meta property="og:image:height" content="1080" />
+          <meta property="og:image:alt" content="elgreo homapage" />
+          <mera property="og:url" content="https://elgreco.vercel.app" />
         </Head>
         <body>
           <Main />
