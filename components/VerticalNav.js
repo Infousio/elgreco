@@ -43,8 +43,13 @@ const VerticalNav = (props) => {
   const classes = useStyles();
 
   const [index, setIndex] = useState(1);
+  const [previousURL, SetPreviousURL] = useState("");
 
   useEffect(() => {
+    if (previousURL !== window.location.pathname) {
+      SetPreviousURL(window.location.pathname);
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }
     switch (window.location.pathname) {
       case "/":
         setIndex(1);
