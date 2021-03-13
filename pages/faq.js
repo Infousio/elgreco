@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Head from "next/head";
-import Layout from "../components/layout";
 
 import HorizontalNav from "../components/HorizontalNav";
 import VerticalNav from "../components/VerticalNav";
@@ -20,7 +19,8 @@ import faq from "../json/faq.json";
 const useStyles = makeStyles((theme) => ({
   container: {
     backgroundColor: "#152219",
-    width: "100%",
+    width: "100vw",
+    height: "100%",
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -100,69 +100,61 @@ export default function Faq() {
   });
 
   return (
-    <Layout>
-      <div className={classes.container}>
-        <Head>
-          <title key="title">
-            El Greco - F.A.Q | Frequently Asked Questions
-          </title>
-          <meta
-            name="description"
-            key="description"
-            content="Frequently asked question about El Greco Restaraunt and Rooms."
-          />
-          <meta
-            property="og:title"
-            content="El Greco | F.A.Q."
-            key="og:title"
-          />
-          <link
-            rel="canonical"
-            key="canonical"
-            href="https://elgreco.vercel.app/faq"
-          />
-        </Head>
-        {matchesMD ? <HorizontalNav /> : <VerticalNav />}
-        <Grid direction="column" container>
-          <Grid
-            item
-            container
-            direction="column"
-            alignItems="center"
-            style={{ width: "100%", margin: "5vh 0" }}
+    <div className={classes.container}>
+      <Head>
+        <title key="title">El Greco - F.A.Q | Frequently Asked Questions</title>
+        <meta
+          name="description"
+          key="description"
+          content="Frequently asked question about El Greco Restaraunt and Rooms."
+        />
+        <meta property="og:title" content="El Greco | F.A.Q." key="og:title" />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://elgreco.vercel.app/faq"
+        />
+      </Head>
+      {matchesMD ? <HorizontalNav /> : <VerticalNav />}
+      <Grid direction="column" container>
+        <Grid
+          item
+          container
+          direction="column"
+          alignItems="center"
+          style={{ width: "100%", margin: "5vh 0" }}
+        >
+          <Typography
+            className={classes.mono}
+            variant={matchesSM ? "h4" : matchesMD ? "h3" : "h2"}
+            gutterBottom
+            style={{ textAlign: "center" }}
           >
-            <Typography
-              className={classes.mono}
-              variant={matchesSM ? "h4" : matchesMD ? "h3" : "h2"}
-              gutterBottom
-              style={{ textAlign: "center" }}
-            >
-              Frequently asked questions
-            </Typography>
-            <Typography
-              className={classes.mono}
-              variant={matchesMD ? "h5" : "h4"}
-              gutterBottom
-            >
-              El Greco Rooms
-            </Typography>
-            {questionsRooms}
-            <Typography
-              style={{ marginTop: "2vh" }}
-              className={classes.mono}
-              variant={matchesMD ? "h5" : "h4"}
-              gutterBottom
-            >
-              El Greeco Taverna
-            </Typography>
-            {questionsTaverna}
-          </Grid>
-
-          <Grid item container>
-            <Footer />
-          </Grid>
+            Frequently asked questions
+          </Typography>
+          <Typography
+            className={classes.mono}
+            variant={matchesMD ? "h5" : "h4"}
+            gutterBottom
+          >
+            El Greco Rooms
+          </Typography>
+          {questionsRooms}
+          <Typography
+            style={{ marginTop: "2vh" }}
+            className={classes.mono}
+            variant={matchesMD ? "h5" : "h4"}
+            gutterBottom
+          >
+            El Greeco Taverna
+          </Typography>
+          {questionsTaverna}
         </Grid>
-      </div>
-    </Layout>
+
+        <Grid item container>
+          <Footer />
+        </Grid>
+      </Grid>
+    </div>
   );
 }

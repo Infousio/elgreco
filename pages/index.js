@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Head from "next/head";
-import Layout from "../components/layout";
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
@@ -23,7 +22,7 @@ export default function Index() {
   const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <Layout>
+    <div style={{ width: "100vw", height: "100%" }}>
       <Head>
         <title key="title">
           El Greco - Greek Restaurant and Rooms - Nea Vrasna
@@ -56,6 +55,6 @@ export default function Index() {
       />
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <MainBody />
-    </Layout>
+    </div>
   );
 }

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Layout from "../components/layout";
 
 import HorizontalNav from "../components/HorizontalNav";
 import VerticalNav from "../components/VerticalNav";
@@ -42,7 +41,7 @@ export default function Contact() {
   const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
 
   return (
-    <Layout>
+    <div>
       <Head>
         <title key="title">El Greco - Contact Us - Book and Reserve</title>
         <meta
@@ -151,6 +150,6 @@ export default function Contact() {
         </Grid>
       </Grid>
       <Footer />
-    </Layout>
+    </div>
   );
 }

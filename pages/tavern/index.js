@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Layout from "../../components/layout";
 
 import HorizontalNav from "../../components/HorizontalNav";
 import VerticalNav from "../../components/VerticalNav";
@@ -13,7 +12,7 @@ export default function Tavern() {
   const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <Layout>
+    <div style={{ width: "100vw", height: "100%" }}>
       <Head>
         <title key="title">
           El Greco Tavern - Nea Vrasna - Greek Restaurant
@@ -37,6 +36,6 @@ export default function Tavern() {
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <TavernBody />
-    </Layout>
+    </div>
   );
 }
