@@ -47,17 +47,23 @@ export default function Drink(props) {
   return (
     <div className={classes.container}>
       <Head>
-        <title key='title'>
-          El Greco Restaurant - Drink Menu
-        </title>
+        <title key="title">El Greco Restaurant - Drink Menu</title>
         <meta
           name="description"
           key="description"
           content="El Greco Restaurant Drink Menu. Check out all the drinks which
           you can accompany the food with. Wine, beer, Ouzo, Tsipouro and more."
         />
-        <meta property="og:title" content="El Greco Restaurant | Drink Menu" key="og:title"/>
-        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app/tavern/drink"/>
+        <meta
+          property="og:title"
+          content="El Greco Restaurant | Drink Menu"
+          key="og:title"
+        />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://elgrecovrasna.gr/tavern/drink"
+        />
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <Grid
@@ -89,14 +95,13 @@ export default function Drink(props) {
 }
 
 export async function getStaticProps(context) {
-  
-  const menu = drinkMenu.menus.map(category => {
-    return ({name: category.name, img: category.img});
-  })
+  const menu = drinkMenu.menus.map((category) => {
+    return { name: category.name, img: category.img };
+  });
 
   return {
     props: {
-      menu
+      menu,
     },
   };
 }

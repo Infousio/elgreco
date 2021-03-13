@@ -55,8 +55,16 @@ export default function Food(props) {
           content="El Greco Restaurant Menu. Don't miss out, see all the tasty
           dishes we provide. Fishes, seafood, grilled Meat and more."
         />
-        <meta property="og:title" content="El Greco Restaurant | Food Menu" key="og:title"/>
-        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app/tavern/food"/>
+        <meta
+          property="og:title"
+          content="El Greco Restaurant | Food Menu"
+          key="og:title"
+        />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://elgrecovrasna.gr/tavern/food"
+        />
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <Grid
@@ -88,14 +96,13 @@ export default function Food(props) {
 }
 
 export async function getStaticProps(context) {
-  
-  const menu = foodMenu.menus.map(category => {
-    return ({name: category.name, img: category.img});
-  })
+  const menu = foodMenu.menus.map((category) => {
+    return { name: category.name, img: category.img };
+  });
 
   return {
     props: {
-      menu
+      menu,
     },
   };
 }

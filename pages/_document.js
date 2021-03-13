@@ -23,8 +23,8 @@ export default class MyDocument extends Document {
           <meta property="og:image:type" content="image/png" />
           <meta property="og:image:width" content="1920" />
           <meta property="og:image:height" content="1080" />
-          <meta property="og:image:alt" content="elgreo homapage" />
-          <meta property="og:url" content="https://elgreco.vercel.app" />
+          <meta property="og:image:alt" content="elgreco homapage" />
+          <meta property="og:url" content="https://elgrecovrasna.gr" />
         </Head>
         <body>
           <Main />

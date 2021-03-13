@@ -8,7 +8,7 @@ import theme from "../src/theme";
 import "../styles/app.css";
 import { motion } from "framer-motion";
 
-ReactGA.initialize("G-L4D71D8LBM");
+ReactGA.initialize("G-H3J44SQDLE");
 
 export default function MyApp(props) {
   const { Component, pageProps, router } = props;

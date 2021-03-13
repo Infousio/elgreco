@@ -42,7 +42,7 @@ export default function Index() {
         <link
           rel="canonical"
           key="canonical"
-          href="https://elgreco.vercel.app"
+          href="https://elgrecovrasna.gr"
         />
       </Head>
       <Image

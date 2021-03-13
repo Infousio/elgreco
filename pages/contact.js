@@ -58,7 +58,7 @@ export default function Contact() {
         <link
           rel="canonical"
           key="canonical"
-          href="https://elgreco.vercel.app/contact"
+          href="https://elgrecovrasna.gr/contact"
         />
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}

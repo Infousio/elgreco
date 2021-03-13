@@ -31,7 +31,7 @@ export default function Tavern() {
         <link
           rel="canonical"
           key="canonical"
-          href="https://elgreco.vercel.app/tavern"
+          href="https://elgrecovrasna.gr/tavern"
         />
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}

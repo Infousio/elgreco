@@ -112,7 +112,7 @@ export default function Faq() {
         <link
           rel="canonical"
           key="canonical"
-          href="https://elgreco.vercel.app/faq"
+          href="https://elgrecovrasna.gr/faq"
         />
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
