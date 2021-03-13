@@ -9,9 +9,11 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="shortcut icon" href="/elgreco.ico" />
-          <link rel="preconnect" href="https://fonts.gstatic.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="preconnect" href="https://google-analytics.com" />
           <link
-            rel="stylesheet"
+            rel="preload"
+            as="style"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|PT+Mono|Pacifico&display=swap"
           />
           {/* PWA primary color */}

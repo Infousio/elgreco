@@ -88,6 +88,7 @@ export default function RoomsCarousel(props) {
           src={image}
           alt={image}
           quality={95}
+          priority={index === 0}
           objectFit={matchesMD ? "contain" : "fill"}
           objectPosition="top"
         />
