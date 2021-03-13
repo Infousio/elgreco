@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Layout from "../components/layout";
 
 import HorizontalNav from "../components/HorizontalNav";
 import VerticalNav from "../components/VerticalNav";
@@ -12,7 +13,7 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles((theme) => ({
   container: {
     backgroundColor: "#152219",
-    width: "100vw",
+    width: "100%",
     height: "80vh",
     [theme.breakpoints.down("md")]: {
       height: "100vh",
@@ -41,7 +42,7 @@ export default function Contact() {
   const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
 
   return (
-    <div>
+    <Layout>
       <Head>
         <title key="title">El Greco - Contact Us - Book and Reserve</title>
         <meta
@@ -50,8 +51,16 @@ export default function Contact() {
           content="Contact us to reserve a table in the El Greco Restaurant or to book
           a room in the El Greco Rooms. You can contact us either by phone or email."
         />
-        <meta property="og:title" content="El Greco | Contact us" key="og:title"/>
-        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app/contact"/>
+        <meta
+          property="og:title"
+          content="El Greco | Contact us"
+          key="og:title"
+        />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://elgreco.vercel.app/contact"
+        />
       </Head>
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <Grid container direction="column" className={classes.container}>
@@ -142,6 +151,6 @@ export default function Contact() {
         </Grid>
       </Grid>
       <Footer />
-    </div>
+    </Layout>
   );
 }

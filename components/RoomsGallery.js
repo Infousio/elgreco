@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 import Grid from "@material-ui/core/Grid";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
@@ -23,6 +25,60 @@ export default function RoomsGallery() {
   const theme = useTheme();
   const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
 
+  const [ref1, inView1] = useInView({
+    triggerOnce: true,
+  });
+  const [ref2, inView2] = useInView({
+    triggerOnce: true,
+  });
+  const [ref3, inView3] = useInView({
+    triggerOnce: true,
+  });
+  const [ref4, inView4] = useInView({
+    triggerOnce: true,
+  });
+  const [ref5, inView5] = useInView({
+    triggerOnce: true,
+  });
+  const [ref6, inView6] = useInView({
+    triggerOnce: true,
+  });
+  const [ref7, inView7] = useInView({
+    triggerOnce: true,
+  });
+  const [ref8, inView8] = useInView({
+    triggerOnce: true,
+  });
+  const [ref9, inView9] = useInView({
+    triggerOnce: true,
+  });
+  const [ref10, inView10] = useInView({
+    triggerOnce: true,
+  });
+  const [ref11, inView11] = useInView({
+    triggerOnce: true,
+  });
+  const [ref12, inView12] = useInView({
+    triggerOnce: true,
+  });
+  const [ref13, inView13] = useInView({
+    triggerOnce: true,
+  });
+
+  const variants = {
+    hidden: {
+      opacity: 0,
+      scale: 0,
+    },
+    show: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delay: 0.3,
+      },
+    },
+  };
+
   return (
     <Grid
       className={classes.container}
@@ -30,7 +86,15 @@ export default function RoomsGallery() {
       container
       direction="column"
     >
-      <Grid item style={{ width: "100%", padding: "10px" }}>
+      <Grid
+        component={motion.div}
+        ref={ref1}
+        initial="hidden"
+        animate={inView1 && "show"}
+        variants={variants}
+        item
+        style={{ width: "100%", padding: "10px" }}
+      >
         <Image
           src="/rooms/gallery/1.webp"
           layout="responsive"
@@ -41,7 +105,15 @@ export default function RoomsGallery() {
       </Grid>
       <Grid item container style={{ width: "100%" }}>
         <Grid item container style={{ width: "100%" }} direction="column" md>
-          <Grid item style={{ width: "100%", padding: "10px" }}>
+          <Grid
+            component={motion.div}
+            ref={ref2}
+            initial="hidden"
+            animate={inView2 && "show"}
+            variants={variants}
+            item
+            style={{ width: "100%", padding: "10px" }}
+          >
             <Image
               src="/rooms/gallery/2.webp"
               layout="responsive"
@@ -50,7 +122,15 @@ export default function RoomsGallery() {
               height={2550}
             />
           </Grid>
-          <Grid item style={{ width: "100%", padding: "10px" }}>
+          <Grid
+            component={motion.div}
+            ref={ref3}
+            initial="hidden"
+            animate={inView3 && "show"}
+            variants={variants}
+            item
+            style={{ width: "100%", padding: "10px" }}
+          >
             <Image
               src="/rooms/gallery/3.webp"
               layout="responsive"
@@ -60,7 +140,16 @@ export default function RoomsGallery() {
             />
           </Grid>
         </Grid>
-        <Grid style={{ width: "100%", padding: "10px" }} item md>
+        <Grid
+          component={motion.div}
+          ref={ref4}
+          initial="hidden"
+          animate={inView4 && "show"}
+          variants={variants}
+          style={{ width: "100%", padding: "10px" }}
+          item
+          md
+        >
           <Image
             src="/rooms/gallery/4.webp"
             layout="responsive"
@@ -70,7 +159,15 @@ export default function RoomsGallery() {
           />
         </Grid>
       </Grid>
-      <Grid item style={{ width: "100%", padding: "10px" }}>
+      <Grid
+        component={motion.div}
+        ref={ref5}
+        initial="hidden"
+        animate={inView5 && "show"}
+        variants={variants}
+        item
+        style={{ width: "100%", padding: "10px" }}
+      >
         <Image
           src="/rooms/gallery/5.webp"
           alt="El Greco Room Interior"
@@ -80,7 +177,16 @@ export default function RoomsGallery() {
         />
       </Grid>
       <Grid container item style={{ width: "100%" }}>
-        <Grid item style={{ width: "100%", padding: "10px" }} md>
+        <Grid
+          component={motion.div}
+          ref={ref6}
+          initial="hidden"
+          animate={inView6 && "show"}
+          variants={variants}
+          item
+          style={{ width: "100%", padding: "10px" }}
+          md
+        >
           <Image
             src="/rooms/gallery/6.webp"
             layout="responsive"
@@ -89,7 +195,16 @@ export default function RoomsGallery() {
             height={2136}
           />
         </Grid>
-        <Grid item style={{ width: "100%", padding: "10px" }} md>
+        <Grid
+          component={motion.div}
+          ref={ref7}
+          initial="hidden"
+          animate={inView7 && "show"}
+          variants={variants}
+          item
+          style={{ width: "100%", padding: "10px" }}
+          md
+        >
           <Image
             src="/rooms/gallery/7.webp"
             layout="responsive"
@@ -99,12 +214,17 @@ export default function RoomsGallery() {
           />
         </Grid>
       </Grid>
-      <Grid
-        container
-        item
-        style={{ width: "100%" }}
-      >
-        <Grid item style={{ width: "100%", padding: "10px" }} md={matchesSM ? undefined : 7}>
+      <Grid container item style={{ width: "100%" }}>
+        <Grid
+          component={motion.div}
+          ref={ref8}
+          initial="hidden"
+          animate={inView8 && "show"}
+          variants={variants}
+          item
+          style={{ width: "100%", padding: "10px" }}
+          md={matchesSM ? undefined : 7}
+        >
           <Image
             src="/rooms/gallery/8.webp"
             layout="responsive"
@@ -121,7 +241,15 @@ export default function RoomsGallery() {
           style={{ width: "100%" }}
           md={matchesSM ? undefined : 5}
         >
-          <Grid item style={{ padding: "10px", width: "100%" }}>
+          <Grid
+            component={motion.div}
+            ref={ref9}
+            initial="hidden"
+            animate={inView9 && "show"}
+            variants={variants}
+            item
+            style={{ padding: "10px", width: "100%" }}
+          >
             <Image
               src="/rooms/gallery/9.webp"
               layout="responsive"
@@ -130,7 +258,15 @@ export default function RoomsGallery() {
               height={2222}
             />
           </Grid>
-          <Grid item style={{ padding: "10px", width: "100%" }}>
+          <Grid
+            component={motion.div}
+            ref={ref10}
+            initial="hidden"
+            animate={inView10 && "show"}
+            variants={variants}
+            item
+            style={{ padding: "10px", width: "100%" }}
+          >
             <Image
               src="/rooms/gallery/10.webp"
               layout="responsive"
@@ -141,7 +277,15 @@ export default function RoomsGallery() {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item style={{ width: "100%", padding: "10px" }}>
+      <Grid
+        component={motion.div}
+        ref={ref11}
+        initial="hidden"
+        animate={inView11 && "show"}
+        variants={variants}
+        item
+        style={{ width: "100%", padding: "10px" }}
+      >
         <Image
           src="/rooms/gallery/11.webp"
           layout="responsive"
@@ -151,7 +295,16 @@ export default function RoomsGallery() {
         />
       </Grid>
       <Grid container item style={{ width: "100%" }}>
-        <Grid item style={{ width: "100%", padding: "10px" }} md>
+        <Grid
+          component={motion.div}
+          ref={ref12}
+          initial="hidden"
+          animate={inView12 && "show"}
+          variants={variants}
+          item
+          style={{ width: "100%", padding: "10px" }}
+          md
+        >
           <Image
             src="/rooms/gallery/12.webp"
             layout="responsive"
@@ -160,7 +313,16 @@ export default function RoomsGallery() {
             height={3797}
           />
         </Grid>
-        <Grid item style={{ width: "100%", padding: "10px" }} md>
+        <Grid
+          component={motion.div}
+          ref={ref13}
+          initial="hidden"
+          animate={inView13 && "show"}
+          variants={variants}
+          item
+          style={{ width: "100%", padding: "10px" }}
+          md
+        >
           <Image
             src="/rooms/gallery/13.webp"
             layout="responsive"

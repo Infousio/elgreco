@@ -23,7 +23,6 @@ const useStyles = makeStyles((theme) => ({
   container: {
     backgroundColor: "#152219",
     width: "100vw",
-    minHeight: "100vh",
   },
 }));
 

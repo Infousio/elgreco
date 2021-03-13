@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Head from "next/head";
+import Layout from "../components/layout";
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
@@ -9,10 +10,6 @@ import MainBody from "../containers/MainBody";
 import HorizontalNav from "../components/HorizontalNav";
 
 const useStyles = makeStyles((theme) => ({
-  mainContainer: {
-    width: "100vw",
-    height: "100%",
-  },
   bgImage: {
     objectFit: "cover",
     objectPosition: "center",
@@ -26,7 +23,7 @@ export default function Index() {
   const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <div className={classes.mainContainer}>
+    <Layout>
       <Head>
         <title key="title">
           El Greco - Greek Restaurant and Rooms - Nea Vrasna
@@ -38,8 +35,16 @@ export default function Index() {
           El Greco Restaurant and El Greco Rooms. We provide excellent quality Greek
           Food and Accomodation."
         />
-        <meta property="og:title" content="El Greco | Homepage" key="og:title"/>
-        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app"/>
+        <meta
+          property="og:title"
+          content="El Greco | Homepage"
+          key="og:title"
+        />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://elgreco.vercel.app"
+        />
       </Head>
       <Image
         src="/backgroundMain.webp"
@@ -51,6 +56,6 @@ export default function Index() {
       />
       {matchesMD ? <HorizontalNav /> : <VerticalNav />}
       <MainBody />
-    </div>
+    </Layout>
   );
 }

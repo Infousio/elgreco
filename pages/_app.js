@@ -1,16 +1,17 @@
 import React from "react";
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
 import PropTypes from "prop-types";
 import Head from "next/head";
 import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "../src/theme";
 import "../styles/app.css";
+import { motion } from "framer-motion";
 
-ReactGA.initialize("G-L4D71D8LBM")
+ReactGA.initialize("G-L4D71D8LBM");
 
 export default function MyApp(props) {
-  const { Component, pageProps } = props;
+  const { Component, pageProps, router } = props;
 
   React.useEffect(() => {
     const jssStyles = document.querySelector("#jss-server-side");
@@ -18,6 +19,18 @@ export default function MyApp(props) {
       jssStyles.parentElement.removeChild(jssStyles);
     }
   }, []);
+
+  const variants = {
+    pageInitial: {
+      opacity: 0
+    },
+    pageAnimate: {
+      opacity: 1,
+      transition: {
+        delay: .4
+      }
+    }
+  }
 
   return (
     <>
@@ -36,7 +49,14 @@ export default function MyApp(props) {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Component {...pageProps} />
+        <motion.div
+          key={router.route}
+          initial="pageInitial"
+          animate="pageAnimate"
+          variants={variants}
+        >
+          <Component {...pageProps} />
+        </motion.div>
       </ThemeProvider>
     </>
   );

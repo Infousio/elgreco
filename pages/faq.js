@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
+import Layout from "../components/layout";
 
 import HorizontalNav from "../components/HorizontalNav";
 import VerticalNav from "../components/VerticalNav";
@@ -19,7 +20,7 @@ import faq from "../json/faq.json";
 const useStyles = makeStyles((theme) => ({
   container: {
     backgroundColor: "#152219",
-    width: "100vw",
+    width: "100%",
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -77,83 +78,91 @@ export default function Faq() {
 
   const questionsTaverna = faq.FAQ_Taverna.map((question, index) => {
     return (
-      <>
+      <Accordion
+        expanded={expandedTaverna === `panelt${index}`}
+        onChange={handleChangeTaverna(`panelt${index}`)}
+        style={{ width: "80vw" }}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls={`panelt${index}bh=content`}
+          id={`panelt${index}bh=-header`}
+        >
+          <Typography className={classes.heading}>
+            {question.Question}
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>{question.Answer}</Typography>
+        </AccordionDetails>
+      </Accordion>
+    );
+  });
+
+  return (
+    <Layout>
+      <div className={classes.container}>
         <Head>
           <title key="title">
             El Greco - F.A.Q | Frequently Asked Questions
           </title>
           <meta
-          name="description"
-          key="description"
-          content="Frequently asked question about El Greco Restaraunt and Rooms."
-        />
-        <meta property="og:title" content="El Greco | F.A.Q." key="og:title"/>
-        <link rel="canonical" key="canonical" href="https://elgreco.vercel.app/faq"/>
+            name="description"
+            key="description"
+            content="Frequently asked question about El Greco Restaraunt and Rooms."
+          />
+          <meta
+            property="og:title"
+            content="El Greco | F.A.Q."
+            key="og:title"
+          />
+          <link
+            rel="canonical"
+            key="canonical"
+            href="https://elgreco.vercel.app/faq"
+          />
         </Head>
-        <Accordion
-          expanded={expandedTaverna === `panelt${index}`}
-          onChange={handleChangeTaverna(`panelt${index}`)}
-          style={{ width: "80vw" }}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls={`panelt${index}bh=content`}
-            id={`panelt${index}bh=-header`}
+        {matchesMD ? <HorizontalNav /> : <VerticalNav />}
+        <Grid direction="column" container>
+          <Grid
+            item
+            container
+            direction="column"
+            alignItems="center"
+            style={{ width: "100%", margin: "5vh 0" }}
           >
-            <Typography className={classes.heading}>
-              {question.Question}
+            <Typography
+              className={classes.mono}
+              variant={matchesSM ? "h4" : matchesMD ? "h3" : "h2"}
+              gutterBottom
+              style={{ textAlign: "center" }}
+            >
+              Frequently asked questions
             </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>{question.Answer}</Typography>
-          </AccordionDetails>
-        </Accordion>
-      </>
-    );
-  });
+            <Typography
+              className={classes.mono}
+              variant={matchesMD ? "h5" : "h4"}
+              gutterBottom
+            >
+              El Greco Rooms
+            </Typography>
+            {questionsRooms}
+            <Typography
+              style={{ marginTop: "2vh" }}
+              className={classes.mono}
+              variant={matchesMD ? "h5" : "h4"}
+              gutterBottom
+            >
+              El Greeco Taverna
+            </Typography>
+            {questionsTaverna}
+          </Grid>
 
-  return (
-    <div className={classes.container}>
-      {matchesMD ? <HorizontalNav /> : <VerticalNav />}
-      <Grid direction="column" container>
-        <Grid
-          item
-          container
-          direction="column"
-          alignItems="center"
-          style={{ width: "100%", margin: "5vh 0" }}
-        >
-          <Typography
-            className={classes.mono}
-            variant={matchesSM ? "h4" : matchesMD ? "h3" : "h2"}
-            gutterBottom
-            style={{ textAlign: "center" }}
-          >
-            Frequently asked questions
-          </Typography>
-          <Typography
-            className={classes.mono}
-            variant={matchesMD ? "h5" : "h4"}
-            gutterBottom
-          >
-            El Greco Rooms
-          </Typography>
-          {questionsRooms}
-          <Typography
-            style={{ marginTop: "2vh" }}
-            className={classes.mono}
-            variant={matchesMD ? "h5" : "h4"}
-            gutterBottom
-          >
-            El Greeco Taverna
-          </Typography>
-          {questionsTaverna}
+          <Grid item container>
+            <Footer />
+          </Grid>
         </Grid>
-
-        <Grid item container>
-          <Footer />
-        </Grid>
-      </Grid>
-    </div>
+      </div>
+    </Layout>
   );
 }
