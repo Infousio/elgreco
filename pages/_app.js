@@ -7,8 +7,15 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "../src/theme";
 import "../styles/app.css";
 import { motion } from "framer-motion";
+import Router from 'next/router';
+import NProgress from 'nprogress';
 
 ReactGA.initialize("G-H3J44SQDLE");
+
+Router.onRouteChangeStart = url => {
+  NProgress.start();
+}
+Router.onRouteChangeComplete = () => NProgress.done();
 
 export default function MyApp(props) {
   const { Component, pageProps, router } = props;
