@@ -6,16 +6,9 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "../src/theme";
 import "../styles/app.css";
-import { motion } from "framer-motion";
-import Router from 'next/router';
-import NProgress from 'nprogress';
+import { motion, AnimatePresence } from "framer-motion";
 
 ReactGA.initialize("UA-185393136-1");
-
-Router.onRouteChangeStart = url => {
-  NProgress.start();
-}
-Router.onRouteChangeComplete = () => NProgress.done();
 
 export default function MyApp(props) {
   const { Component, pageProps, router } = props;
@@ -29,15 +22,18 @@ export default function MyApp(props) {
 
   const variants = {
     pageInitial: {
-      opacity: 0
+      opacity: 0,
     },
     pageAnimate: {
       opacity: 1,
       transition: {
-        delay: .4
-      }
+        delay: 0.5,
+      },
+    },
+    exit: {
+      opacity: 0
     }
-  }
+  };
 
   return (
     <>
@@ -56,14 +52,17 @@ export default function MyApp(props) {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <motion.div
-          key={router.route}
-          initial="pageInitial"
-          animate="pageAnimate"
-          variants={variants}
-        >
-          <Component {...pageProps} />
-        </motion.div>
+        <AnimatePresence>
+          <motion.div
+            key={router.route}
+            initial="pageInitial"
+            animate="pageAnimate"
+            exit="exit"
+            variants={variants}
+          >
+            <Component {...pageProps} />
+          </motion.div>
+        </AnimatePresence>
       </ThemeProvider>
     </>
   );

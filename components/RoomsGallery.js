@@ -1,12 +1,8 @@
-import Image from "next/image";
-import { motion } from "framer-motion";
-
 import AnimatedImage from "./AnimatedImage";
 
 import Grid from "@material-ui/core/Grid";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { useMediaQuery } from "@material-ui/core";
-import { useInView } from "react-intersection-observer";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -26,60 +22,6 @@ export default function RoomsGallery() {
   const classes = useStyles();
   const theme = useTheme();
   const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
-
-  const [ref1, inView1] = useInView({
-    triggerOnce: true,
-  });
-  const [ref2, inView2] = useInView({
-    triggerOnce: true,
-  });
-  const [ref3, inView3] = useInView({
-    triggerOnce: true,
-  });
-  const [ref4, inView4] = useInView({
-    triggerOnce: true,
-  });
-  const [ref5, inView5] = useInView({
-    triggerOnce: true,
-  });
-  const [ref6, inView6] = useInView({
-    triggerOnce: true,
-  });
-  const [ref7, inView7] = useInView({
-    triggerOnce: true,
-  });
-  const [ref8, inView8] = useInView({
-    triggerOnce: true,
-  });
-  const [ref9, inView9] = useInView({
-    triggerOnce: true,
-  });
-  const [ref10, inView10] = useInView({
-    triggerOnce: true,
-  });
-  const [ref11, inView11] = useInView({
-    triggerOnce: true,
-  });
-  const [ref12, inView12] = useInView({
-    triggerOnce: true,
-  });
-  const [ref13, inView13] = useInView({
-    triggerOnce: true,
-  });
-
-  const variants = {
-    hidden: {
-      opacity: 0,
-      scale: 0,
-    },
-    show: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        delay: 0.3,
-      },
-    },
-  };
 
   return (
     <Grid
