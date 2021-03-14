@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+
+import AnimatedImage from "./AnimatedImage";
 
 import Grid from "@material-ui/core/Grid";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { useMediaQuery } from "@material-ui/core";
+import { useInView } from "react-intersection-observer";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -86,153 +88,65 @@ export default function RoomsGallery() {
       container
       direction="column"
     >
-      <Grid
-        component={motion.div}
-        ref={ref1}
-        initial="hidden"
-        animate={inView1 && "show"}
-        variants={variants}
-        item
-        style={{ width: "100%", padding: "10px" }}
-      >
-        <Image
-          src="/rooms/gallery/1.webp"
-          layout="responsive"
-          alt="El Greco Room Interior"
-          width={4288}
-          height={2412}
-        />
-      </Grid>
+      <AnimatedImage
+        imgWidth={4288}
+        imgHeight={2412}
+        imgSrc="/rooms/gallery/1.webp"
+        imgAlt="El Greco Room Interior"
+      />
       <Grid item container style={{ width: "100%" }}>
         <Grid item container style={{ width: "100%" }} direction="column" md>
-          <Grid
-            component={motion.div}
-            ref={ref2}
-            initial="hidden"
-            animate={inView2 && "show"}
-            variants={variants}
-            item
-            style={{ width: "100%", padding: "10px" }}
-          >
-            <Image
-              src="/rooms/gallery/2.webp"
-              layout="responsive"
-              alt="El Greco Room View"
-              width={3797}
-              height={2550}
-            />
-          </Grid>
-          <Grid
-            component={motion.div}
-            ref={ref3}
-            initial="hidden"
-            animate={inView3 && "show"}
-            variants={variants}
-            item
-            style={{ width: "100%", padding: "10px" }}
-          >
-            <Image
-              src="/rooms/gallery/3.webp"
-              layout="responsive"
-              alt="El Greco Room Kitchen"
-              width={3797}
-              height={2848}
-            />
-          </Grid>
-        </Grid>
-        <Grid
-          component={motion.div}
-          ref={ref4}
-          initial="hidden"
-          animate={inView4 && "show"}
-          variants={variants}
-          style={{ width: "100%", padding: "10px" }}
-          item
-          md
-        >
-          <Image
-            src="/rooms/gallery/4.webp"
-            layout="responsive"
-            alt="El Greco Room View"
-            width={2848}
-            height={3987}
+          <AnimatedImage
+            imgWidth={3797}
+            imgHeight={2550}
+            imgSrc="/rooms/gallery/2.webp"
+            imgAlt="El Greco Room View"
+          />
+          <AnimatedImage
+            imgWidth={3797}
+            imgHeight={2848}
+            imgSrc="/rooms/gallery/3.webp"
+            imgAlt="El Greco Room Kitchen"
           />
         </Grid>
+        <AnimatedImage
+          imgWidth={2848}
+          imgHeight={3987}
+          imgSrc="/rooms/gallery/4.webp"
+          imgAlt="El Greco Room View"
+          md
+        />
       </Grid>
-      <Grid
-        component={motion.div}
-        ref={ref5}
-        initial="hidden"
-        animate={inView5 && "show"}
-        variants={variants}
-        item
-        style={{ width: "100%", padding: "10px" }}
-      >
-        <Image
-          src="/rooms/gallery/5.webp"
-          alt="El Greco Room Interior"
-          layout="responsive"
-          width={4288}
-          height={2412}
+      <AnimatedImage
+        imgWidth={4288}
+        imgHeight={2412}
+        imgSrc="/rooms/gallery/5.webp"
+        imgAlt="El Greco Room Interior"
+      />
+      <Grid container item style={{ width: "100%" }}>
+        <AnimatedImage
+          imgWidth={2848}
+          imgHeight={2136}
+          imgSrc="/rooms/gallery/6.webp"
+          imgAlt="El Greco Room Garden"
+          md
+        />
+        <AnimatedImage
+          imgWidth={2848}
+          imgHeight={2136}
+          imgSrc="/rooms/gallery/7.webp"
+          imgAlt="El Greco Room Garden"
+          md
         />
       </Grid>
       <Grid container item style={{ width: "100%" }}>
-        <Grid
-          component={motion.div}
-          ref={ref6}
-          initial="hidden"
-          animate={inView6 && "show"}
-          variants={variants}
-          item
-          style={{ width: "100%", padding: "10px" }}
-          md
-        >
-          <Image
-            src="/rooms/gallery/6.webp"
-            layout="responsive"
-            alt="El Greco Room Garden"
-            width={2848}
-            height={2136}
-          />
-        </Grid>
-        <Grid
-          component={motion.div}
-          ref={ref7}
-          initial="hidden"
-          animate={inView7 && "show"}
-          variants={variants}
-          item
-          style={{ width: "100%", padding: "10px" }}
-          md
-        >
-          <Image
-            src="/rooms/gallery/7.webp"
-            layout="responsive"
-            alt="El Greco Room Garden"
-            width={2848}
-            height={2136}
-          />
-        </Grid>
-      </Grid>
-      <Grid container item style={{ width: "100%" }}>
-        <Grid
-          component={motion.div}
-          ref={ref8}
-          initial="hidden"
-          animate={inView8 && "show"}
-          variants={variants}
-          item
-          style={{ width: "100%", padding: "10px" }}
+        <AnimatedImage
+          imgWidth={2827}
+          imgHeight={3262}
+          imgSrc="/rooms/gallery/8.webp"
+          imgAlt="El Greco Room Bathroom"
           md={matchesSM ? undefined : 7}
-        >
-          <Image
-            src="/rooms/gallery/8.webp"
-            layout="responsive"
-            alt="El Greco Room Bathroom"
-            width={2827}
-            height={3262}
-          />
-        </Grid>
+        />
         <Grid
           container
           item
@@ -241,96 +155,41 @@ export default function RoomsGallery() {
           style={{ width: "100%" }}
           md={matchesSM ? undefined : 5}
         >
-          <Grid
-            component={motion.div}
-            ref={ref9}
-            initial="hidden"
-            animate={inView9 && "show"}
-            variants={variants}
-            item
-            style={{ padding: "10px", width: "100%" }}
-          >
-            <Image
-              src="/rooms/gallery/9.webp"
-              layout="responsive"
-              alt="El Greco Room View"
-              width={2848}
-              height={2222}
-            />
-          </Grid>
-          <Grid
-            component={motion.div}
-            ref={ref10}
-            initial="hidden"
-            animate={inView10 && "show"}
-            variants={variants}
-            item
-            style={{ padding: "10px", width: "100%" }}
-          >
-            <Image
-              src="/rooms/gallery/10.webp"
-              layout="responsive"
-              alt="El Greco Room Reception"
-              width={2848}
-              height={2222}
-            />
-          </Grid>
+          <AnimatedImage
+            imgWidth={2848}
+            imgHeight={2222}
+            imgSrc="/rooms/gallery/9.webp"
+            imgAlt="El Greco Room View"
+          />
+          <AnimatedImage
+            imgWidth={2848}
+            imgHeight={2222}
+            imgSrc="/rooms/gallery/10.webp"
+            imgAlt="El Greco Room Reception"
+          />
         </Grid>
       </Grid>
-      <Grid
-        component={motion.div}
-        ref={ref11}
-        initial="hidden"
-        animate={inView11 && "show"}
-        variants={variants}
-        item
-        style={{ width: "100%", padding: "10px" }}
-      >
-        <Image
-          src="/rooms/gallery/11.webp"
-          layout="responsive"
-          alt="El Greco Room Interior"
-          width={4288}
-          height={2412}
-        />
-      </Grid>
+      <AnimatedImage
+        imgWidth={4288}
+        imgHeight={2412}
+        imgSrc="/rooms/gallery/11.webp"
+        imgAlt="El Greco Room Interior"
+      />
       <Grid container item style={{ width: "100%" }}>
-        <Grid
-          component={motion.div}
-          ref={ref12}
-          initial="hidden"
-          animate={inView12 && "show"}
-          variants={variants}
-          item
-          style={{ width: "100%", padding: "10px" }}
+        <AnimatedImage
+          imgWidth={2848}
+          imgHeight={3797}
+          imgSrc="/rooms/gallery/12.webp"
+          imgAlt="El Greco Room Artistic"
           md
-        >
-          <Image
-            src="/rooms/gallery/12.webp"
-            layout="responsive"
-            alt="El Greco Room Artistic"
-            width={2848}
-            height={3797}
-          />
-        </Grid>
-        <Grid
-          component={motion.div}
-          ref={ref13}
-          initial="hidden"
-          animate={inView13 && "show"}
-          variants={variants}
-          item
-          style={{ width: "100%", padding: "10px" }}
+        />
+        <AnimatedImage
+          imgWidth={2136}
+          imgHeight={2848}
+          imgSrc="/rooms/gallery/13.webp"
+          imgAlt="El Greco Room Interior"
           md
-        >
-          <Image
-            src="/rooms/gallery/13.webp"
-            layout="responsive"
-            alt="El Greco Room Interior"
-            width={2136}
-            height={2848}
-          />
-        </Grid>
+        />
       </Grid>
     </Grid>
   );
