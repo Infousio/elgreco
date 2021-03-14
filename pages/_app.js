@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import Router from 'next/router';
 import NProgress from 'nprogress';
 
-ReactGA.initialize("G-H3J44SQDLE");
+ReactGA.initialize("UA-185393136-1");
 
 Router.onRouteChangeStart = url => {
   NProgress.start();
