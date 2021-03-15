@@ -124,7 +124,7 @@ export default function Contact() {
                 <br />
                 TEL: +302397022063
                 <br />
-                EMAIL: ELGRECOVRASNA@GMAIL.COM
+                EMAIL: ELGRECO@ELGRECOVRASNA.GR
               </Typography>
             </Grid>
             <Grid item container direction="column" md>

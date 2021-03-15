@@ -106,12 +106,12 @@ export default function RoomsBody() {
           Welcome to Elgreco Rooms
         </Typography>
         <Typography variant="h6" className={classes.bodyBody}>
-          In a mixture with the past and the present, traditional and modern, El
-          Greco rooms located at the beach of Nea Vrasna, charms any visitor
-          with its unique, hospitable and luxurious rooms.
+          In a mixture with the past and the present, traditional and modern,
+          El&nbsp;Greco rooms located at the beach of Nea Vrasna, charms any
+          visitor with its unique, hospitable and luxurious rooms.
         </Typography>
         <Typography variant="h6" className={classes.bodyBody}>
-          Every summer El Greco rooms, 10 meters from the beach, offer every
+          Every summer El&nbsp;Greco rooms, 10 meters from the beach, offer every
           visitor their essential feeling of comfort, relacation and peace away
           from the stress of the city.
         </Typography>

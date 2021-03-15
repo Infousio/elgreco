@@ -119,7 +119,7 @@ const TavernBody = () => {
             className={classes.header}
             style={{ fontFamily: "Leitura", padding: "1em 2em" }}
           >
-            serving Nea&nbsp;Vrasna proudly since 1970
+            serving Nea&nbsp;Vrasna proudly since 1976
           </Typography>
         </Grid>
       </Grid>
