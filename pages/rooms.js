@@ -1,9 +1,9 @@
 import Head from "next/head";
 
-import RoomsBody from "../../containers/RoomsBody";
-import HorizontalNav from "../../components/HorizontalNav";
-import VerticalNav from "../../components/VerticalNav";
-import Footer from "../../containers/Footer";
+import RoomsBody from "../containers/RoomsBody";
+import HorizontalNav from "../components/HorizontalNav";
+import VerticalNav from "../components/VerticalNav";
+import Footer from "../containers/Footer";
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";

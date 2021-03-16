@@ -1,6 +1,7 @@
 import Link from "../src/Link";
 import RoomsCarousel from "../components/RoomsCarousel";
 import RoomsGallery from "../components/RoomsGallery";
+import RoomsBookBar from '../components/RoomsBookBar';
 
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
@@ -17,20 +18,15 @@ const useStyles = makeStyles((theme) => ({
     zIndex: "1",
     color: "white",
     textAlign: "center",
-    marginTop: "2vh",
+    marginTop: "70px",
     marginBottom: "1vh",
+    position: "absolute",
+    [theme.breakpoints.down("sm")]: {
+      display: "none"
+    }
   },
   title: {
     fontFamily: "Pacifico, cursive",
-    [theme.breakpoints.down("md")]: {
-      color: "black",
-    },
-    [theme.breakpoints.down("sm")]: {
-      fontSize: "2rem",
-    },
-    [theme.breakpoints.down("xs")]: {
-      fontSize: "1.5rem",
-    },
   },
   bodyTitle: {
     fontFamily: "Pacifico, cursive",
@@ -51,21 +47,20 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   carousel: {
-    position: "absolute",
+    position: "relative",
+    marginTop: "50px",
     width: "100vw",
-    [theme.breakpoints.down("md")]: {
-      position: "relative",
-    },
   },
   textContainer: {
-    marginTop: "44vw",
-    [theme.breakpoints.down("lg")]: {
-      marginTop: "48vw",
-    },
-    [theme.breakpoints.down("md")]: {
-      marginTop: "58vw",
-    },
+    marginTop: "58vw",
+    marginBottom: "5vh"
   },
+  bookBar: {
+    position: "relative",
+    [theme.breakpoints.down("md")]: {
+      position: "absolute"
+    }
+  }
 }));
 
 export default function RoomsBody() {
@@ -73,6 +68,7 @@ export default function RoomsBody() {
   const theme = useTheme();
   return (
     <Grid container className={classes.container} direction="column">
+      <RoomsBookBar className={classes.bookBar}/>
       <Grid
         item
         container
@@ -119,18 +115,6 @@ export default function RoomsBody() {
           One and only visit can fullfill the needs even of the most demanding
           visitor, leaving the urge to come back again.
         </Typography>
-      </Grid>
-      <Grid item container justify="center" style={{ margin: "4vh 0" }}>
-        <Button
-          size="large"
-          style={{ backgroundColor: "#C2E3D4" }}
-          component={Link}
-          href="/rooms/book"
-        >
-          <Typography variant="h5" style={{ fontWeight: "500" }}>
-            BOOK NOW
-          </Typography>
-        </Button>
       </Grid>
       <Grid item container>
         <RoomsGallery style={{position: "relative"}}/>

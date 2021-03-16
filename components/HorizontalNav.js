@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     background: "rgba(255, 255, 255, 0.2)",
     boxShadow: "5px 0px 32px rgba(31, 38, 135, 0.37)",
     backdropFilter: "blur(3px)",
-    zIndex: 3,
+    zIndex: 4,
     position: "fixed",
     bottom: 0,
   },

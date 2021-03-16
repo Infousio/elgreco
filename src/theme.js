@@ -1,26 +1,25 @@
-import {createMuiTheme} from '@material-ui/core/styles';
-import {red} from '@material-ui/core/colors';
+import { createMuiTheme } from "@material-ui/core/styles";
+import { red } from "@material-ui/core/colors";
 
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#582B0B'
+      main: "#222222",
     },
     secondary: {
-      main: '#EADBBA'
+      main: "#DBDBDB",
     },
     error: {
-      main: "#FFFFFF"
+      main: "#FFFFFF",
     },
-    background: {
-    },
+    background: {},
     aTags: {
-      '&:hover': {
+      "&:hover": {
         textDecoration: "none",
-        cursor: "default"
-      }
-    }
-  }
+        cursor: "default",
+      },
+    },
+  },
 });
 
 export default theme;

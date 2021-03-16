@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://elgreco.vercel.app/contact</loc>
-    <lastmod>2021-03-13</lastmod>
+    <lastmod>2021-03-15</lastmod>
   </url>,<url>
     <loc>https://elgreco.vercel.app/faq</loc>
     <lastmod>2021-03-13</lastmod>
@@ -10,8 +10,8 @@
     <loc>https://elgreco.vercel.app</loc>
     <lastmod>2021-03-14</lastmod>
   </url>,<url>
-    <loc>https://elgreco.vercel.app/rooms/index</loc>
-    <lastmod>2021-03-13</lastmod>
+    <loc>https://elgreco.vercel.app/rooms</loc>
+    <lastmod>2021-03-16</lastmod>
   </url>,<url>
     <loc>https://elgreco.vercel.app/tavern/drink</loc>
     <lastmod>2021-03-14</lastmod>

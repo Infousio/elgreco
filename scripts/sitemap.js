@@ -4,7 +4,7 @@ const formatDate = require("./formatDate");
 
 // ROBOTS.txt
 const robotsTxt = `User-agent: *
-Sitemap: https://elgreco.vercel.app/sitemap_local.xml
+Sitemap: https://elgrecovrasna.gr/sitemap_local.xml
 Disallow:`;
 
 fs.writeFileSync("public/robots.txt", robotsTxt);
@@ -22,8 +22,8 @@ const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
       path => `<url>
     ${
       path === "/index"
-        ? `<loc>https://elgreco.vercel.app</loc>`
-        : `<loc>https://elgreco.vercel.app${path}</loc>`
+        ? `<loc>https://elgrecovrasna.gr</loc>`
+        : `<loc>https://elgrecovrasna.gr${path}</loc>`
     }
     <lastmod>${
       pathsObj[path].lastModified

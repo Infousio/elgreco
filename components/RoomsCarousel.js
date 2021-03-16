@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -11,14 +11,14 @@ import { makeStyles, useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 const variants = {
-  show: { opacity: 1 },
-  hidden: { opacity: 0 },
+  show: { opacity: 1},
+  hidden: { opacity: 0 }
 };
 
 const useStyles = makeStyles((theme) => ({
   container: {
     width: "100%",
-    height: "56vw",
+    height: "57vw",
     maxHeight: "100vh",
     position: "absolute",
   },
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: "100vh",
     position: "absolute",
     zIndex: "1",
-    [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("sm")]: {
       display: "none",
     },
   },
@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100vw",
     zIndex: "2",
     height: "56vw",
-    [theme.breakpoints.up("lg")]: {
+    [theme.breakpoints.up("md")]: {
       display: "none",
     },
   },
@@ -73,6 +73,13 @@ export default function RoomsCarousel(props) {
   const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
 
   const [isIndex, setIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      nextHandler();
+    }, 3000)
+    return () => clearTimeout(timer);
+  }, [isIndex])
 
   const images = carouselImages.images.map((image, index) => {
     return (
@@ -96,6 +103,7 @@ export default function RoomsCarousel(props) {
     );
   });
 
+
   const dots = carouselImages.images.map((image, index) => {
     return (
       <li
@@ -114,7 +122,7 @@ export default function RoomsCarousel(props) {
       setIndex(0);
       return;
     }
-    setIndex(isIndex + 1);
+    setIndex((prevIndex) => prevIndex + 1);
     return;
   };
 
@@ -123,7 +131,7 @@ export default function RoomsCarousel(props) {
       setIndex(images.length - 1);
       return;
     }
-    setIndex(isIndex - 1);
+    setIndex((prevIndex) => prevIndex - 1);
     return;
   };
 
@@ -161,7 +169,7 @@ export default function RoomsCarousel(props) {
       <Grid
         item
         container
-        style={{ left: "75px" }}
+        style={{ left: matchesMD ? "0" : "75px" }}
         className={classes.navigationBars}
         onClick={() => previousHandler()}
         justify="center"
