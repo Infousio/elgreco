@@ -1,5 +1,5 @@
 import { useState, useReducer, useEffect } from "react";
-
+import ReactGA from "react-ga";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 
 import Typography from "@material-ui/core/Typography";
@@ -8,7 +8,6 @@ import Button from "@material-ui/core/Button";
 import Divider from "@material-ui/core/Divider";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import CircularProgress from "@material-ui/core/CircularProgress";
-import Snackbar from "@material-ui/core/Snackbar";
 
 import { DatePicker, MuiPickersUtilsProvider } from "@material-ui/pickers";
 import DateFnsUtils from "@date-io/date-fns";
@@ -24,8 +23,9 @@ const useStyles = makeStyles((theme) => ({
     margin: "15vh 5vw",
     boxShadow: "0px 3px 5px",
     [theme.breakpoints.down("sm")]: {
-      height: "70vh",
-      margin: "5vh 3vw",
+      height: "75vh",
+      minHeight: "500px",
+      margin: "2vh 3vw",
     },
   },
   modalHeader: {
@@ -45,14 +45,14 @@ const useStyles = makeStyles((theme) => ({
     overflowY: "auto",
     [theme.breakpoints.down("sm")]: {
       padding: "1vh 1vw",
-      height: "56vh",
+      height: "60vh"
     },
   },
   modalInput: {
     margin: "1vh 1vw",
     height: "4vh",
     [theme.breakpoints.down("sm")]: {
-      height: "3vh",
+      height: "35px",
     },
   },
   bookDate: {
