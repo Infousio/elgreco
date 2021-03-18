@@ -11,20 +11,24 @@ export default async (req, res) => {
     CHECKOUT,
   } = req.body;
 
-  try {
-    await sendEmail(FIRST_NAME, LAST_NAME, EMAIL);
-    await sendEmailBase(
-      FIRST_NAME,
-      LAST_NAME,
-      EMAIL,
-      NUMBER,
-      MESSAGE,
-      CHECKIN,
-      CHECKOUT
-    );
-    res.status(200).send('Message sent successfully!');
-  } catch (err) {
-    console.log(err);
-    res.status(400).send('Something went wrong.');
+  if (req.method === "POST") {
+    try {
+      await sendEmail(FIRST_NAME, LAST_NAME, EMAIL);
+      await sendEmailBase(
+        FIRST_NAME,
+        LAST_NAME,
+        EMAIL,
+        NUMBER,
+        MESSAGE,
+        CHECKIN,
+        CHECKOUT
+      );
+      res.status(200).send("Message sent successfully!");
+    } catch (err) {
+      console.log(err);
+      res.status(400).send("Something went wrong.");
+    }
+  } else {
+    res.status(501).send("Not Implemented");
   }
 };
