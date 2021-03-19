@@ -77,10 +77,10 @@ export default function RoomsBody() {
         direction="column"
         alignItems="center"
       >
-        <Typography variant="h3" gutterBottom className={classes.title}>
+        <Typography variant="h3" component="h1" gutterBottom className={classes.title}>
           El Greco
         </Typography>
-        <Typography variant="h6" gutterBottom className={classes.title}>
+        <Typography variant="h6" component="h2" gutterBottom className={classes.title}>
           - Rooms -
         </Typography>
       </Grid>

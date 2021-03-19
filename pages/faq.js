@@ -58,6 +58,7 @@ export default function Faq() {
       <Accordion
         expanded={expandedRooms === `panel${index}`}
         onChange={handleChangeRooms(`panel${index}`)}
+        key={`panel${index}`}
         style={{ width: "80vw" }}
       >
         <AccordionSummary
@@ -81,6 +82,7 @@ export default function Faq() {
       <Accordion
         expanded={expandedTaverna === `panelt${index}`}
         onChange={handleChangeTaverna(`panelt${index}`)}
+        key={`panelt${index}`}
         style={{ width: "80vw" }}
       >
         <AccordionSummary
@@ -127,6 +129,7 @@ export default function Faq() {
           <Typography
             className={classes.mono}
             variant={matchesSM ? "h4" : matchesMD ? "h3" : "h2"}
+            component="h1"
             gutterBottom
             style={{ textAlign: "center" }}
           >
@@ -135,6 +138,7 @@ export default function Faq() {
           <Typography
             className={classes.mono}
             variant={matchesMD ? "h5" : "h4"}
+            component="h2"
             gutterBottom
           >
             El Greco Rooms
@@ -144,13 +148,13 @@ export default function Faq() {
             style={{ marginTop: "2vh" }}
             className={classes.mono}
             variant={matchesMD ? "h5" : "h4"}
+            component="h2"
             gutterBottom
           >
             El Greeco Taverna
           </Typography>
           {questionsTaverna}
         </Grid>
-
         <Grid item container>
           <Footer />
         </Grid>

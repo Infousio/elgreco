@@ -11,7 +11,7 @@ import { makeStyles, useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import Divider from '@material-ui/core/Divider';
+import Divider from "@material-ui/core/Divider";
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -139,7 +139,12 @@ export default function Drink(props) {
         }}
       >
         <Grid item container style={{ marginTop: "5vh" }} justify="center">
-          <Typography className={classes.header} variant="h3" gutterBottom>
+          <Typography
+            className={classes.header}
+            variant="h3"
+            component="h1"
+            gutterBottom
+          >
             Elgreco Drink Menu
           </Typography>
         </Grid>

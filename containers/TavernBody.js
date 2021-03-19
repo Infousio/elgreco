@@ -107,6 +107,7 @@ const TavernBody = () => {
               fontFamily: "Halvetica",
               textShadow: "3px 3px 5px rgba(0,0,0,0.7)",
             }}
+            component="h1"
           >
             EL GRECO
             <br />
@@ -118,6 +119,7 @@ const TavernBody = () => {
             variant="h4"
             className={classes.header}
             style={{ fontFamily: "Leitura", padding: "1em 2em" }}
+            component="h2"
           >
             serving Nea&nbsp;Vrasna proudly since 1976
           </Typography>

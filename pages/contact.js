@@ -77,7 +77,7 @@ export default function Contact() {
             alt="diamond"
             style={{ position: "absolute" }}
           />
-          <Typography variant="h4" className={classes.header}>
+          <Typography variant="h4" component="h1" className={classes.header}>
             EL GRECO
           </Typography>
         </Grid>
@@ -109,6 +109,7 @@ export default function Contact() {
             >
               <Typography
                 variant={matchesSM ? "h5" : "h4"}
+                component="h4"
                 className={classes.mono}
                 style={{ textAlign: matchesMD ? "center" : "left" }}
                 gutterBottom
@@ -117,6 +118,7 @@ export default function Contact() {
               </Typography>
               <Typography
                 variant={matchesSM ? "body1" : "h6"}
+                component="p"
                 className={classes.mono}
                 style={{ textAlign: matchesMD ? "center" : "left" }}
               >
@@ -130,6 +132,7 @@ export default function Contact() {
             <Grid item container direction="column" md>
               <Typography
                 variant={matchesSM ? "h5" : "h4"}
+                component="h4"
                 className={classes.mono}
                 style={{ textAlign: matchesMD ? "center" : "right" }}
                 gutterBottom
@@ -138,6 +141,7 @@ export default function Contact() {
               </Typography>
               <Typography
                 variant={matchesSM ? "body1" : "h6"}
+                component="p"
                 className={classes.mono}
                 style={{ textAlign: matchesMD ? "center" : "right" }}
               >

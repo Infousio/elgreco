@@ -82,6 +82,7 @@ const MainBody = () => {
             variant={matchesMD ? (matchesXS ? "h5" : "h4") : "h3"}
             className={classes.titles}
             style={{ marginTop: "0.3em" }}
+            component="h1"
           >
             ELGRECO INTRODUCES NEA&nbsp;VRASNA
           </Typography>

@@ -19,18 +19,18 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "800",
     fontFamily: "Halvetica",
     textAlign: "center",
-    marginBottom: "7vh"
+    marginBottom: "7vh",
   },
   container: {
     backgroundColor: "#FCF9EE",
     width: "100vw",
   },
   menuContainer: {
-    margin: "3vh 0"
+    margin: "3vh 0",
   },
   menuTitles: {
     marginLeft: "2vw",
-    marginTop: "5vh"
+    marginTop: "5vh",
   },
 }));
 
@@ -141,7 +141,12 @@ export default function Food(props) {
         }}
       >
         <Grid item container style={{ marginTop: "5vh" }} justify="center">
-          <Typography className={classes.header} variant="h3" gutterBottom>
+          <Typography
+            className={classes.header}
+            variant="h3"
+            component="h1"
+            gutterBottom
+          >
             Elgreco Food Menu
           </Typography>
         </Grid>
