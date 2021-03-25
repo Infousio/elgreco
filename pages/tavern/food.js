@@ -147,7 +147,7 @@ export default function Food(props) {
             component="h1"
             gutterBottom
           >
-            Elgreco Food Menu
+            El Greco Food Menu
           </Typography>
         </Grid>
         <Grid item container direction="column">

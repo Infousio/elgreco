@@ -84,7 +84,7 @@ const MainBody = () => {
             style={{ marginTop: "0.3em" }}
             component="h1"
           >
-            ELGRECO INTRODUCES NEA&nbsp;VRASNA
+            EL GRECO INTRODUCES NEA&nbsp;VRASNA
           </Typography>
         </Grid>
         <Grid item>
@@ -113,7 +113,7 @@ const MainBody = () => {
         >
           <Button className={classes.buttonBox}>
             <Typography variant="h5" className={classes.titles}>
-              Elgreco <br /> Tavern
+              El Greco<br />Tavern
             </Typography>
           </Button>
         </Grid>
@@ -125,7 +125,7 @@ const MainBody = () => {
         >
           <Button className={classes.buttonBox}>
             <Typography variant="h5" className={classes.titles}>
-              Elgreco <br /> Rooms
+              El Greco<br />Rooms
             </Typography>
           </Button>
         </Grid>

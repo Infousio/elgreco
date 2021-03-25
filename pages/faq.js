@@ -151,7 +151,7 @@ export default function Faq() {
             component="h2"
             gutterBottom
           >
-            El Greeco Taverna
+            El Greeco Tavern
           </Typography>
           {questionsTaverna}
         </Grid>

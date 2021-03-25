@@ -99,7 +99,7 @@ export default function RoomsBody() {
           style={{ padding: "4vh 0" }}
           className={classes.bodyTitle}
         >
-          Welcome to Elgreco Rooms
+          Welcome to El Greco Rooms
         </Typography>
         <Typography variant="h6" className={classes.bodyBody}>
           In a mixture with the past and the present, traditional and modern,
