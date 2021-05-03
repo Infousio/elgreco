@@ -1,0 +1,276 @@
+{
+  "menus": [
+    {
+      "products": [
+        {
+          "name": "El Greco Salat",
+          "description": "El Greco Salat mit Kopfsalat - Tomate - Croutons - Schinken - Käse - Eier - Dressing."
+        },
+        {
+          "name": "Mediterraner Salat",
+          "description": "Mediterraner Salat mit Baby Rote Beete Blätter- Kopfsalat - Spinat – Rucola - Kirschtomaten - Parmesan – Balsamico Essig."
+        },
+        {
+          "name": "Griechischer Salat",
+          "description": "Griechischer Salat mit Tomate - Gurke - Paprika - Zwiebeln - Oliven – Feta-Käse - Olivenöl - Oregano."
+        },
+        {
+          "name": "Tomatensalat",
+          "description": "Tomatensalat mit Gurke - Paprika - Zwiebeln - Olivenöl."
+        },
+        {
+          "name": "Kohlsalat aus Konstantinopel",
+          "description": "Kohlsalat aus Konstantinopel mit weißem und rotem Kohl - grüner und roter Paprika - Karotte - Sellerie."
+        },
+        {
+          "name": "Kopfsalat",
+          "description": "Kopfsalat mit frischen Zwiebeln."
+        },
+        {
+          "name": "Saison-Blattgemüse",
+          "description": "Saison-Blattgemüse mit Zitrone - Olivenöl."
+        },
+        {
+          "name": "Rote Beete",
+          "description": "Frische rote Beete mit Zitrone - Olivenöl."
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "Gebratene Zucchini und Auberginen",
+          "description": "Gebratene Zucchini und Auberginen mit tzatziki."
+        },
+        {
+          "name": "Kefalotyri Saganaki",
+          "description": "Kefalotyri (eine Art Hartkäse) Saganaki."
+        },
+        {
+          "name": "Zucchinibällchen",
+          "description": "Zucchinibällchen mit Knoblauchpaste."
+        },
+        {
+          "name": "Halloumi",
+          "description": "Halloumi Käse mit gerösteten Tomaten und Minze."
+        },
+        {
+          "name": "Käsekroketten",
+          "description": "Käsekroketten aus verschiedenen Käsesorten."
+        },
+        {
+          "name": "Frisch geschnittene Pommes",
+          "description": ""
+        },
+        {
+          "name": "Gebackene Feta-Käse",
+          "description": "Im Backofen mit Tomate - Paprika- Oregano – Olivenöl."
+        },
+        {
+          "name": "Feta-Käse",
+          "description": "Feta-Käse mit Oregano &amp; Olivenöl."
+        },
+        {
+          "name": "Florina Paprikas",
+          "description": "Florina Paprikas frisch gegrillt."
+        },
+        {
+          "name": "Chili-Paprikas",
+          "description": "Chili-Paprikas mit gerösteten Tomaten."
+        },
+        {
+          "name": "Gegrillte Aubergine",
+          "description": "Mit Feta-Käse - Tomate - Knoblauch - Olivenöl."
+        },
+        {
+          "name": "Gegrillte Austernpilze",
+          "description": ""
+        },
+        {
+          "name": "Gebackene Kartoffel",
+          "description": "Gebackene Kartoffel mit Schinken - Sauerrahm – Käse."
+        },
+        {
+          "name": "Geröstete Makrele geräuchert",
+          "description": ""
+        },
+        {
+          "name": "Marinierte Anchovis",
+          "description": "Marinierte Anchovis mit Knoblauch - Petersilie - Olivenöl."
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "Hausgemachter Kartoffelsalat",
+          "description": "Basierend auf einem alten traditionellen Rezept mit Kartoffel - Mayonnaise - Ei - Senf - Olivenöl."
+        },
+        {
+          "name": "Hausgemachtes Auberginenpüree",
+          "description": "Basierend auf einem alten traditionellen Rezept mit gekochter Aubergine - Paprika - Knoblauch - Olivenöl."
+        },
+        {
+          "name": "Hausgemachte Käsecreme mit Feta-Käse",
+          "description": "Klassische hausgemachte Käsecreme mit Feta-Käse, Rahmkäse - Chili - Olivenöl."
+        },
+        {
+          "name": "Tzatziki",
+          "description": "Hausgemachter traditioneller tzatziki mit abgetropfter Joghurt Erster Qualität."
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "Beefsteak",
+          "description": "Beefsteak mit Schweinefleisch und Rindfleischhackfleisch Basierend auf einem Rezept von 1976."
+        },
+        {
+          "name": "Gefülltes Beefsteak",
+          "description": "Gefülltes hausgemachtes Beefsteak mit Feta-Käse - Käse – Paprika."
+        },
+        {
+          "name": "Fleischspießchen",
+          "description": "Klassisches Fleischspießchen Aus einheimischer Schweinekeule."
+        },
+        {
+          "name": "Traditionelle Wurst",
+          "description": "Hausgemachte traditionelle Wurst gegrillt Von Metzgereien in der Gegend."
+        },
+        {
+          "name": "Hähnchenbrustfilet gegrillt",
+          "description": ""
+        },
+        {
+          "name": "Hähnchen Fleischspießchen",
+          "description": "Hähnchen Fleischspießchen (Souvlaki) aus marinierter Keule."
+        },
+        {
+          "name": "Lende Schweinefilets",
+          "description": "Lende Schweinefilets gegrillt."
+        },
+        {
+          "name": "Bauchspeck gegrillt",
+          "description": "Marinierter Griechischer Bauchspeck gegrillt."
+        },
+        {
+          "name": "Gebratenes Schweinefleisch",
+          "description": "Gebratenes Schweinefleisch vom Hals Sautiert in Olivenöl und verfeinert mit Weißwein und aromatischen Kräutern."
+        },
+        {
+          "name": "Griechische Lammrippen",
+          "description": "Griechische Lammrippen gegrillt, mit aromatischen Kräutern und Zitrone."
+        },
+        {
+          "name": "El Greco Mix",
+          "description": "Fleischauswahl gegrillt (Souvlaki, Beefsteak, Bauchspeck…)."
+        },
+        {
+          "name": "Lende Schweinefilets",
+          "description": "Lende Schweinefilets gegrillt."
+        },
+        {
+          "name": "Rind ohne Knochen",
+          "description": "Hohe Rippe vom Rind ohne Knochen."
+        },
+        {
+          "name": "Hähnchenschnitzel",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "Gebratene Calamari",
+          "description": "Gebratene Calamari mit Joghurtsoße mit Knoblauch."
+        },
+        {
+          "name": "Gegrillte Calamari",
+          "description": "Gegrillte Calamari mit Zitronen-Olivenöl-Soße und aromatischen Kräutern."
+        },
+        {
+          "name": "Gegrillte Garnelen",
+          "description": "Gegrillte Garnelen mit Zitronen-Olivenöl-Soße und Joghurtsoße mit Knoblauch."
+        },
+        {
+          "name": "Garnelen Saganaki",
+          "description": "Garnelen Saganaki mit Tomate und Feta-Käse."
+        },
+        {
+          "name": "Gedünstete Muscheln",
+          "description": "Gedünstete Muscheln mit weißem Wein, Senf und verschiedenen Gewürzen."
+        },
+        {
+          "name": "Muscheln Saganaki",
+          "description": "Muscheln Saganaki mit Tomate und Senf."
+        },
+        {
+          "name": "Gebratene Anchovis",
+          "description": ""
+        },
+        {
+          "name": "Anchovis Saganaki",
+          "description": "Anchovis Saganaki mit Tomate, Senf, Knoblauch und verschiedenen Gewürzen."
+        },
+        {
+          "name": "Gegrillte Sardellen",
+          "description": "Gegrillte Sardellen mit Zitronen-Olivenöl-Soße und Gewürzen."
+        },
+        {
+          "name": "Gegrillte Dorade",
+          "description": "Gegrillte Dorade mit Zitrone, Petersilie und Oregano."
+        },
+        {
+          "name": "Gegrillter Seebarsch",
+          "description": "Gegrillter Seebarsch mit Zitrone, Petersilie und Oregano."
+        },
+        {
+          "name": "Gegrillter Oktopus",
+          "description": "Gegrillter Oktopus mit Zitronen-Olivenöl-Soße."
+        },
+        {
+          "name": "Kabeljau",
+          "description": "Traditioneller Kabeljau mit Knoblauchpaste."
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "Nudeln mit Rinderhackfleisch",
+          "description": "Nudeln mit Rinderhackfleisch und Parmesan."
+        },
+        {
+          "name": "Nudeln mit Feta-Käse",
+          "description": "Nudeln mit Feta-Käse und Parmesan."
+        },
+        {
+          "name": "Nudeln mit frischer Tomatensoße",
+          "description": "Nudeln mit frischer Tomatensoße und Parmesan."
+        },
+        {
+          "name": "Spaghetti Carbonara",
+          "description": "Spaghetti Carbonara mit geräuchertem (Schinken)Speck, Sauerrahm und Parmesan."
+        },
+        {
+          "name": "Nudeln mit kleinen Garnelen,",
+          "description": "Nudeln mit kleinen Garnelen, Knoblauch und Tomate."
+        },
+        {
+          "name": "Fischer Nudeln",
+          "description": "Fischer Nudeln mit gemischten Meeresfrüchten."
+        },
+        {
+          "name": "Risotto mit Meeresfrüchten",
+          "description": ""
+        },
+        {
+          "name": "Muschelrisotto",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

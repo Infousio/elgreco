@@ -1,348 +1,399 @@
 {
   "menus": [
     {
-      "name": "Salads",
-      "img": "/menu/food/salads/greekSalad.webp",
       "products": [
         {
           "name": "El Greco Salad",
           "description": "El greco salad with lettuce, tomatoes, croutons, ham, yellow cheese, eggs and dressing.",
-          "img": "/menu/food/salads/elgrecoSalad.webp"
+          "img": "/menu/food/salads/elgrecoSalad.webp",
+          "price": "6.00"
         },
         {
           "name": "Mediterranean salad",
           "description": "Mediterranean salad with beetroot, baby leaves, lettuce, spinach, rocket, cherry tomato, parmesan and balsamic vinegar.",
-          "img": "/menu/food/salads/mediterraneanSalad.webp"
+          "img": "/menu/food/salads/mediterraneanSalad.webp",
+          "price": "5.50"
         },
         {
           "name": "Greek Salad",
           "description": "Greek salad with tomatoes, cucumbers, green peppers, onions, olives, feta cheese, olive oil and oregano.",
-          "img": "/menu/food/salads/greekSalad.webp"
+          "img": "/menu/food/salads/greekSalad.webp",
+          "price": "5.00"
         },
         {
           "name": "Tomato Salad",
           "description": "Tomato Salad with cucumbers, green peppers, onions, olive oil and oregano.",
-          "img": "/menu/food/salads/tomatoSalad.webp"
+          "img": "/menu/food/salads/tomatoSalad.webp",
+          "price": "3.00"
         },
         {
           "name": "Constantinople salad",
           "description": "Constantinople salad with white and red cabbage, red and green peppers, carrot and celery.",
-          "img": "/menu/food/salads/constantinopleSalad.webp"
+          "img": "/menu/food/salads/constantinopleSalad.webp",
+          "price": "3.00"
         },
         {
           "name": "Lettuce salad",
           "description": "Lettuce salad with fresh lettuce and green onion.",
-          "img": "/menu/food/salads/lettuceSalad.webp"
+          "img": "/menu/food/salads/lettuceSalad.webp",
+          "price": "3.00"
         },
         {
           "name": "Season's greens",
           "description": "Season's greens with lemon and olive oil.",
-          "img": "/menu/food/salads/greenSalad.webp"
+          "img": "/menu/food/salads/greenSalad.webp",
+          "price": "3.00"
         },
         {
           "name": "Fresh beetroot",
-          "description": "",
-          "img": "/menu/food/salads/beetrootSalad.webp"
+          "description": "Fresh beetroot with olive oil and vinegar.",
+          "img": "/menu/food/salads/beetrootSalad.webp",
+          "price": "3.20"
         }
       ]
     },
     {
-      "name": "Apperatives",
-      "img": "/menu/food/apperatives/zucchini.webp",
       "products": [
         {
           "name": "Fried zucchini",
           "description": "Fried zucchini with tzatziki on the side.",
-          "img": "/menu/food/apperatives/zucchini.webp"
+          "img": "/menu/food/apperatives/zucchini.webp",
+          "price": "3.50"
+          
         },
         {
           "name": "Kefalotiri saganaki",
           "description": "Fried kefalotiri cheese.",
-          "img": "/menu/food/apperatives/kefalotiri.webp"
+          "img": "/menu/food/apperatives/kefalotiri.webp",
+          "price": "3.30"
         },
         {
           "name": "Zucchini croquettes",
           "description": "Fried zucchini croquettes with garlic dip in the side.",
-          "img": "/menu/food/apperatives/zucchiniCroquettes.webp"
+          "img": "/menu/food/apperatives/zucchiniCroquettes.webp",
+          "price": "3.50"
         },
         {
           "name": "Haloumi",
           "description": "Grilled Haloumi cheese with roasted tomatoes and parsley.",
-          "img": "/menu/food/apperatives/haloumi.webp"
+          "img": "/menu/food/apperatives/haloumi.webp",
+          "price": "5.00"
         },
         {
           "name": "Cheese croquettes",
           "description": "Cheese croquettes made with various types of cheese.",
-          "img": "/menu/food/apperatives/cheeseCroquettes.webp"
+          "img": "/menu/food/apperatives/cheeseCroquettes.webp",
+          "price": "3.30"
         },
         {
           "name": "Fried Potatoes",
           "description": "Fresh fried potatoes.",
-          "img": "/menu/food/apperatives/potatoes.webp"
+          "img": "/menu/food/apperatives/potatoes.webp",
+          "price": "2.20"
         },
         {
           "name": "Baked feta",
           "description": "Baked feta cheese with tomato, green pepper, oregano and olive oil.",
-          "img": "/menu/food/apperatives/bakedFeta.webp"
+          "img": "/menu/food/apperatives/bakedFeta.webp",
+          "price": "3.50"
         },
         {
           "name": "Feta cheese",
           "description": "Feta cheese with oregano and olive oil.",
-          "img": "/menu/food/apperatives/feta.webp"
+          "img": "/menu/food/apperatives/feta.webp",
+          "price": "2.90"
         },
         {
           "name": "Florina peppers",
           "description": "Fresh roasted red long florina peppers.",
-          "img": "/menu/food/apperatives/florina.webp"
+          "img": "/menu/food/apperatives/florina.webp",
+          "price": "2.60"
         },
         {
           "name": "Hot pepper",
           "description": "Hot green pepper with roasted tomato.",
-          "img": "/menu/food/apperatives/pepper.webp"
+          "img": "/menu/food/apperatives/pepper.webp",
+          "price": "1.50"
         },
         {
           "name": "Roasted eggplant",
           "description": "Roasted eggplant with feta cheese, tomatoes, garlic and olive oil.",
-          "img": "/menu/food/apperatives/eggplant.webp"
+          "img": "/menu/food/apperatives/eggplant.webp",
+          "price": "3.50"
         },
         {
           "name": "Roasted oyster mushrooms",
           "description": "Grilled oyster mushrooms with olive & lemon dressing.",
-          "img": "/menu/food/apperatives/mushrooms.webp"
+          "img": "/menu/food/apperatives/mushrooms.webp",
+          "price": "3.20"
         },
         {
           "name": "Baked potatoes",
           "description": "Baked potatoes with ham, milk cream and yellow cheese.",
-          "img": "/menu/food/apperatives/bakedPotatoes.webp"
+          "img": "/menu/food/apperatives/bakedPotatoes.webp",
+          "price": "3.20"
         },
         {
           "name": "Smoked mackerel",
           "description": "Salty mackerel smoked on grill.",
-          "img": "/menu/food/apperatives/mackerel.webp"
+          "img": "/menu/food/apperatives/mackerel.webp",
+          "price": "5.00"
         },
         {
           "name": "Marinated anchovies",
           "description": "Marinated anchovies with garlic, parsley and olive oil.",
-          "img": "/menu/food/apperatives/anchovies.webp"
+          "img": "/menu/food/apperatives/anchovies.webp",
+          "price": "3.50"
         }
       ]
     },
     {
-      "name": "Dips",
-      "img": "/menu/food/dips/tzatziki.webp",
       "products": [
         {
           "name": "Potato salad",
           "description": "Homemade potato salad with mayonnaise, egg, mustard and olive oil.",
-          "img": "/menu/food/dips/potatoSalad.webp"
+          "img": "/menu/food/dips/potatoSalad.webp",
+          "price": "2.80"
         },
         {
           "name": "Eggplant salad",
           "description": "Homemade eggplant salad with boiled eggplant, peppers, garlic and olive oil.",
-          "img": "/menu/food/dips/eggplantSalad.webp"
+          "img": "/menu/food/dips/eggplantSalad.webp",
+          "price": "2.80"
         },
         {
           "name": "Cheese spread",
           "description": "Homemade cheese spread with feta anthotiro, spicy pepper and olive oil.",
-          "img": "/menu/food/dips/cheeseSpread.webp"
+          "img": "/menu/food/dips/cheeseSpread.webp",
+          "price": "3.00"
         },
         {
           "name": "Tzatziki",
           "description": "Homemade tzatziki made from first grade greek yogurt.",
-          "img": "/menu/food/dips/tzatziki.webp"
+          "img": "/menu/food/dips/tzatziki.webp",
+          "price": "3.00"
         }
       ]
     },
     {
-      "name": "Grill",
-      "img": "/menu/food/grill/burger.webp",
       "products": [
         {
           "name": "Burger",
           "description": "3 homemade burgers from pork and veal mince meat based on a recipe from 1976.",
-          "img": "/menu/food/grill/burger.webp"
+          "img": "/menu/food/grill/burger.webp",
+          "price": "6.20"
         },
         {
           "name": "Stuffed burger",
           "description": "A big burger stuffed with feta, yellow cheese and peppers.",
-          "img": "/menu/food/grill/stuffedBurger.webp"
+          "img": "/menu/food/grill/stuffedBurger.webp",
+          "price": "6.80"
         },
         {
           "name": "Pork souvlaki",
           "description": "Pork souvlaki made with local pork thigh and pancetta, 60gr/piece.",
-          "img": "/menu/food/grill/porkSouvlaki.webp"
+          "img": "/menu/food/grill/porkSouvlaki.webp",
+          "price": "1.20"
         },
         {
           "name": "Traditional sausages",
           "description": "3 traditional homemade sausages.",
-          "img": "/menu/food/grill/sausages.webp"
+          "img": "/menu/food/grill/sausages.webp",
+          "price": "6.50"
         },
         {
           "name": "Chicken breast fillet",
           "description": "Grilled chicken breast fillet.",
-          "img": "/menu/food/grill/chickenBreast.webp"
+          "img": "/menu/food/grill/chickenBreast.webp",
+          "price": "6.50"
         },
         {
           "name": "Chicken souvlaki",
-          "description": "3 chicken souvlakis made of marinated chicken thigh",
-          "img": "/menu/food/grill/chickenSouvlaki.webp"
+          "description": "3 chicken souvlakis made of marinated chicken thigh.",
+          "img": "/menu/food/grill/chickenSouvlaki.webp",
+          "price": "6.60"
         },
         {
           "name": "Tender pork fillets",
           "description": "Grilled tender pork fillets.",
-          "img": "/menu/food/grill/porkFillets.webp"
+          "img": "/menu/food/grill/porkFillets.webp",
+          "price": "6.80"
         },
         {
           "name": "Pork chops",
           "description": "Grilled pork chops.",
-          "img": "/menu/food/grill/porkChops.webp"
+          "img": "/menu/food/grill/porkChops.webp",
+          "price": "6.50"
         },
         {
           "name": "Fried pork meat",
           "description": "Fried pork meat from the neck sauteed in olive oil and cooled with white wine and aromatic herbs.",
-          "img": "/menu/food/grill/friedPork.webp"
+          "img": "/menu/food/grill/friedPork.webp",
+          "price": "6.50"
         },
         {
           "name": "Lamb chops",
           "description": "Greek lamb chops with aromatic herbs and lemon.",
-          "img": "/menu/food/grill/lambChops.webp"
+          "img": "/menu/food/grill/lambChops.webp",
+          "price": "7.00"
         },
         {
           "name": "El Greco Mix",
           "description": "Various grilled cuts(souvlaki, burger, pork chop).",
-          "img": "/menu/food/grill/elgrecoMix.webp"
+          "img": "/menu/food/grill/elgrecoMix.webp",
+          "price": "6.80"
         },
         {
           "name": "Pork rib eye steak",
           "description": "Pork rib eye steak with aromatic herbs.",
-          "img": "/menu/food/grill/porkSteak.webp"
+          "img": "/menu/food/grill/porkSteak.webp",
+          "price": "6.90"
         },
         {
           "name": "Beef rib eye steak",
           "description": "Grilled beef rib eye boneless steak.",
-          "img": "/menu/food/grill/beefSteak.webp"
+          "img": "/menu/food/grill/beefSteak.webp",
+          "price": "7.80"
         },
         {
           "name": "Chicken schnitzel",
           "description": "Fried Chicken schnitzel.",
-          "img": "/menu/food/grill/schnitzel.webp"
+          "img": "/menu/food/grill/schnitzel.webp",
+          "price": "6.60"
         }
       ]
     },
     {
-      "name": "Fish",
-      "img": "/menu/food/fish/seaBream.webp",
       "products": [
         {
           "name": "Fried kalamari",
           "description": "Fried kalamari rings with yogurt sauce with garlic.",
-          "img": "/menu/food/fish/friedKalamari.webp"
+          "img": "/menu/food/fish/friedKalamari.webp",
+          "price": "8.00"
         },
         {
           "name": "Grilled kalamari",
           "description": "Grilled kalamari with olive oil - lemon dressing and aromatic herbs.",
-          "img": "/menu/food/fish/grilledKalamari.webp"
+          "img": "/menu/food/fish/grilledKalamari.webp",
+          "price": "14.00"
         },
         {
           "name": "Fried or Grilled shrimps",
           "description": "Fried or grilled shrimps with olive oil - lemon dressing and yogurt sauce with garlic.",
-          "img": "/menu/food/fish/friedShrimps.webp"
+          "img": "/menu/food/fish/friedShrimps.webp",
+          "price": "9.50"
         },
         {
           "name": "Shrimps saganaki",
           "description": "Shrimps saganaki fried with tomato sauce and feta cheese.",
-          "img": "/menu/food/fish/shrimpsSaganaki.webp"
+          "img": "/menu/food/fish/shrimpsSaganaki.webp",
+          "price": "9.50"
         },
         {
           "name": "Steam mussels",
           "description": "Steam mussels with white wine, mustard and aromatic herbs.",
-          "img": "/menu/food/fish/steamMussels.webp"
+          "img": "/menu/food/fish/steamMussels.webp",
+          "price": "6.00"
         },
         {
           "name": "Mussels saganaki",
           "description": "Mussels saganaki with tomato sauce and mustard.",
-          "img": "/menu/food/fish/musselsSaganaki.webp"
+          "img": "/menu/food/fish/musselsSaganaki.webp",
+          "price": "6.00"
         },
         {
           "name": "Fried gavros",
           "description": "",
-          "img": "/menu/food/fish/friedGavros.webp"
+          "img": "/menu/food/fish/friedGavros.webp",
+          "price": "6.00"
         },
         {
           "name": "Gavros saganaki",
           "description": "Gavros saganaki fried with tomato sauce, mustard, garlic, and various aromatic herbs.",
-          "img": "/menu/food/fish/gavrosSaganaki.webp"
+          "img": "/menu/food/fish/gavrosSaganaki.webp",
+          "price": "6.00"
         },
         {
           "name": "Grilled sardines",
           "description": "Grilled sardines with olive oil - lemon dressing and aromatic herbs.",
-          "img": "/menu/food/fish/sardines.webp"
+          "img": "/menu/food/fish/sardines.webp",
+          "price": "6.00"
         },
         {
           "name": "Grilled sea bream",
           "description": "Grilled sea bream with olive oil - lemon dressing, parsley and oregano.",
-          "img": "/menu/food/fish/seaBream.webp"
+          "img": "/menu/food/fish/seaBream.webp",
+          "price": "9.00"
         },
         {
           "name": "Grilled sea bass",
           "description": "Grilled sea bass with olive oil - lemon dressing, parsley and oregano.",
-          "img": "/menu/food/fish/seaBass.webp"
+          "img": "/menu/food/fish/seaBass.webp",
+          "price": "9.90"
         },
         {
           "name": "Grilled octapus",
           "description": "Grilled octapus with olive-oil & lemon dressing.",
-          "img": "/menu/food/fish/octapus.webp"
+          "img": "/menu/food/fish/octapus.webp",
+          "price": "12.00"
         },
         {
           "name": "Fried Cod",
           "description": "Traditional cod fish with garlic dip.",
-          "img": "/menu/food/fish/cod.webp"
+          "img": "/menu/food/fish/cod.webp",
+          "price": "8.20"
         }
       ]
     },
     {
-      "name": "Pasta",
-      "img": "/menu/food/pasta/bolognese.webp",
       "products": [
         {
           "name": "Spaghetti bolognese",
           "description": "Spaghetti with beef minced meat and parmesan.",
-          "img": "/menu/food/pasta/bolognese.webp"
+          "img": "/menu/food/pasta/bolognese.webp",
+          "price": "5.00"
         },
         {
           "name": "Spaghetti with feta",
           "description": "Spaghetti with feta and parmesan.",
-          "img": "/menu/food/pasta/spaghettiFeta.webp"
+          "img": "/menu/food/pasta/spaghettiFeta.webp",
+          "price": "4.50"
         },
         {
           "name": "Spaghetti with tomato sauce",
           "description": "Spaghetti with tomato sauce and parmesan.",
-          "img": "/menu/food/pasta/spaghettiTomato.webp"
+          "img": "/menu/food/pasta/spaghettiTomato.webp",
+          "price": "4.50"
         },
         {
           "name": "Spaghetti carbonara",
           "description": "Spaghetti carbonara with smoked ham, milk cream and parmesan.",
-          "img": "/menu/food/pasta/carbonara.webp"
+          "img": "/menu/food/pasta/carbonara.webp",
+          "price": "5.50"
         },
         {
           "name": "Shrimp spaghetti",
           "description": "Shrimp spaghetti with small shrimps, garlic and tomatoes.",
-          "img": "/menu/food/pasta/shrimpSpaghetti.webp"
+          "img": "/menu/food/pasta/shrimpSpaghetti.webp",
+          "price": "6.00"
         },
         {
           "name": "Fisherman's spaghetti",
           "description": "Fisherman's spaghetti with mixed seafood(small shrimps, octopus, mussels).",
-          "img": "/menu/food/pasta/fishermans.webp"
+          "img": "/menu/food/pasta/fishermans.webp",
+          "price": "6.00"
         },
         {
           "name": "Risotto with seafood",
           "description": "",
-          "img": "/menu/food/pasta/risotto.webp"
+          "img": "/menu/food/pasta/risotto.webp",
+          "price": "6.00"
         },
         {
           "name": "Rice with mussels",
           "description": "",
-          "img": "/menu/food/pasta/rice.webp"
+          "img": "/menu/food/pasta/rice.webp",
+          "price": "6.00"
         }
       ]
     }

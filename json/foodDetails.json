@@ -1,0 +1,262 @@
+{
+  "salads": [
+    {
+      "img": "/menu/food/salads/elgrecoSalad.webp",
+      "price": "6.00"
+    },
+    {
+      "img": "/menu/food/salads/mediterraneanSalad.webp",
+      "price": "5.50"
+    },
+    {
+      "img": "/menu/food/salads/greekSalad.webp",
+      "price": "5.00"
+    },
+    {
+      "img": "/menu/food/salads/tomatoSalad.webp",
+      "price": "3.00"
+    },
+    {
+      "img": "/menu/food/salads/constantinopleSalad.webp",
+      "price": "3.00"
+    },
+    {
+      "img": "/menu/food/salads/lettuceSalad.webp",
+      "price": "3.00"
+    },
+    {
+      "img": "/menu/food/salads/greenSalad.webp",
+      "price": "3.00"
+    },
+    {
+      "img": "/menu/food/salads/beetrootSalad.webp",
+      "price": "3.20"
+    }
+  ],
+  "apperatives": [
+    {
+      "img": "/menu/food/apperatives/zucchini.webp",
+      "price": "3.50"
+    },
+    {
+      "img": "/menu/food/apperatives/kefalotiri.webp",
+      "price": "3.30"
+    },
+    {
+      "img": "/menu/food/apperatives/zucchiniCroquettes.webp",
+      "price": "3.50"
+    },
+    {
+      "img": "/menu/food/apperatives/haloumi.webp",
+      "price": "5.00"
+    },
+    {
+      "img": "/menu/food/apperatives/cheeseCroquettes.webp",
+      "price": "3.30"
+    },
+    {
+      "img": "/menu/food/apperatives/potatoes.webp",
+      "price": "2.20"
+    },
+    {
+      "img": "/menu/food/apperatives/bakedFeta.webp",
+      "price": "3.50"
+    },
+    {
+      "img": "/menu/food/apperatives/feta.webp",
+      "price": "2.90"
+    },
+    {
+      "img": "/menu/food/apperatives/florina.webp",
+      "price": "2.60"
+    },
+    {
+      "img": "/menu/food/apperatives/pepper.webp",
+      "price": "1.50"
+    },
+    {
+      "img": "/menu/food/apperatives/eggplant.webp",
+      "price": "3.50"
+    },
+    {
+      "img": "/menu/food/apperatives/mushrooms.webp",
+      "price": "3.20"
+    },
+    {
+      "img": "/menu/food/apperatives/bakedPotatoes.webp",
+      "price": "3.20"
+    },
+    {
+      "img": "/menu/food/apperatives/mackerel.webp",
+      "price": "5.00"
+    },
+    {
+      "img": "/menu/food/apperatives/anchovies.webp",
+      "price": "3.50"
+    }
+  ],
+  "dips": [
+    {
+      "img": "/menu/food/dips/potatoSalad.webp",
+      "price": "2.80"
+    },
+    {
+      "img": "/menu/food/dips/eggplantSalad.webp",
+      "price": "2.80"
+    },
+    {
+      "img": "/menu/food/dips/cheeseSpread.webp",
+      "price": "3.00"
+    },
+    {
+      "img": "/menu/food/dips/tzatziki.webp",
+      "price": "3.00"
+    }
+  ],
+  "meat": [
+    {
+      "img": "/menu/food/grill/burger.webp",
+      "price": "6.20"
+    },
+    {
+      "img": "/menu/food/grill/stuffedBurger.webp",
+      "price": "6.80"
+    },
+    {
+      "img": "/menu/food/grill/porkSouvlaki.webp",
+      "price": "1.20"
+    },
+    {
+      "img": "/menu/food/grill/sausages.webp",
+      "price": "6.50"
+    },
+    {
+      "img": "/menu/food/grill/chickenBreast.webp",
+      "price": "6.50"
+    },
+    {
+      "img": "/menu/food/grill/chickenSouvlaki.webp",
+      "price": "6.60"
+    },
+    {
+      "img": "/menu/food/grill/porkFillets.webp",
+      "price": "6.80"
+    },
+    {
+      "img": "/menu/food/grill/porkChops.webp",
+      "price": "6.50"
+    },
+    {
+      "img": "/menu/food/grill/friedPork.webp",
+      "price": "6.50"
+    },
+    {
+      "img": "/menu/food/grill/lambChops.webp",
+      "price": "7.00"
+    },
+    {
+      "img": "/menu/food/grill/elgrecoMix.webp",
+      "price": "6.80"
+    },
+    {
+      "img": "/menu/food/grill/porkSteak.webp",
+      "price": "6.90"
+    },
+    {
+      "img": "/menu/food/grill/beefSteak.webp",
+      "price": "7.80"
+    },
+    {
+      "img": "/menu/food/grill/schnitzel.webp",
+      "price": "6.60"
+    }
+  ],
+  "fish": [
+    {
+      "img": "/menu/food/fish/friedKalamari.webp",
+      "price": "8.00"
+    },
+    {
+      "img": "/menu/food/fish/grilledKalamari.webp",
+      "price": "14.00"
+    },
+    {
+      "img": "/menu/food/fish/friedShrimps.webp",
+      "price": "9.50"
+    },
+    {
+      "img": "/menu/food/fish/shrimpsSaganaki.webp",
+      "price": "9.50"
+    },
+    {
+      "img": "/menu/food/fish/steamMussels.webp",
+      "price": "6.00"
+    },
+    {
+      "img": "/menu/food/fish/musselsSaganaki.webp",
+      "price": "6.00"
+    },
+    {
+      "img": "/menu/food/fish/friedGavros.webp",
+      "price": "6.00"
+    },
+    {
+      "img": "/menu/food/fish/gavrosSaganaki.webp",
+      "price": "6.00"
+    },
+    {
+      "img": "/menu/food/fish/sardines.webp",
+      "price": "6.00"
+    },
+    {
+      "img": "/menu/food/fish/seaBream.webp",
+      "price": "9.00"
+    },
+    {
+      "img": "/menu/food/fish/seaBass.webp",
+      "price": "9.90"
+    },
+    {
+      "img": "/menu/food/fish/octapus.webp",
+      "price": "12.00"
+    },
+    {
+      "img": "/menu/food/fish/cod.webp",
+      "price": "8.20"
+    }
+  ],
+  "pasta": [
+    {
+      "img": "/menu/food/pasta/bolognese.webp",
+      "price": "5.00"
+    },
+    {
+      "img": "/menu/food/pasta/spaghettiFeta.webp",
+      "price": "4.50"
+    },
+    {
+      "img": "/menu/food/pasta/spaghettiTomato.webp",
+      "price": "4.50"
+    },
+    {
+      "img": "/menu/food/pasta/carbonara.webp",
+      "price": "5.50"
+    },
+    {
+      "img": "/menu/food/pasta/shrimpSpaghetti.webp",
+      "price": "6.00"
+    },
+    {
+      "img": "/menu/food/pasta/fishermans.webp",
+      "price": "6.00"
+    },
+    {
+      "img": "/menu/food/pasta/risotto.webp",
+      "price": "6.00"
+    },
+    {
+      "img": "/menu/food/pasta/rice.webp",
+      "price": "6.00"
+    }
+  ]
+}

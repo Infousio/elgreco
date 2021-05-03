@@ -1,0 +1,276 @@
+{
+  "menus": [
+    {
+      "products": [
+        {
+          "name": "El Greco Salad",
+          "description": "El greco salad with lettuce, tomatoes, croutons, ham, yellow cheese, eggs and dressing."
+        },
+        {
+          "name": "Mediterranean salad",
+          "description": "Mediterranean salad with beetroot, baby leaves, lettuce, spinach, rocket, cherry tomato, parmesan and balsamic vinegar."
+        },
+        {
+          "name": "Greek Salad",
+          "description": "Greek salad with tomatoes, cucumbers, green peppers, onions, olives, feta cheese, olive oil and oregano."
+        },
+        {
+          "name": "Tomato Salad",
+          "description": "Tomato Salad with cucumbers, green peppers, onions, olive oil and oregano."
+        },
+        {
+          "name": "Constantinople salad",
+          "description": "Constantinople salad with white and red cabbage, red and green peppers, carrot and celery."
+        },
+        {
+          "name": "Lettuce salad",
+          "description": "Lettuce salad with fresh lettuce and green onion."
+        },
+        {
+          "name": "Season's greens",
+          "description": "Season's greens with lemon and olive oil."
+        },
+        {
+          "name": "Fresh beetroot",
+          "description": "Fresh beetroot with olive oil and vinegar."
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "Fried zucchini",
+          "description": "Fried zucchini with tzatziki on the side."
+        },
+        {
+          "name": "Kefalotiri saganaki",
+          "description": "Fried kefalotiri cheese."
+        },
+        {
+          "name": "Zucchini croquettes",
+          "description": "Fried zucchini croquettes with garlic dip in the side."
+        },
+        {
+          "name": "Haloumi",
+          "description": "Grilled Haloumi cheese with roasted tomatoes and parsley."
+        },
+        {
+          "name": "Cheese croquettes",
+          "description": "Cheese croquettes made with various types of cheese."
+        },
+        {
+          "name": "Fried Potatoes",
+          "description": "Fresh fried potatoes."
+        },
+        {
+          "name": "Baked feta",
+          "description": "Baked feta cheese with tomato, green pepper, oregano and olive oil."
+        },
+        {
+          "name": "Feta cheese",
+          "description": "Feta cheese with oregano and olive oil."
+        },
+        {
+          "name": "Florina peppers",
+          "description": "Fresh roasted red long florina peppers."
+        },
+        {
+          "name": "Hot pepper",
+          "description": "Hot green pepper with roasted tomato."
+        },
+        {
+          "name": "Roasted eggplant",
+          "description": "Roasted eggplant with feta cheese, tomatoes, garlic and olive oil."
+        },
+        {
+          "name": "Roasted oyster mushrooms",
+          "description": "Grilled oyster mushrooms with olive & lemon dressing."
+        },
+        {
+          "name": "Baked potatoes",
+          "description": "Baked potatoes with ham, milk cream and yellow cheese."
+        },
+        {
+          "name": "Smoked mackerel",
+          "description": "Salty mackerel smoked on grill."
+        },
+        {
+          "name": "Marinated anchovies",
+          "description": "Marinated anchovies with garlic, parsley and olive oil."
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "Potato salad",
+          "description": "Homemade potato salad with mayonnaise, egg, mustard and olive oil."
+        },
+        {
+          "name": "Eggplant salad",
+          "description": "Homemade eggplant salad with boiled eggplant, peppers, garlic and olive oil."
+        },
+        {
+          "name": "Cheese spread",
+          "description": "Homemade cheese spread with feta anthotiro, spicy pepper and olive oil."
+        },
+        {
+          "name": "Tzatziki",
+          "description": "Homemade tzatziki made from first grade greek yogurt."
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "Burger",
+          "description": "3 homemade burgers from pork and veal mince meat based on a recipe from 1976."
+        },
+        {
+          "name": "Stuffed burger",
+          "description": "A big burger stuffed with feta, yellow cheese and peppers."
+        },
+        {
+          "name": "Pork souvlaki",
+          "description": "Pork souvlaki made with local pork thigh and pancetta, 60gr/piece."
+        },
+        {
+          "name": "Traditional sausages",
+          "description": "3 traditional homemade sausages."
+        },
+        {
+          "name": "Chicken breast fillet",
+          "description": "Grilled chicken breast fillet."
+        },
+        {
+          "name": "Chicken souvlaki",
+          "description": "3 chicken souvlakis made of marinated chicken thigh."
+        },
+        {
+          "name": "Tender pork fillets",
+          "description": "Grilled tender pork fillets."
+        },
+        {
+          "name": "Pork chops",
+          "description": "Grilled pork chops."
+        },
+        {
+          "name": "Fried pork meat",
+          "description": "Fried pork meat from the neck sauteed in olive oil and cooled with white wine and aromatic herbs."
+        },
+        {
+          "name": "Lamb chops",
+          "description": "Greek lamb chops with aromatic herbs and lemon."
+        },
+        {
+          "name": "El Greco Mix",
+          "description": "Various grilled cuts(souvlaki, burger, pork chop)."
+        },
+        {
+          "name": "Pork rib eye steak",
+          "description": "Pork rib eye steak with aromatic herbs."
+        },
+        {
+          "name": "Beef rib eye steak",
+          "description": "Grilled beef rib eye boneless steak."
+        },
+        {
+          "name": "Chicken schnitzel",
+          "description": "Fried Chicken schnitzel."
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "Fried kalamari",
+          "description": "Fried kalamari rings with yogurt sauce with garlic."
+        },
+        {
+          "name": "Grilled kalamari",
+          "description": "Grilled kalamari with olive oil - lemon dressing and aromatic herbs."
+        },
+        {
+          "name": "Fried or Grilled shrimps",
+          "description": "Fried or grilled shrimps with olive oil - lemon dressing and yogurt sauce with garlic."
+        },
+        {
+          "name": "Shrimps saganaki",
+          "description": "Shrimps saganaki fried with tomato sauce and feta cheese."
+        },
+        {
+          "name": "Steam mussels",
+          "description": "Steam mussels with white wine, mustard and aromatic herbs."
+        },
+        {
+          "name": "Mussels saganaki",
+          "description": "Mussels saganaki with tomato sauce and mustard."
+        },
+        {
+          "name": "Fried gavros",
+          "description": ""
+        },
+        {
+          "name": "Gavros saganaki",
+          "description": "Gavros saganaki fried with tomato sauce, mustard, garlic, and various aromatic herbs."
+        },
+        {
+          "name": "Grilled sardines",
+          "description": "Grilled sardines with olive oil - lemon dressing and aromatic herbs."
+        },
+        {
+          "name": "Grilled sea bream",
+          "description": "Grilled sea bream with olive oil - lemon dressing, parsley and oregano."
+        },
+        {
+          "name": "Grilled sea bass",
+          "description": "Grilled sea bass with olive oil - lemon dressing, parsley and oregano."
+        },
+        {
+          "name": "Grilled octapus",
+          "description": "Grilled octapus with olive-oil & lemon dressing."
+        },
+        {
+          "name": "Fried Cod",
+          "description": "Traditional cod fish with garlic dip."
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "Spaghetti bolognese",
+          "description": "Spaghetti with beef minced meat and parmesan."
+        },
+        {
+          "name": "Spaghetti with feta",
+          "description": "Spaghetti with feta and parmesan."
+        },
+        {
+          "name": "Spaghetti with tomato sauce",
+          "description": "Spaghetti with tomato sauce and parmesan."
+        },
+        {
+          "name": "Spaghetti carbonara",
+          "description": "Spaghetti carbonara with smoked ham, milk cream and parmesan."
+        },
+        {
+          "name": "Shrimp spaghetti",
+          "description": "Shrimp spaghetti with small shrimps, garlic and tomatoes."
+        },
+        {
+          "name": "Fisherman's spaghetti",
+          "description": "Fisherman's spaghetti with mixed seafood(small shrimps, octopus, mussels)."
+        },
+        {
+          "name": "Risotto with seafood",
+          "description": ""
+        },
+        {
+          "name": "Rice with mussels",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
