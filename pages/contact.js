@@ -67,7 +67,7 @@ export default function Contact() {
           item
           container
           justify="center"
-          alignContent="center"
+          alignItems="center"
           style={{ marginTop: "10vh", height: "240px" }}
         >
           <img

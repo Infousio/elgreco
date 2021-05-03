@@ -83,7 +83,7 @@ const TavernBody = () => {
           item
           container
           justify="center"
-          alignContent="center"
+          alignItems="center"
           style={{ marginTop: "15vh", height: "240px" }}
         >
           <Image
@@ -139,7 +139,7 @@ const TavernBody = () => {
           container
           direction="column"
           justify="center"
-          alignContent="center"
+          alignItems="center"
           md
         >
           <Grid item>
@@ -159,7 +159,7 @@ const TavernBody = () => {
             </Typography>
           </Grid>
         </Grid>
-        <Grid item container justify="center" alignContent="center" md>
+        <Grid item container justify="center" alignItems="center" md>
           <Typography
             variant="h5"
             style={{ textAlign: "center", padding: "0 1em"}}
@@ -172,7 +172,7 @@ const TavernBody = () => {
           container
           direction="column"
           justify="center"
-          alignContent="center"
+          alignItems="center"
           md
         >
           <Grid item>
@@ -197,7 +197,7 @@ const TavernBody = () => {
           item
           container
           justify="center"
-          alignContent="center"
+          alignItems="center"
           lg={8}
           className={classes.staticImage}
           style={{ backgroundImage: matchesMD ? "url(/taverna2-720.webp)" : "url(/taverna2-1080.webp)" }}
@@ -212,7 +212,7 @@ const TavernBody = () => {
           direction="column"
           justify="center"
           lg={4}
-          alignContent="center"
+          alignItems="center"
           className={classes.about}
           style={{ backgroundColor: "#152219" }}
         >
@@ -253,7 +253,7 @@ const TavernBody = () => {
           item
           container
           justify="center"
-          alignContent="center"
+          alignItems="center"
           md={7}
           className={classes.menu}
           style={{ backgroundImage: "url(/grill.webp)" }}
@@ -269,7 +269,7 @@ const TavernBody = () => {
           container
           md={5}
           justify="center"
-          alignContent="center"
+          alignItems="center"
           className={classes.menu}
           style={{ backgroundImage: "url(/wine.webp)" }}
         >

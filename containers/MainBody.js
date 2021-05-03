@@ -102,7 +102,7 @@ const MainBody = () => {
         container
         className={classes.boxContainer}
         justify="space-evenly"
-        alignContent="center"
+        alignItems="center"
         direction={matchesXS ? "column" : "row"}
       >
         <Grid

@@ -10,7 +10,6 @@ const useStyles = makeStyles((theme) => ({
   horizontalNav: {
     height: "75px",
     width: "100%",
-    position: "absolute",
     background: "rgba(255, 255, 255, 0.2)",
     boxShadow: "5px 0px 32px rgba(31, 38, 135, 0.37)",
     backdropFilter: "blur(3px)",
@@ -65,7 +64,7 @@ const HorizontalNav = () => {
         item
         container
         justify="center"
-        alignContent="center"
+        alignItems="center"
         href="/"
         component={Link}
         className={index === 1 ? classes.active : undefined}
@@ -83,7 +82,7 @@ const HorizontalNav = () => {
         item
         container
         justify="center"
-        alignContent="center"
+        alignItems="center"
         href="/tavern"
         component={Link}
         className={index === 2 ? classes.active : undefined}
@@ -101,7 +100,7 @@ const HorizontalNav = () => {
         item
         container
         justify="center"
-        alignContent="center"
+        alignItems="center"
         href="/rooms"
         component={Link}
         className={index === 3 ? classes.active : undefined}
@@ -119,7 +118,7 @@ const HorizontalNav = () => {
         item
         container
         justify="center"
-        alignContent="center"
+        alignItems="center"
         href="/contact"
         component={Link}
         className={index === 4 ? classes.active : undefined}
