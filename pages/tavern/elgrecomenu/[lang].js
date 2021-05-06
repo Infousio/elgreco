@@ -122,6 +122,7 @@ export default function Food(props) {
           style={{
             width: matchesSM ? "95%" : "85%",
             margin: "auto",
+            height: "100%",
             marginBottom: "5vh",
             color: "#212121",
           }}
