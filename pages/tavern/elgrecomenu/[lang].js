@@ -114,7 +114,7 @@ export default function Food(props) {
   });
 
   const actualMenu = () => {
-    if (new Date().getHours() >= 19) {
+    if (new Date().getHours() >= 12) {
       return (
         <Grid
           container
