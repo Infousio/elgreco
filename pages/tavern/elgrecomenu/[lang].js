@@ -1,4 +1,7 @@
+import {useEffect} from 'react';
 import Head from "next/head";
+import ReactGA from "react-ga";
+
 
 import MenuCard from "../../../components/MenuCard";
 import fooden from "../../../json/languages/fooden.json";
@@ -40,6 +43,10 @@ export default function Food(props) {
   const theme = useTheme();
   const classes = useStyles();
   const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, [])
 
   const saladMenu = props.salad.products.map((product, i) => {
     return (
