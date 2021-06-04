@@ -122,7 +122,7 @@ export default function Contact() {
                 className={classes.mono}
                 style={{ textAlign: matchesMD ? "center" : "left" }}
               >
-                TEL: +306946018981
+                TEL: +306989437233
                 <br />
                 TEL: +302397022063
                 <br />
