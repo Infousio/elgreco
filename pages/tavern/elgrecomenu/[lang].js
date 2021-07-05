@@ -7,6 +7,8 @@ import foodgr from "../../../json/languages/foodgr.json";
 import foodde from "../../../json/languages/foodde.json";
 import foodro from "../../../json/languages/foodro.json";
 import foodDetails from "../../../json/foodDetails.json";
+import drinken from "../../../json/drinkMenu.json";
+import drinkDetails from "../../../json/drinkDetails.json";
 import LanguageMenu from "../../../components/LanguageMenu";
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
@@ -109,6 +111,19 @@ export default function Food(props) {
         imgName={product.name}
         imgText={product.description}
         price={props.details.pasta[i].price}
+      />
+    );
+  });
+
+  // Here start drink menu
+  const softDrinksMenu = props.softDrinks.products.map((product, i) => {
+    return (
+      <MenuCard
+        key={product.name}
+        imgUrl={props.drinks.softDrinks[i].img}
+        imgName={product.name}
+        imgText={product.description}
+        price={props.drinks.softDrinks[i].price}
       />
     );
   });
@@ -255,6 +270,8 @@ export async function getStaticPaths() {
 export async function getStaticProps(context) {
   let menu = [];
   const food = foodDetails;
+  const drinks = drinkDetails;
+  const drinkMenu = drinken.menus;
 
   switch (context.params.lang) {
     case "en":
@@ -285,6 +302,13 @@ export async function getStaticProps(context) {
       meat: menu[3],
       fish: menu[4],
       pasta: menu[5],
+      drinks: drinks,
+      softDrinks: drinkMenu[0],
+      beers: drinkMenu[1],
+      retsina: drinkMenu[2],
+      wine: drinkMenu[3],
+      ouzo: drinkMenu[4],
+      spirits: drinkMenu[5]
     },
   };
 }

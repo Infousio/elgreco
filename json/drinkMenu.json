@@ -91,11 +91,6 @@
           "description": "330ml"
         },
         {
-          "name": "Heineken",
-          "img": "",
-          "description": "500ml"
-        },
-        {
           "name": "Mythos",
           "img": "/menu/drink/beer/mythos.webp",
           "description": "500ml"
@@ -113,6 +108,16 @@
         {
           "name": "Mamos",
           "img": "/menu/drink/beer/mamos.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Vergina Weiss",
+          "img": "",
+          "description": "500ml"
+        },
+        {
+          "name": "Vergina Red",
+          "img": "",
           "description": "500ml"
         }
       ]
@@ -148,34 +153,34 @@
           "description": "500ml & 250ml"
         },
         {
-          "name": "Caravia White Dry",
-          "img": "/menu/drink/wine/whitedry.webp",
-          "description": "500ml"
+          "name": "Draft Red wine dry",
+          "img": "",
+          "description": "500ml & 250ml"
         },
         {
-          "name": "Caravia White Semi Sweet",
-          "img": "/menu/drink/wine/whitesemisweet.webp",
-          "description": "500ml"
+          "name": "Draft Rose wine dry",
+          "img": "",
+          "description": "500ml & 250ml"
         },
         {
-          "name": "Caravia Red Dry",
-          "img": "/menu/drink/wine/reddry.webp",
-          "description": "500ml"
+          "name": "Limnos White wine dry",
+          "img": "",
+          "description": "750ml"
         },
         {
-          "name": "Caravia Red Semi Sweet",
-          "img": "/menu/drink/wine/redsemisweet.webp",
-          "description": "500ml"
+          "name": "Limnos Red wine semi-sweet",
+          "img": "",
+          "description": "750ml"
         },
         {
-          "name": "Caravia Roze Dry",
-          "img": "/menu/drink/wine/rozedry.webp",
-          "description": "500ml"
+          "name": "Limnos Red wine dry",
+          "img": "",
+          "description": "750ml"
         },
         {
-          "name": "Caravia Roze Semi Dry",
-          "img": "/menu/drink/wine/rozesemidry.webp",
-          "description": "500ml"
+          "name": "Limnos Rose wine semi-dry",
+          "img": "",
+          "description": "750ml"
         }
       ]
     },
