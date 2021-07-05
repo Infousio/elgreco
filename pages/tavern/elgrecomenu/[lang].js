@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useState } from "react";
 
 import MenuCard from "../../../components/MenuCard";
 import fooden from "../../../json/languages/fooden.json";
@@ -16,6 +17,7 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
+import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -42,6 +44,7 @@ export default function Food(props) {
   const theme = useTheme();
   const classes = useStyles();
   const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
+  const [showDrinks, setShowDrinks] = useState(false);
 
   const saladMenu = props.salad.products.map((product, i) => {
     return (
@@ -127,78 +130,239 @@ export default function Food(props) {
       />
     );
   });
+  const beerDrinksMenu = props.beers.products.map((product, i) => {
+    return (
+      <MenuCard
+        key={product.name}
+        imgUrl={props.drinks.beers[i].img}
+        imgName={product.name}
+        imgText={product.description}
+        price={props.drinks.beers[i].price}
+      />
+    );
+  });
+  const retsinaDrinksMenu = props.retsina.products.map((product, i) => {
+    return (
+      <MenuCard
+        key={product.name}
+        imgUrl={props.drinks.retsina[i].img}
+        imgName={product.name}
+        imgText={product.description}
+        price={props.drinks.retsina[i].price}
+      />
+    );
+  });
+  const wineDrinksMenu = props.wine.products.map((product, i) => {
+    return (
+      <MenuCard
+        key={product.name}
+        imgUrl={props.drinks.wine[i].img}
+        imgName={product.name}
+        imgText={product.description}
+        price={props.drinks.wine[i].price}
+      />
+    );
+  });
+  const ouzoDrinksMenu = props.ouzo.products.map((product, i) => {
+    return (
+      <MenuCard
+        key={product.name}
+        imgUrl={props.drinks.ouzo[i].img}
+        imgName={product.name}
+        imgText={product.description}
+        price={props.drinks.ouzo[i].price}
+      />
+    );
+  });
+  const spiritsDrinksMenu = props.spirits.products.map((product, i) => {
+    return (
+      <MenuCard
+        key={product.name}
+        imgUrl={props.drinks.spirits[i].img}
+        imgName={product.name}
+        imgText={product.description}
+        price={props.drinks.spirits[i].price}
+      />
+    );
+  });
 
   const actualMenu = () => {
-    if (new Date().getHours() >= 12) {
-      return (
-        <Grid
-          container
-          direction="column"
-          style={{
-            width: matchesSM ? "95%" : "85%",
-            margin: "auto",
-            marginBottom: "5vh",
-            color: "#212121",
-          }}
-        >
-          <Grid item container style={{ marginTop: "5vh" }} justify="center">
-            <Typography
-              className={classes.header}
-              variant="h3"
-              component="h1"
-              gutterBottom
-            >
-              El Greco Food&nbsp;Menu
-            </Typography>
+    if (new Date().getHours() >= 13) {
+      if (!showDrinks) {
+        return (
+          <Grid
+            container
+            direction="column"
+            style={{
+              width: matchesSM ? "95%" : "85%",
+              margin: "auto",
+              marginBottom: "5vh",
+              color: "#212121",
+            }}
+          >
+            <Grid item container style={{ marginTop: "5vh" }} justify="center">
+              <Typography
+                className={classes.header}
+                variant="h3"
+                component="h1"
+                gutterBottom
+              >
+                El Greco Food&nbsp;Menu
+              </Typography>
+            </Grid>
+            <Grid item container justify="center">
+              <LanguageMenu />
+            </Grid>
+            <Grid item container justify="space-evenly">
+              <Button
+                onClick={() => {
+                  setShowDrinks(false);
+                }}
+              >
+                Food
+              </Button>
+              <Button
+                onClick={() => {
+                  setShowDrinks(true);
+                }}
+              >
+                Drinks
+              </Button>
+            </Grid>
+            <Grid item component="hr" />
+            <Grid item container direction="column">
+              <Typography variant="h4" className={classes.menuTitles}>
+                Salads
+              </Typography>
+              <Grid container item className={classes.menuContainer}>
+                {saladMenu}
+              </Grid>
+              <Divider />
+              <Typography variant="h4" className={classes.menuTitles}>
+                Apperatives
+              </Typography>
+              <Grid item container className={classes.menuContainer}>
+                {apperativeMenu}
+              </Grid>
+              <Divider />
+              <Typography variant="h4" className={classes.menuTitles}>
+                Dips
+              </Typography>
+              <Grid item container className={classes.menuContainer}>
+                {dipMenu}
+              </Grid>
+              <Divider />
+              <Typography variant="h4" className={classes.menuTitles}>
+                Grill
+              </Typography>
+              <Grid item container className={classes.menuContainer}>
+                {meatMenu}
+              </Grid>
+              <Divider />
+              <Typography variant="h4" className={classes.menuTitles}>
+                Fish
+              </Typography>
+              <Grid item container className={classes.menuContainer}>
+                {fishMenu}
+              </Grid>
+              <Divider />
+              <Typography variant="h4" className={classes.menuTitles}>
+                Pasta
+              </Typography>
+              <Grid item container className={classes.menuContainer}>
+                {pastaMenu}
+              </Grid>
+            </Grid>
           </Grid>
-          <Grid item container justify="center">
-            <LanguageMenu />
+        );
+      } else {
+        return (
+          <Grid
+            container
+            direction="column"
+            style={{
+              width: matchesSM ? "95%" : "85%",
+              margin: "auto",
+              marginBottom: "5vh",
+              color: "#212121",
+            }}
+          >
+            <Grid item container style={{ marginTop: "5vh" }} justify="center">
+              <Typography
+                className={classes.header}
+                variant="h3"
+                component="h1"
+                gutterBottom
+              >
+                El Greco Food&nbsp;Menu
+              </Typography>
+            </Grid>
+            <Grid item container justify="center">
+              <LanguageMenu />
+            </Grid>
+            <Grid item container justify="space-evenly">
+              <Button
+                onClick={() => {
+                  setShowDrinks(false);
+                }}
+              >
+                Food
+              </Button>
+              <Button
+                onClick={() => {
+                  setShowDrinks(true);
+                }}
+              >
+                Drinks
+              </Button>
+            </Grid>
+            <Grid item component="hr" />
+            <Grid item container direction="column">
+              <Typography variant="h4" className={classes.menuTitles}>
+                Soft Drinks
+              </Typography>
+              <Grid container item className={classes.menuContainer}>
+                {softDrinksMenu}
+              </Grid>
+              <Divider />
+              <Typography variant="h4" className={classes.menuTitles}>
+                Beers
+              </Typography>
+              <Grid item container className={classes.menuContainer}>
+                {beerDrinksMenu}
+              </Grid>
+              <Divider />
+              <Typography variant="h4" className={classes.menuTitles}>
+                Retsina
+              </Typography>
+              <Grid item container className={classes.menuContainer}>
+                {retsinaDrinksMenu}
+              </Grid>
+              <Divider />
+              <Typography variant="h4" className={classes.menuTitles}>
+                Wine
+              </Typography>
+              <Grid item container className={classes.menuContainer}>
+                {wineDrinksMenu}
+              </Grid>
+              <Divider />
+              <Typography variant="h4" className={classes.menuTitles}>
+                Ouzo and Tsipouro
+              </Typography>
+              <Grid item container className={classes.menuContainer}>
+                {ouzoDrinksMenu}
+              </Grid>
+              <Divider />
+              <Typography variant="h4" className={classes.menuTitles}>
+                Spirits
+              </Typography>
+              <Grid item container className={classes.menuContainer}>
+                {spiritsDrinksMenu}
+              </Grid>
+            </Grid>
           </Grid>
-          <Grid item container direction="column">
-            <Typography variant="h4" className={classes.menuTitles}>
-              Salads
-            </Typography>
-            <Grid container item className={classes.menuContainer}>
-              {saladMenu}
-            </Grid>
-            <Divider />
-            <Typography variant="h4" className={classes.menuTitles}>
-              Apperatives
-            </Typography>
-            <Grid item container className={classes.menuContainer}>
-              {apperativeMenu}
-            </Grid>
-            <Divider />
-            <Typography variant="h4" className={classes.menuTitles}>
-              Dips
-            </Typography>
-            <Grid item container className={classes.menuContainer}>
-              {dipMenu}
-            </Grid>
-            <Divider />
-            <Typography variant="h4" className={classes.menuTitles}>
-              Grill
-            </Typography>
-            <Grid item container className={classes.menuContainer}>
-              {meatMenu}
-            </Grid>
-            <Divider />
-            <Typography variant="h4" className={classes.menuTitles}>
-              Fish
-            </Typography>
-            <Grid item container className={classes.menuContainer}>
-              {fishMenu}
-            </Grid>
-            <Divider />
-            <Typography variant="h4" className={classes.menuTitles}>
-              Pasta
-            </Typography>
-            <Grid item container className={classes.menuContainer}>
-              {pastaMenu}
-            </Grid>
-          </Grid>
-        </Grid>
-      );
+        );
+      }
     } else {
       return (
         <Grid
@@ -308,7 +472,7 @@ export async function getStaticProps(context) {
       retsina: drinkMenu[2],
       wine: drinkMenu[3],
       ouzo: drinkMenu[4],
-      spirits: drinkMenu[5]
+      spirits: drinkMenu[5],
     },
   };
 }
