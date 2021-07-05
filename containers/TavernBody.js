@@ -164,7 +164,7 @@ const TavernBody = () => {
             variant="h5"
             style={{ textAlign: "center", padding: "0 1em"}}
           >
-            Temporarily closed due to Covid-19
+            Open Every Day
           </Typography>
         </Grid>
         <Grid
