@@ -128,12 +128,6 @@
           "price": "3.20"
         },
         {
-          "name": "Baked potatoes",
-          "description": "Baked potatoes with ham, milk cream and yellow cheese.",
-          "img": "/menu/food/apperatives/bakedPotatoes.webp",
-          "price": "3.20"
-        },
-        {
           "name": "Smoked mackerel",
           "description": "Salty mackerel smoked on grill.",
           "img": "/menu/food/apperatives/mackerel.webp",
