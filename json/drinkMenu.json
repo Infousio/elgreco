@@ -35,13 +35,8 @@
           "description": "250ml"
         },
         {
-          "name": "Fuzetea Peach",
-          "img": "",
-          "description": "250ml"
-        },
-        {
-          "name": "Fuzetea Lemon",
-          "img": "",
+          "name": "Fuzetea Peach/Lemon",
+          "img": "/menu/drink/soft/fuzetea.webp",
           "description": "250ml"
         },
         {
@@ -112,12 +107,12 @@
         },
         {
           "name": "Vergina Weiss",
-          "img": "",
+          "img": "/menu/drink/beer/verginaweiss.webp",
           "description": "500ml"
         },
         {
           "name": "Vergina Red",
-          "img": "",
+          "img": "/menu/drink/beer/verginared.webp",
           "description": "500ml"
         }
       ]
@@ -149,37 +144,37 @@
       "products": [
         {
           "name": "Draft White wine dry",
-          "img": "",
+          "img": "/menu/drink/wine/draftwine.webp",
           "description": "500ml & 250ml"
         },
         {
           "name": "Draft Red wine dry",
-          "img": "",
+          "img": "/menu/drink/wine/draftwine.webp",
           "description": "500ml & 250ml"
         },
         {
           "name": "Draft Rose wine dry",
-          "img": "",
+          "img": "/menu/drink/wine/draftwine.webp",
           "description": "500ml & 250ml"
         },
         {
           "name": "Limnos White wine dry",
-          "img": "",
+          "img": "/menu/drink/wine/limnoswhitedry.webp",
           "description": "750ml"
         },
         {
           "name": "Limnos Red wine semi-sweet",
-          "img": "",
+          "img": "/menu/drink/wine/limnosredsemi.webp",
           "description": "750ml"
         },
         {
           "name": "Limnos Red wine dry",
-          "img": "",
+          "img": "/menu/drink/wine/limnosreddry.webp",
           "description": "750ml"
         },
         {
           "name": "Limnos Rose wine semi-dry",
-          "img": "",
+          "img": "/menu/drink/wine/limnosrosedry.webp",
           "description": "750ml"
         }
       ]
@@ -190,27 +185,27 @@
       "products": [
         {
           "name": "Ouzo Tsantali",
-          "img": "",
+          "img": "/menu/drink/tsipouro/tsantali.webp",
           "description": "250ml"
         },
         {
           "name": "Ouzo Plomari",
-          "img": "",
+          "img": "/menu/drink/tsipouro/plomari.webp",
           "description": "250ml"
         },
         {
           "name": "Ouzo Mpampatzim",
-          "img": "",
+          "img": "/menu/drink/tsipouro/mpampatzimouzo.webp",
           "description": "250ml"
         },
         {
           "name": "Tsipouro Mpampatzim",
-          "img": "",
+          "img": "/menu/drink/tsipouro/mpampatzimtsipouro.webp",
           "description": "250ml"
         },
         {
           "name": "Tsipouro Idoniko",
-          "img": "",
+          "img": "/menu/drink/tsipouro/idoniko.webp",
           "description": "250ml"
         },
         {
@@ -226,22 +221,27 @@
       "products": [
         {
           "name": "Whiskey",
-          "img": "",
+          "img": "/menu/drink/spirits/jameson.webp",
           "description": "70ml"
         },
         {
           "name": "Gin",
-          "img": "",
+          "img": "/menu/drink/spirits/beefeater.webp",
           "description": "70ml"
         },
         {
           "name": "Vodka",
-          "img": "",
+          "img": "/menu/drink/spirits/stolichnaya.webp",
           "description": "70ml"
         },
         {
           "name": "Campari",
-          "img": "",
+          "img": "/menu/drink/spirits/campari.webp",
+          "description": "70ml"
+        },
+        {
+          "name": "Metaxa 5*",
+          "img": "/menu/drink/spirits/metaxa.webp",
           "description": "70ml"
         }
       ]

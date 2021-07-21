@@ -25,11 +25,7 @@
       "price": "1.40"
     },
     {
-      "img": "",
-      "price": "1.80"
-    },
-    {
-      "img": "",
+      "img": "/menu/drink/soft/fuzetea.webp",
       "price": "1.80"
     },
     {
@@ -83,11 +79,11 @@
       "price": "3.20"
     },
     {
-      "img": "",
+      "img": "/menu/drink/beer/verginaweiss.webp",
       "price": "3.40"
     },
     {
-      "img": "",
+      "img": "/menu/drink/beer/verginared.webp",
       "price": "3.20"
     }
   ],
@@ -107,53 +103,53 @@
   ],
   "wine": [
     {
-      "img": "",
+      "img": "/menu/drink/wine/draftwine.webp",
       "price": "3.20 || 1.80"
     },
     {
-      "img": "",
+      "img": "/menu/drink/wine/draftwine.webp",
       "price": "3.00 || 1.60"
     },
     {
-      "img": "",
+      "img": "/menu/drink/wine/draftwine.webp",
       "price": "3.00 || 1.60"
     },
     {
-      "img": "",
+      "img": "/menu/drink/wine/limnoswhitedry.webp",
       "price": "10.00"
     },
     {
-      "img": "",
+      "img": "/menu/drink/wine/limnosredsemi.webp",
       "price": "10.00"
     },
     {
-      "img": "",
+      "img": "/menu/drink/wine/limnosreddry.webp",
       "price": "10.00"
     },
     {
-      "img": "",
+      "img": "/menu/drink/wine/limnosrosedry.webp",
       "price": "10.00"
     }
   ],
   "ouzo": [
     {
-      "img": "",
+      "img": "/menu/drink/tsipouro/tsantali.webp",
       "price": "6.00"
     },
     {
-      "img": "",
+      "img": "/menu/drink/tsipouro/plomari.webp",
       "price": "6.20"
     },
     {
-      "img": "",
+      "img": "/menu/drink/tsipouro/mpampatzimouzo.webp",
       "price": "6.50"
     },
     {
-      "img": "",
+      "img": "/menu/drink/tsipouro/mpampatzimtsipouro.webp",
       "price": "7.00"
     },
     {
-      "img": "",
+      "img": "/menu/drink/tsipouro/idoniko.webp",
       "price": "7.00"
     },
     {
@@ -163,19 +159,23 @@
   ],
   "spirits": [
     {
-      "img": "",
+      "img": "/menu/drink/spirits/jameson.webp",
       "price": "5.00"
     },
     {
-      "img": "",
+      "img": "/menu/drink/spirits/beefeater.webp",
       "price": "5.00"
     },
     {
-      "img": "",
+      "img": "/menu/drink/spirits/stolichnaya.webp",
       "price": "5.00"
     },
     {
-      "img": "",
+      "img": "/menu/drink/spirits/campari.webp",
+      "price": "5.00"
+    },
+    {
+      "img": "/menu/drink/spirits/metaxa.webp",
       "price": "5.00"
     }
   ]
