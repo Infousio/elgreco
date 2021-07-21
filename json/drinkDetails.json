@@ -1,0 +1,182 @@
+{
+  "softDrinks": [
+    {
+      "img": "/menu/drink/soft/cola.webp",
+      "price": "1.40"
+    },
+    {
+      "img": "/menu/drink/soft/colazero.webp",
+      "price": "1.40"
+    },
+    {
+      "img": "/menu/drink/soft/fantaorange.webp",
+      "price": "1.40"
+    },
+    {
+      "img": "/menu/drink/soft/fantalemon.webp",
+      "price": "1.40"
+    },
+    {
+      "img": "/menu/drink/soft/sprite.webp",
+      "price": "1.40"
+    },
+    {
+      "img": "/menu/drink/soft/souroti.webp",
+      "price": "1.40"
+    },
+    {
+      "img": "/menu/drink/soft/fuzetea.webp",
+      "price": "1.80"
+    },
+    {
+      "img": "/menu/drink/soft/fuzetea.webp",
+      "price": "1.80"
+    },
+    {
+      "img": "/menu/drink/soft/orange.webp",
+      "price": "2.00"
+    },
+    {
+      "img": "/menu/drink/soft/sourcherry.webp",
+      "price": "1.80"
+    },
+    {
+      "img": "/menu/drink/soft/peach.webp",
+      "price": "1.80"
+    },
+    {
+      "img": "/menu/drink/soft/apple.webp",
+      "price": "1.80"
+    },
+    {
+      "img": "/menu/drink/soft/mixed.webp",
+      "price": "1.90"
+    }
+  ],
+  "beers": [
+    {
+      "img": "/menu/drink/beer/amstel.webp",
+      "price": "2.90"
+    },
+    {
+      "img": "/menu/drink/beer/amstelradler.webp",
+      "price": "2.10"
+    },
+    {
+      "img": "/menu/drink/beer/amstelfree.webp",
+      "price": "2.00"
+    },
+    {
+      "img": "/menu/drink/beer/mythos.webp",
+      "price": "2.90"
+    },
+    {
+      "img": "/menu/drink/beer/alfa.webp",
+      "price": "2.90"
+    },
+    {
+      "img": "/menu/drink/beer/nymfi.webp",
+      "price": "3.20"
+    },
+    {
+      "img": "/menu/drink/beer/mamos.webp",
+      "price": "3.20"
+    },
+    {
+      "img": "/menu/drink/beer/verginaweiss.webp",
+      "price": "3.40"
+    },
+    {
+      "img": "/menu/drink/berr/verginared.webp",
+      "price": "3.20"
+    }
+  ],
+  "retsina": [
+    {
+      "img": "/menu/drink/retsina/malamatina.webp",
+      "price": "3.20"
+    },
+    {
+      "img": "/menu/drink/retsina/georgiadi.webp",
+      "price": "3.40"
+    },
+    {
+      "img": "/menu/drink/retsina/vasiliki.webp",
+      "price": "4.00"
+    }
+  ],
+  "wine": [
+    {
+      "img": "/menu/drink/wine/draftwine.webp",
+      "price": "3.20 || 1.80"
+    },
+    {
+      "img": "/menu/drink/wine/draftwine.webp",
+      "price": "3.00 || 1.60"
+    },
+    {
+      "img": "/menu/drink/wine/draftwine.webp",
+      "price": "3.00 || 1.60"
+    },
+    {
+      "img": "/menu/drink/wine/limnoswhitedry.webp.webp",
+      "price": "10.00"
+    },
+    {
+      "img": "/menu/drink/wine/limnosredsemi.webp",
+      "price": "10.00"
+    },
+    {
+      "img": "/menu/drink/wine/limnosreddry.webp",
+      "price": "10.00"
+    },
+    {
+      "img": "/menu/drink/wine/limnosrosedry.webp",
+      "price": "10.00"
+    }
+  ],
+  "ouzo": [
+    {
+      "img": "/menu/drink/ouzo/tsantali.webp",
+      "price": "6.00"
+    },
+    {
+      "img": "/menu/drink/ouzo/plomari.webp",
+      "price": "6.20"
+    },
+    {
+      "img": "/menu/drink/ouzo/mpampatzimouzo.webp",
+      "price": "6.50"
+    },
+    {
+      "img": "/menu/drink/ouzo/mpampatzimtsipouro.webp",
+      "price": "7.00"
+    },
+    {
+      "img": "/menu/drink/ouzo/idoniko.webp",
+      "price": "7.00"
+    },
+    {
+      "img": "",
+      "price": "5.00"
+    }
+  ],
+  "spirits": [
+    {
+      "img": "",
+      "price": "5.00"
+    },
+    {
+      "img": "",
+      "price": "5.00"
+    },
+    {
+      "img": "",
+      "price": "5.00"
+    },
+    {
+      "img": "",
+      "price": "5.00"
+    }
+  ]
+}
