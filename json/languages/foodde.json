@@ -19,36 +19,24 @@
           "description": "Tomatensalat mit Gurke - Paprika - Zwiebeln - Olivenöl."
         },
         {
-          "name": "Kohlsalat aus Konstantinopel",
-          "description": "Kohlsalat aus Konstantinopel mit weißem und rotem Kohl - grüner und roter Paprika - Karotte - Sellerie."
-        },
-        {
           "name": "Kopfsalat",
           "description": "Kopfsalat mit frischen Zwiebeln."
         },
         {
           "name": "Saison-Blattgemüse",
           "description": "Saison-Blattgemüse mit Zitrone - Olivenöl."
-        },
-        {
-          "name": "Rote Beete",
-          "description": "Frische rote Beete mit Zitrone - Olivenöl."
         }
       ]
     },
     {
       "products": [
         {
-          "name": "Gebratene Zucchini und Auberginen",
-          "description": "Gebratene Zucchini und Auberginen mit tzatziki."
+          "name": "Gebratene Zucchini",
+          "description": "Gebratene Zucchini mit tzatziki."
         },
         {
           "name": "Kefalotyri Saganaki",
           "description": "Kefalotyri (eine Art Hartkäse) Saganaki."
-        },
-        {
-          "name": "Zucchinibällchen",
-          "description": "Zucchinibällchen mit Knoblauchpaste."
         },
         {
           "name": "Halloumi",
@@ -83,8 +71,8 @@
           "description": "Mit Feta-Käse - Tomate - Knoblauch - Olivenöl."
         },
         {
-          "name": "Gegrillte Austernpilze",
-          "description": ""
+          "name": "Gegrillte Champignons portobello",
+          "description": "Gegrillte Champignons Portobello gefüllt mit Käse"
         },
         {
           "name": "Geröstete Makrele geräuchert",
@@ -98,14 +86,6 @@
     },
     {
       "products": [
-        {
-          "name": "Hausgemachter Kartoffelsalat",
-          "description": "Basierend auf einem alten traditionellen Rezept mit Kartoffel - Mayonnaise - Ei - Senf - Olivenöl."
-        },
-        {
-          "name": "Hausgemachtes Auberginenpüree",
-          "description": "Basierend auf einem alten traditionellen Rezept mit gekochter Aubergine - Paprika - Knoblauch - Olivenöl."
-        },
         {
           "name": "Hausgemachte Käsecreme mit Feta-Käse",
           "description": "Klassische hausgemachte Käsecreme mit Feta-Käse, Rahmkäse - Chili - Olivenöl."
@@ -129,10 +109,6 @@
         {
           "name": "Fleischspießchen",
           "description": "Klassisches Fleischspießchen Aus einheimischer Schweinekeule."
-        },
-        {
-          "name": "Traditionelle Wurst",
-          "description": "Hausgemachte traditionelle Wurst gegrillt Von Metzgereien in der Gegend."
         },
         {
           "name": "Hähnchenbrustfilet gegrillt",
@@ -225,10 +201,6 @@
         {
           "name": "Gegrillter Oktopus",
           "description": "Gegrillter Oktopus mit Zitronen-Olivenöl-Soße."
-        },
-        {
-          "name": "Kabeljau",
-          "description": "Traditioneller Kabeljau mit Knoblauchpaste."
         }
       ]
     },
@@ -237,10 +209,6 @@
         {
           "name": "Nudeln mit Rinderhackfleisch",
           "description": "Nudeln mit Rinderhackfleisch und Parmesan."
-        },
-        {
-          "name": "Nudeln mit Feta-Käse",
-          "description": "Nudeln mit Feta-Käse und Parmesan."
         },
         {
           "name": "Nudeln mit frischer Tomatensoße",
@@ -255,15 +223,7 @@
           "description": "Nudeln mit kleinen Garnelen, Knoblauch und Tomate."
         },
         {
-          "name": "Fischer Nudeln",
-          "description": "Fischer Nudeln mit gemischten Meeresfrüchten."
-        },
-        {
           "name": "Risotto mit Meeresfrüchten",
-          "description": ""
-        },
-        {
-          "name": "Muschelrisotto",
           "description": ""
         }
       ]

@@ -19,20 +19,12 @@
           "description": "Salată de roşii Cu castravete-ardei gras - ceapă – ulei de măsline"
         },
         {
-          "name": "Salată a la Constantinopole",
-          "description": "Salată a la Constantinopole Cu varză albă şi roşie- ardei graşi roşii şi verzi-morcov-ţelină"
-        },
-        {
           "name": "Salată verde",
           "description": "Salată verde cu ceapă nouă"
         },
         {
           "name": "Verdeţuri de sezon",
           "description": "Verdeţuri de sezon cu lămâie şi ulei de măsline"
-        },
-        {
-          "name": "Sfeclă roşie",
-          "description": "Sfeclă roşie proaspătă"
         }
       ]
     },
@@ -45,10 +37,6 @@
         {
           "name": "Kefalotiri saganaki",
           "description": "Brânză kefalotiri saganaki (prăjită în tigaie)"
-        },
-        {
-          "name": "Chifteluţe de dovlecel",
-          "description": "Chifteluţe de dovlecel cu mujdei"
         },
         {
           "name": "Haloumi",
@@ -99,14 +87,6 @@
     {
       "products": [
         {
-          "name": "Salată de cartofi",
-          "description": "Salată de cartofi de casă Bazată pe o veche reţetă tradiţională cu cartofi - maioneză - ouă - muştar –ulei de măsline"
-        },
-        {
-          "name": "Salată de vinete",
-          "description": "Salată de vinete de casă Bazată pe o veche reţetă tradiţională cu vinete coapte – ardei gras - usturoi - ulei de măsline"
-        },
-        {
           "name": "Cremă de brânză",
           "description": "Cremă de brânză de casă, clasică, cu brânză feta-anthotiro-brânză picantă –ulei de măsline"
         },
@@ -119,20 +99,16 @@
     {
       "products": [
         {
-          "name": "Burger",
-          "description": "Burger din carne tocată de porc şi viţel Bazat pe o reţetă din 1976"
+          "name": "Meatballs",
+          "description": "Meatlballs din carne tocată de porc şi viţel Bazat pe o reţetă din 1976"
         },
         {
-          "name": "Burger umplut",
-          "description": "Burger de casă umplut Cu brânză feta – caşcaval – ardei gras"
+          "name": "Meatball umplut",
+          "description": "Meatball de casă umplut Cu brânză feta – caşcaval – ardei gras"
         },
         {
           "name": "Suvlaki",
-          "description": "Suvlaki (frigărui) clasice Din picior şi burtă de porc, 60 gr-buc."
-        },
-        {
-          "name": "Cârnat ţărănesc",
-          "description": "Cârnat ţărănesc la grătar Achiziţionat de la măcelăria din sat"
+          "description": "4 Suvlaki (frigărui) clasice Din picior şi burtă de porc, 60 gr-buc."
         },
         {
           "name": "File de pui",
@@ -225,10 +201,6 @@
         {
           "name": "Caracatiţă la grătar",
           "description": "Caracatiţă la grătar cu sos de ulei şi lămâie"
-        },
-        {
-          "name": "Cod",
-          "description": "Cod gătit în manieră tradiţională, cu mujdei"
         }
       ]
     },
@@ -237,10 +209,6 @@
         {
           "name": "Spaghetti cu carne",
           "description": "Spaghetti cu carne tocată de viţel şi parmezan"
-        },
-        {
-          "name": "Spaghete cu brânză feta",
-          "description": "Spaghete cu brânză feta şi parmezan"
         },
         {
           "name": "Spaghete cu sos de roşii",
@@ -255,15 +223,7 @@
           "description": "Spaghete cu creveţi de talie mică, usturoi şi roşii"
         },
         {
-          "name": "Spaghetele pescarului",
-          "description": "Spaghetele pescarului cu diferite fructe de mare"
-        },
-        {
           "name": "Risotto cu fructe de mare",
-          "description": ""
-        },
-        {
-          "name": "Orez cu midii",
           "description": ""
         }
       ]
