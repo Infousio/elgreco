@@ -192,7 +192,7 @@ export default function Food(props) {
   });
 
   const actualMenu = () => {
-    if (false) {
+    if (new Date().getHours() >= 13) {
       if (!showDrinks) {
         return (
           <Grid

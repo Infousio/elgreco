@@ -27,12 +27,6 @@
           "price": "3.00"
         },
         {
-          "name": "Constantinople salad",
-          "description": "Constantinople salad with white and red cabbage, red and green peppers, carrot and celery.",
-          "img": "/menu/food/salads/constantinopleSalad.webp",
-          "price": "3.00"
-        },
-        {
           "name": "Lettuce salad",
           "description": "Lettuce salad with fresh lettuce and green onion.",
           "img": "/menu/food/salads/lettuceSalad.webp",
@@ -43,12 +37,6 @@
           "description": "Season's greens with lemon and olive oil.",
           "img": "/menu/food/salads/greenSalad.webp",
           "price": "3.00"
-        },
-        {
-          "name": "Fresh beetroot",
-          "description": "Fresh beetroot with olive oil and vinegar.",
-          "img": "/menu/food/salads/beetrootSalad.webp",
-          "price": "3.20"
         }
       ]
     },
@@ -66,12 +54,6 @@
           "description": "Fried kefalotiri cheese.",
           "img": "/menu/food/apperatives/kefalotiri.webp",
           "price": "3.30"
-        },
-        {
-          "name": "Zucchini croquettes",
-          "description": "Fried zucchini croquettes with garlic dip in the side.",
-          "img": "/menu/food/apperatives/zucchiniCroquettes.webp",
-          "price": "3.50"
         },
         {
           "name": "Haloumi",
@@ -122,8 +104,8 @@
           "price": "3.50"
         },
         {
-          "name": "Roasted oyster mushrooms",
-          "description": "Grilled oyster mushrooms with olive & lemon dressing.",
+          "name": "Roasted portobello mushrooms",
+          "description": "Grilled portobello mushrooms stuffed with cheese.",
           "img": "/menu/food/apperatives/mushrooms.webp",
           "price": "3.20"
         },
@@ -144,18 +126,6 @@
     {
       "products": [
         {
-          "name": "Potato salad",
-          "description": "Homemade potato salad with mayonnaise, egg, mustard and olive oil.",
-          "img": "/menu/food/dips/potatoSalad.webp",
-          "price": "2.80"
-        },
-        {
-          "name": "Eggplant salad",
-          "description": "Homemade eggplant salad with boiled eggplant, peppers, garlic and olive oil.",
-          "img": "/menu/food/dips/eggplantSalad.webp",
-          "price": "2.80"
-        },
-        {
           "name": "Cheese spread",
           "description": "Homemade cheese spread with feta anthotiro, spicy pepper and olive oil.",
           "img": "/menu/food/dips/cheeseSpread.webp",
@@ -172,28 +142,22 @@
     {
       "products": [
         {
-          "name": "Burger",
-          "description": "3 homemade burgers from pork and veal mince meat based on a recipe from 1976.",
+          "name": "Meatballs",
+          "description": "3 homemade meatballs from pork and veal mince meat based on a recipe from 1976.",
           "img": "/menu/food/grill/burger.webp",
           "price": "6.20"
         },
         {
-          "name": "Stuffed burger",
-          "description": "A big burger stuffed with feta, yellow cheese and peppers.",
+          "name": "Stuffed meatball",
+          "description": "A big meatball stuffed with feta and yellow cheese.",
           "img": "/menu/food/grill/stuffedBurger.webp",
           "price": "6.80"
         },
         {
           "name": "Pork souvlaki",
-          "description": "Pork souvlaki made with local pork thigh and pancetta, 60gr/piece.",
+          "description": "4 Pork souvlaki made with local pork thigh and pancetta, 60gr/piece.",
           "img": "/menu/food/grill/porkSouvlaki.webp",
           "price": "1.20"
-        },
-        {
-          "name": "Traditional sausages",
-          "description": "3 traditional homemade sausages.",
-          "img": "/menu/food/grill/sausages.webp",
-          "price": "6.50"
         },
         {
           "name": "Chicken breast fillet",
@@ -330,12 +294,6 @@
           "description": "Grilled octapus with olive-oil & lemon dressing.",
           "img": "/menu/food/fish/octapus.webp",
           "price": "12.00"
-        },
-        {
-          "name": "Fried Cod",
-          "description": "Traditional cod fish with garlic dip.",
-          "img": "/menu/food/fish/cod.webp",
-          "price": "8.20"
         }
       ]
     },
@@ -346,12 +304,6 @@
           "description": "Spaghetti with beef minced meat and parmesan.",
           "img": "/menu/food/pasta/bolognese.webp",
           "price": "5.00"
-        },
-        {
-          "name": "Spaghetti with feta",
-          "description": "Spaghetti with feta and parmesan.",
-          "img": "/menu/food/pasta/spaghettiFeta.webp",
-          "price": "4.50"
         },
         {
           "name": "Spaghetti with tomato sauce",
@@ -372,21 +324,9 @@
           "price": "6.00"
         },
         {
-          "name": "Fisherman's spaghetti",
-          "description": "Fisherman's spaghetti with mixed seafood(small shrimps, octopus, mussels).",
-          "img": "/menu/food/pasta/fishermans.webp",
-          "price": "6.00"
-        },
-        {
           "name": "Risotto with seafood",
           "description": "",
           "img": "/menu/food/pasta/risotto.webp",
-          "price": "6.00"
-        },
-        {
-          "name": "Rice with mussels",
-          "description": "",
-          "img": "/menu/food/pasta/rice.webp",
           "price": "6.00"
         }
       ]

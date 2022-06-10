@@ -19,20 +19,12 @@
           "description": "Tomato Salad with cucumbers, green peppers, onions, olive oil and oregano."
         },
         {
-          "name": "Constantinople salad",
-          "description": "Constantinople salad with white and red cabbage, red and green peppers, carrot and celery."
-        },
-        {
           "name": "Lettuce salad",
           "description": "Lettuce salad with fresh lettuce and green onion."
         },
         {
           "name": "Season's greens",
           "description": "Season's greens with lemon and olive oil."
-        },
-        {
-          "name": "Fresh beetroot",
-          "description": "Fresh beetroot with olive oil and vinegar."
         }
       ]
     },
@@ -45,10 +37,6 @@
         {
           "name": "Kefalotiri saganaki",
           "description": "Fried kefalotiri cheese."
-        },
-        {
-          "name": "Zucchini croquettes",
-          "description": "Fried zucchini croquettes with garlic dip in the side."
         },
         {
           "name": "Haloumi",
@@ -83,8 +71,8 @@
           "description": "Roasted eggplant with feta cheese, tomatoes, garlic and olive oil."
         },
         {
-          "name": "Roasted oyster mushrooms",
-          "description": "Grilled oyster mushrooms with olive & lemon dressing."
+          "name": "Roasted portobello mushrooms",
+          "description": "Grilled portobello mushrooms stuffed with cheese."
         },
         {
           "name": "Smoked mackerel",
@@ -99,14 +87,6 @@
     {
       "products": [
         {
-          "name": "Potato salad",
-          "description": "Homemade potato salad with mayonnaise, egg, mustard and olive oil."
-        },
-        {
-          "name": "Eggplant salad",
-          "description": "Homemade eggplant salad with boiled eggplant, peppers, garlic and olive oil."
-        },
-        {
           "name": "Cheese spread",
           "description": "Homemade cheese spread with feta anthotiro, spicy pepper and olive oil."
         },
@@ -119,20 +99,16 @@
     {
       "products": [
         {
-          "name": "Burger",
-          "description": "3 homemade burgers from pork and veal mince meat based on a recipe from 1976."
+          "name": "Meatballs",
+          "description": "3 homemade meatballs from pork and veal mince meat based on a recipe from 1976."
         },
         {
-          "name": "Stuffed burger",
-          "description": "A big burger stuffed with feta, yellow cheese and peppers."
+          "name": "Stuffed meatball",
+          "description": "A big meatball stuffed with feta, yellow cheese and peppers."
         },
         {
           "name": "Pork souvlaki",
-          "description": "Pork souvlaki made with local pork thigh and pancetta, 60gr/piece."
-        },
-        {
-          "name": "Traditional sausages",
-          "description": "3 traditional homemade sausages."
+          "description": "4 Pork souvlaki made with local pork thigh and pancetta, 60gr/piece."
         },
         {
           "name": "Chicken breast fillet",
@@ -225,10 +201,6 @@
         {
           "name": "Grilled octapus",
           "description": "Grilled octapus with olive-oil & lemon dressing."
-        },
-        {
-          "name": "Fried Cod",
-          "description": "Traditional cod fish with garlic dip."
         }
       ]
     },
@@ -237,10 +209,6 @@
         {
           "name": "Spaghetti bolognese",
           "description": "Spaghetti with beef minced meat and parmesan."
-        },
-        {
-          "name": "Spaghetti with feta",
-          "description": "Spaghetti with feta and parmesan."
         },
         {
           "name": "Spaghetti with tomato sauce",
@@ -255,15 +223,7 @@
           "description": "Shrimp spaghetti with small shrimps, garlic and tomatoes."
         },
         {
-          "name": "Fisherman's spaghetti",
-          "description": "Fisherman's spaghetti with mixed seafood(small shrimps, octopus, mussels)."
-        },
-        {
           "name": "Risotto with seafood",
-          "description": ""
-        },
-        {
-          "name": "Rice with mussels",
           "description": ""
         }
       ]
