@@ -156,26 +156,6 @@
           "name": "Draft Rose wine dry",
           "img": "/menu/drink/wine/draftwine.webp",
           "description": "500ml & 250ml"
-        },
-        {
-          "name": "Limnos White wine dry",
-          "img": "/menu/drink/wine/limnoswhitedry.webp",
-          "description": "750ml"
-        },
-        {
-          "name": "Limnos Red wine semi-sweet",
-          "img": "/menu/drink/wine/limnosredsemi.webp",
-          "description": "750ml"
-        },
-        {
-          "name": "Limnos Red wine dry",
-          "img": "/menu/drink/wine/limnosreddry.webp",
-          "description": "750ml"
-        },
-        {
-          "name": "Limnos Rose wine semi-dry",
-          "img": "/menu/drink/wine/limnosrosedry.webp",
-          "description": "750ml"
         }
       ]
     },
