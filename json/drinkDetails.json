@@ -25,6 +25,10 @@
       "price": "1.50"
     },
     {
+      "img": "",
+      "price": "1.50"
+    },
+    {
       "img": "/menu/drink/soft/fuzetea.webp",
       "price": "2.00"
     },
@@ -59,8 +63,12 @@
       "price": "2.50"
     },
     {
-      "img": "/menu/drink/beer/amstelfree.webp",
+      "img": "",
       "price": "2.50"
+    },
+    {
+      "img": "",
+      "price": "3.80"
     },
     {
       "img": "/menu/drink/beer/mythos.webp",
@@ -85,6 +93,14 @@
     {
       "img": "/menu/drink/beer/verginared.webp",
       "price": "3.50"
+    },
+    {
+      "img": "",
+      "price": "3.00"
+    },
+    {
+      "img": "",
+      "price": "4.00 || 2.80"
     }
   ],
   "retsina": [

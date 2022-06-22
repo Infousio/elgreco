@@ -35,6 +35,11 @@
           "description": "250ml"
         },
         {
+          "name": "Tonic Water",
+          "img": "",
+          "description": "250ml"
+        },
+        {
           "name": "Fuzetea Peach/Lemon",
           "img": "/menu/drink/soft/fuzetea.webp",
           "description": "250ml"
@@ -81,9 +86,14 @@
           "description": "330ml"
         },
         {
-          "name": "Amstel Free",
-          "img": "/menu/drink/beer/amstelfree.webp",
+          "name": "Heineken Free",
+          "img": "",
           "description": "330ml"
+        },
+        {
+          "name": "Heineken",
+          "img": "",
+          "description": "500ml"
         },
         {
           "name": "Mythos",
@@ -114,6 +124,16 @@
           "name": "Vergina Red",
           "img": "/menu/drink/beer/verginared.webp",
           "description": "500ml"
+        },
+        {
+          "name": "Fix",
+          "img": "",
+          "description": "500ml"
+        },
+        {
+          "name": "Alfta Draft",
+          "img": "",
+          "description": "500ml || 300ml"
         }
       ]
     },

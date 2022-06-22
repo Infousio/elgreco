@@ -48,7 +48,6 @@ const useStyles = makeStyles((theme) => ({
   },
   carousel: {
     position: "relative",
-    marginTop: "50px",
     width: "100vw",
   },
   textContainer: {
@@ -68,7 +67,7 @@ export default function RoomsBody() {
   const theme = useTheme();
   return (
     <Grid container className={classes.container} direction="column">
-      <RoomsBookBar className={classes.bookBar}/>
+      {/*<RoomsBookBar className={classes.bookBar}/>*/}
       <Grid
         item
         container
