@@ -89,11 +89,11 @@
       "price": "3.50"
     },
     {
-      "img": "/noimage.webp",
-      "price": "3.50"
+      "img": "",
+      "price": "3.80"
     },
     {
-      "img": "/noimage.webp",
+      "img": "/menu/food/dips/fava.webp",
       "price": "3.50"
     }
   ],
@@ -152,15 +152,15 @@
     },
     {
       "img": "/noimage.webp",
-      "price": "9.00"
+      "price": "7.50"
     },
     {
-      "img": "/noimage.webp",
-      "price": "9.00"
+      "img": "/menu/food/grill/pikantika.webp",
+      "price": "9.50"
     },
     {
-      "img": "/noimage.webp",
-      "price": "9.00"
+      "img": "/menu/food/grill/motsarela.webp",
+      "price": "9.50"
     }
   ],
   "fish": [

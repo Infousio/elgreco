@@ -146,7 +146,7 @@
         {
           "name": "Fava",
           "description": "",
-          "img": "/noimage.webp",
+          "img": "/menu/food/dips/fava.webp",
           "price": "3.00"
         }
       ]
@@ -240,13 +240,13 @@
         {
           "name": "Buffalo spicy sausages",
           "description": "",
-          "img": "/noimage.webp",
+          "img": "/menu/food/grill/pikantika.webp",
           "price": "6.60"
         },
         {
           "name": "Buffalo sausages with motsarela",
-          "description": "/noimage.webp",
-          "img": "/noimage.webp",
+          "description": "",
+          "img": "/menu/food/grill/motsarela.webp",
           "price": "6.60"
         }
       ]
