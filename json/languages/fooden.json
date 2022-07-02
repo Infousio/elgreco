@@ -93,6 +93,14 @@
         {
           "name": "Tzatziki",
           "description": "Homemade tzatziki made from first grade greek yogurt."
+        },
+        {
+          "name": "Fish roe dip",
+          "description": "Fish roe dip made out of cod eggs."
+        },
+        {
+          "name": "Fava",
+          "description": ""
         }
       ]
     },
@@ -149,6 +157,18 @@
         {
           "name": "Chicken schnitzel",
           "description": "Fried Chicken schnitzel."
+        },
+        {
+          "name": "Tzoumagias sausages",
+          "description": ""
+        },
+        {
+          "name": "Buffalo spicy sausages",
+          "description": ""
+        },
+        {
+          "name": "Buffalo sausages with motsarela",
+          "description": ""
         }
       ]
     },

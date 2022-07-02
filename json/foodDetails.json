@@ -87,6 +87,14 @@
     {
       "img": "/menu/food/dips/tzatziki.webp",
       "price": "3.50"
+    },
+    {
+      "img": "/noimage.webp",
+      "price": "3.50"
+    },
+    {
+      "img": "/noimage.webp",
+      "price": "3.50"
     }
   ],
   "meat": [
@@ -124,7 +132,7 @@
     },
     {
       "img": "/menu/food/grill/lambChops.webp",
-      "price": "9.00"
+      "price": "12.00"
     },
     {
       "img": "/menu/food/grill/elgrecoMix.webp",
@@ -141,6 +149,18 @@
     {
       "img": "/menu/food/grill/schnitzel.webp",
       "price": "7.00"
+    },
+    {
+      "img": "/noimage.webp",
+      "price": "9.00"
+    },
+    {
+      "img": "/noimage.webp",
+      "price": "9.00"
+    },
+    {
+      "img": "/noimage.webp",
+      "price": "9.00"
     }
   ],
   "fish": [

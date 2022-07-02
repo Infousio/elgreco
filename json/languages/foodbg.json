@@ -93,6 +93,14 @@
         {
           "name": "Дзадзики",
           "description": "Домашнo дзадзики, направени от първокласно гръцко кисело мляко."
+        },
+        {
+          "name": "Fish roe dip",
+          "description": "Fish roe dip made out of cod eggs."
+        },
+        {
+          "name": "Fava",
+          "description": ""
         }
       ]
     },
@@ -148,6 +156,18 @@
         },
         {
           "name": "Пиле шницел",
+          "description": ""
+        },
+        {
+          "name": "Tzoumagias sausages",
+          "description": ""
+        },
+        {
+          "name": "Buffalo spicy sausages",
+          "description": ""
+        },
+        {
+          "name": "Buffalo sausages with motsarela",
           "description": ""
         }
       ]

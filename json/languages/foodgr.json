@@ -93,6 +93,14 @@
         {
           "name": "Τζατζίκι",
           "description": "Σπιτικό τζατζίκι από Ά ποιότητας στραγγιστό γιαούρτι."
+        },
+        {
+          "name": "Fish roe dip",
+          "description": "Fish roe dip made out of cod eggs."
+        },
+        {
+          "name": "Fava",
+          "description": ""
         }
       ]
     },
@@ -148,6 +156,18 @@
         },
         {
           "name": "Σνίτσελ κοτόπουλο",
+          "description": ""
+        },
+        {
+          "name": "Tzoumagias sausages",
+          "description": ""
+        },
+        {
+          "name": "Buffalo spicy sausages",
+          "description": ""
+        },
+        {
+          "name": "Buffalo sausages with motsarela",
           "description": ""
         }
       ]

@@ -136,6 +136,18 @@
           "description": "Homemade tzatziki made from first grade greek yogurt.",
           "img": "/menu/food/dips/tzatziki.webp",
           "price": "3.00"
+        },
+        {
+          "name": "Fish roe dip",
+          "description": "Fish roe dip made out of cod eggs.",
+          "img": "/noimage.webp",
+          "price": "3.00"
+        },
+        {
+          "name": "Fava",
+          "description": "",
+          "img": "/noimage.webp",
+          "price": "3.00"
         }
       ]
     },
@@ -193,7 +205,7 @@
           "name": "Lamb chops",
           "description": "Greek lamb chops with aromatic herbs and lemon.",
           "img": "/menu/food/grill/lambChops.webp",
-          "price": "7.60"
+          "price": "12.00"
         },
         {
           "name": "El Greco Mix",
@@ -217,6 +229,24 @@
           "name": "Chicken schnitzel",
           "description": "Fried Chicken schnitzel.",
           "img": "/menu/food/grill/schnitzel.webp",
+          "price": "6.60"
+        },
+        {
+          "name": "Tzoumagias sausages",
+          "description": "",
+          "img": "/noimage.webp",
+          "price": "6.60"
+        },
+        {
+          "name": "Buffalo spicy sausages",
+          "description": "",
+          "img": "/noimage.webp",
+          "price": "6.60"
+        },
+        {
+          "name": "Buffalo sausages with motsarela",
+          "description": "/noimage.webp",
+          "img": "/noimage.webp",
           "price": "6.60"
         }
       ]
