@@ -140,7 +140,7 @@
         {
           "name": "Fish roe dip",
           "description": "Fish roe dip made out of cod eggs.",
-          "img": "/noimage.webp",
+          "img": "/menu/food/dips/taramas.webp",
           "price": "3.00"
         },
         {
@@ -208,6 +208,12 @@
           "price": "12.00"
         },
         {
+          "name": "Mutton Souvlakis",
+          "description": "Greek mutton souvlakis.",
+          "img": "/menu/food/grill/provioSouvlaki.webp",
+          "price": "TBA"
+        },
+        {
           "name": "El Greco Mix",
           "description": "Various grilled cuts(souvlaki, burger, pork chop).",
           "img": "/menu/food/grill/elgrecoMix.webp",
@@ -223,7 +229,7 @@
           "name": "Beef rib eye steak",
           "description": "Grilled beef rib eye boneless steak.",
           "img": "/menu/food/grill/beefSteak.webp",
-          "price": "7.80"
+          "price": "TBA"
         },
         {
           "name": "Chicken schnitzel",

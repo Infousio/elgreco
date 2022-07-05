@@ -31,8 +31,8 @@
     {
       "products": [
         {
-          "name": "Dovlecei şi vinete prăjite",
-          "description": "Dovlecei şi vinete prăjite cu tzatziki"
+          "name": "Dovlecei prăjite",
+          "description": "Dovlecei prăjite cu tzatziki"
         },
         {
           "name": "Kefalotiri saganaki",
@@ -141,6 +141,10 @@
         {
           "name": "Costiţe de miel",
           "description": "Costiţe de miel la grătar cu lămâie şi mirodenii"
+        },
+        {
+          "name": "Souvlaki de oaie",
+          "description": "3 souvlaki grecesc de oaie"
         },
         {
           "name": "El Greco Mix",

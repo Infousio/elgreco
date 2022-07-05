@@ -89,7 +89,7 @@
       "price": "3.50"
     },
     {
-      "img": "",
+      "img": "/menu/food/dips/taramas.webp",
       "price": "3.80"
     },
     {
@@ -135,6 +135,10 @@
       "price": "12.00"
     },
     {
+      "img": "/menu/food/grill/provioSouvlaki.webp",
+      "price": "TBA"
+    },
+    {
       "img": "/menu/food/grill/elgrecoMix.webp",
       "price": "7.50"
     },
@@ -144,7 +148,7 @@
     },
     {
       "img": "/menu/food/grill/beefSteak.webp",
-      "price": "9.00"
+      "price": "TBA"
     },
     {
       "img": "/menu/food/grill/schnitzel.webp",
