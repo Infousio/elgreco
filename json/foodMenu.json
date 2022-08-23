@@ -202,18 +202,6 @@
           "price": "6.50"
         },
         {
-          "name": "Lamb chops",
-          "description": "Greek lamb chops with aromatic herbs and lemon.",
-          "img": "/menu/food/grill/lambChops.webp",
-          "price": "12.00"
-        },
-        {
-          "name": "Mutton Souvlakis",
-          "description": "Greek mutton souvlakis.",
-          "img": "/menu/food/grill/provioSouvlaki.webp",
-          "price": "TBA"
-        },
-        {
           "name": "El Greco Mix",
           "description": "Various grilled cuts(souvlaki, burger, pork chop).",
           "img": "/menu/food/grill/elgrecoMix.webp",
@@ -224,12 +212,6 @@
           "description": "Pork rib eye steak with aromatic herbs.",
           "img": "/menu/food/grill/porkSteak.webp",
           "price": "6.90"
-        },
-        {
-          "name": "Beef rib eye steak",
-          "description": "Grilled beef rib eye boneless steak.",
-          "img": "/menu/food/grill/beefSteak.webp",
-          "price": "TBA"
         },
         {
           "name": "Chicken schnitzel",

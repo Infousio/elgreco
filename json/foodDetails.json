@@ -131,24 +131,12 @@
       "price": "7.00"
     },
     {
-      "img": "/menu/food/grill/lambChops.webp",
-      "price": "12.00"
-    },
-    {
-      "img": "/menu/food/grill/provioSouvlaki.webp",
-      "price": "TBA"
-    },
-    {
       "img": "/menu/food/grill/elgrecoMix.webp",
       "price": "7.50"
     },
     {
       "img": "/menu/food/grill/porkSteak.webp",
       "price": "8.00"
-    },
-    {
-      "img": "/menu/food/grill/beefSteak.webp",
-      "price": "TBA"
     },
     {
       "img": "/menu/food/grill/schnitzel.webp",

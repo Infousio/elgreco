@@ -8,7 +8,7 @@
         },
         {
           "name": "Mediterranean salad",
-          "description": "Mediterranean salad with beetroot, baby leaves, lettuce, spinach, rocket, cherry tomato, parmesan and balsamic vinegar."
+          "description": "Mediterranean salad with beetroot baby leaves, lettuce, spinach, rocket, cherry tomato, parmesan and balsamic vinegar."
         },
         {
           "name": "Greek Salad",
@@ -139,24 +139,12 @@
           "description": "Fried pork meat from the neck sauteed in olive oil and cooled with white wine and aromatic herbs."
         },
         {
-          "name": "Lamb chops",
-          "description": "Greek lamb chops with aromatic herbs and lemon."
-        },
-        {
-          "name": "Mutton souvlakis",
-          "description": "3 Greek mutton souvlakis."
-        },
-        {
           "name": "El Greco Mix",
           "description": "Various grilled cuts(souvlaki, burger, pork chop)."
         },
         {
           "name": "Pork rib eye steak",
           "description": "Pork rib eye steak with aromatic herbs."
-        },
-        {
-          "name": "Beef rib eye steak",
-          "description": "Grilled beef rib eye boneless steak."
         },
         {
           "name": "Chicken schnitzel",
