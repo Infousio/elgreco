@@ -203,6 +203,10 @@
     {
       "img": "/menu/food/fish/octapus.webp",
       "price": "13.50"
+    },
+    {
+      "img": "/noimage.webp",
+      "price": "9.00"
     }
   ],
   "pasta": [

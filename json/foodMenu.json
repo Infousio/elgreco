@@ -312,6 +312,12 @@
           "description": "Grilled octapus with olive-oil & lemon dressing.",
           "img": "/menu/food/fish/octapus.webp",
           "price": "12.00"
+        },
+        {
+          "name": "Octapus bougiourdi",
+          "description": "Octapus cooked with tomatoe sauce, peppers and feta.",
+          "img": "/noimage.webp",
+          "price": "9.00"
         }
       ]
     },

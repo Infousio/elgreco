@@ -213,6 +213,10 @@
         {
           "name": "Grilled octapus",
           "description": "Grilled octapus with olive-oil & lemon dressing."
+        },
+        {
+          "name": "Octapus bougiourdi",
+          "description": "Octapus cooked with tomatoe sauce, peppers and feta cheese."
         }
       ]
     },
