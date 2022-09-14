@@ -260,21 +260,9 @@
           "price": "9.50"
         },
         {
-          "name": "Shrimps saganaki",
-          "description": "Shrimps saganaki fried with tomato sauce and feta cheese.",
-          "img": "/menu/food/fish/shrimpsSaganaki.webp",
-          "price": "9.50"
-        },
-        {
           "name": "Steam mussels",
           "description": "Steam mussels with white wine, mustard and aromatic herbs.",
           "img": "/menu/food/fish/steamMussels.webp",
-          "price": "6.00"
-        },
-        {
-          "name": "Mussels saganaki",
-          "description": "Mussels saganaki with tomato sauce and mustard.",
-          "img": "/menu/food/fish/musselsSaganaki.webp",
           "price": "6.00"
         },
         {
@@ -312,12 +300,6 @@
           "description": "Grilled octapus with olive-oil & lemon dressing.",
           "img": "/menu/food/fish/octapus.webp",
           "price": "12.00"
-        },
-        {
-          "name": "Octapus bougiourdi",
-          "description": "Octapus cooked with tomatoe sauce, peppers and feta.",
-          "img": "/noimage.webp",
-          "price": "9.00"
         }
       ]
     },

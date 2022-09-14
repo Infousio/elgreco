@@ -177,15 +177,7 @@
       "price": "7.00"
     },
     {
-      "img": "/menu/food/fish/musselsSaganaki.webp",
-      "price": "7.00"
-    },
-    {
       "img": "/menu/food/fish/friedGavros.webp",
-      "price": "6.50"
-    },
-    {
-      "img": "/menu/food/fish/gavrosSaganaki.webp",
       "price": "6.50"
     },
     {
@@ -203,10 +195,6 @@
     {
       "img": "/menu/food/fish/octapus.webp",
       "price": "13.50"
-    },
-    {
-      "img": "/noimage.webp",
-      "price": "9.00"
     }
   ],
   "pasta": [
