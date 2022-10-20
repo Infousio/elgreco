@@ -192,7 +192,7 @@ export default function Food(props) {
   });
 
   const actualMenu = () => {
-    if (new Date().getHours() >= 18) {
+    if (new Date().getHours() >= 1) {
       if (!showDrinks) {
         return (
           <Grid
@@ -270,13 +270,13 @@ export default function Food(props) {
               <Grid item container className={classes.menuContainer}>
                 {fishMenu}
               </Grid>
-              {/* <Divider />
+               <Divider />
               <Typography variant="h4" className={classes.menuTitles}>
                 Pasta
               </Typography>
               <Grid item container className={classes.menuContainer}>
                 {pastaMenu}
-              </Grid> */}
+              </Grid>
             </Grid>
           </Grid>
         );
