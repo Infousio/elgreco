@@ -149,18 +149,6 @@
         {
           "name": "Σνίτσελ κοτόπουλο",
           "description": ""
-        },
-        {
-          "name": "Tzoumagias sausages",
-          "description": ""
-        },
-        {
-          "name": "Buffalo spicy sausages",
-          "description": ""
-        },
-        {
-          "name": "Buffalo sausages with motsarela",
-          "description": ""
         }
       ]
     },
@@ -213,10 +201,6 @@
         {
           "name": "Μακαρόνια με κυμά",
           "description": "Μακαρόνια με μοσχαρίσιο κυμά και παρμεζάνα."
-        },
-        {
-          "name": "Μακαρόνια με σάλτσα ντομάτας",
-          "description": "Μακαρόνια με φρεσκια σάλτσα ντομάτας και παρμεζάνα."
         },
         {
           "name": "Μακαρόνια καρμπονάρα",

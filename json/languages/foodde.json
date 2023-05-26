@@ -149,18 +149,6 @@
         {
           "name": "Hähnchenschnitzel",
           "description": ""
-        },
-        {
-          "name": "Tzoumagias sausages",
-          "description": ""
-        },
-        {
-          "name": "Buffalo spicy sausages",
-          "description": ""
-        },
-        {
-          "name": "Buffalo sausages with motsarela",
-          "description": ""
         }
       ]
     },
@@ -213,10 +201,6 @@
         {
           "name": "Nudeln mit Rinderhackfleisch",
           "description": "Nudeln mit Rinderhackfleisch und Parmesan."
-        },
-        {
-          "name": "Nudeln mit frischer Tomatensoße",
-          "description": "Nudeln mit frischer Tomatensoße und Parmesan."
         },
         {
           "name": "Spaghetti Carbonara",
