@@ -218,24 +218,6 @@
           "description": "Fried Chicken schnitzel.",
           "img": "/menu/food/grill/schnitzel.webp",
           "price": "6.60"
-        },
-        {
-          "name": "Tzoumagias sausages",
-          "description": "",
-          "img": "/noimage.webp",
-          "price": "6.60"
-        },
-        {
-          "name": "Buffalo spicy sausages",
-          "description": "",
-          "img": "/menu/food/grill/pikantika.webp",
-          "price": "6.60"
-        },
-        {
-          "name": "Buffalo sausages with motsarela",
-          "description": "",
-          "img": "/menu/food/grill/motsarela.webp",
-          "price": "6.60"
         }
       ]
     },
@@ -312,12 +294,6 @@
           "price": "5.00"
         },
         {
-          "name": "Spaghetti with tomato sauce",
-          "description": "Spaghetti with tomato sauce and parmesan.",
-          "img": "/menu/food/pasta/spaghettiTomato.webp",
-          "price": "4.50"
-        },
-        {
           "name": "Spaghetti carbonara",
           "description": "Spaghetti carbonara with smoked ham, milk cream and parmesan.",
           "img": "/menu/food/pasta/carbonara.webp",
@@ -330,7 +306,7 @@
           "price": "6.00"
         },
         {
-          "name": "Risotto with seafood",
+          "name": "Risotto with shrimps",
           "description": "",
           "img": "/menu/food/pasta/risotto.webp",
           "price": "6.00"
