@@ -3,31 +3,25 @@
     {
       "img": "/menu/food/salads/elgrecoSalad.webp",
       "price": "6.80"
-      "price": "6.80"
     },
     {
       "img": "/menu/food/salads/mediterraneanSalad.webp",
-      "price": "6.50"
       "price": "6.50"
     },
     {
       "img": "/menu/food/salads/greekSalad.webp",
       "price": "6.00"
-      "price": "6.00"
     },
     {
       "img": "/menu/food/salads/tomatoSalad.webp",
-      "price": "4.00"
       "price": "4.00"
     },
     {
       "img": "/menu/food/salads/lettuceSalad.webp",
       "price": "4.00"
-      "price": "4.00"
     },
     {
       "img": "/menu/food/salads/greenSalad.webp",
-      "price": "4.50"
       "price": "4.50"
     }
   ],
@@ -35,11 +29,9 @@
     {
       "img": "/menu/food/apperatives/zucchini.webp",
       "price": "4.20"
-      "price": "4.20"
     },
     {
       "img": "/menu/food/apperatives/kefalotiri.webp",
-      "price": "4.20"
       "price": "4.20"
     },
     {
@@ -49,26 +41,21 @@
     {
       "img": "/menu/food/apperatives/cheeseCroquettes.webp",
       "price": "4.00"
-      "price": "4.00"
     },
     {
       "img": "/menu/food/apperatives/potatoes.webp",
-      "price": "3.20"
       "price": "3.20"
     },
     {
       "img": "/menu/food/apperatives/bakedFeta.webp",
       "price": "4.80"
-      "price": "4.80"
     },
     {
       "img": "/menu/food/apperatives/feta.webp",
       "price": "3.80"
-      "price": "3.80"
     },
     {
       "img": "/menu/food/apperatives/florina.webp",
-      "price": "3.50"
       "price": "3.50"
     },
     {
@@ -78,21 +65,17 @@
     {
       "img": "/menu/food/apperatives/eggplant.webp",
       "price": "5.00"
-      "price": "5.00"
     },
     {
       "img": "/noimage.webp",
-      "price": "5.00"
       "price": "5.00"
     },
     {
       "img": "/menu/food/apperatives/mackerel.webp",
       "price": "5.70"
-      "price": "5.70"
     },
     {
       "img": "/menu/food/apperatives/anchovies.webp",
-      "price": "4.50"
       "price": "4.50"
     }
   ],
@@ -100,21 +83,17 @@
     {
       "img": "/menu/food/dips/cheeseSpread.webp",
       "price": "4.00"
-      "price": "4.00"
     },
     {
       "img": "/menu/food/dips/tzatziki.webp",
-      "price": "3.80"
       "price": "3.80"
     },
     {
       "img": "/menu/food/dips/taramas.webp",
       "price": "4.00"
-      "price": "4.00"
     },
     {
       "img": "/menu/food/dips/fava.webp",
-      "price": "4.20"
       "price": "4.20"
     }
   ],
@@ -122,36 +101,29 @@
     {
       "img": "/menu/food/grill/burger.webp",
       "price": "7.50"
-      "price": "7.50"
     },
     {
       "img": "/menu/food/grill/stuffedBurger.webp",
-      "price": "8.50"
       "price": "8.50"
     },
     {
       "img": "/menu/food/grill/porkSouvlaki.webp",
       "price": "7.50"
-      "price": "7.50"
     },
     {
       "img": "/menu/food/grill/chickenBreast.webp",
-      "price": "8.00"
       "price": "8.00"
     },
     {
       "img": "/menu/food/grill/chickenSouvlaki.webp",
       "price": "8.00"
-      "price": "8.00"
     },
     {
       "img": "/menu/food/grill/porkFillets.webp",
       "price": "8.50"
-      "price": "8.50"
     },
     {
       "img": "/menu/food/grill/porkChops.webp",
-      "price": "7.50"
       "price": "7.50"
     },
     {
@@ -164,7 +136,6 @@
     },
     {
       "img": "/menu/food/grill/porkSteak.webp",
-      "price": "8.50"
       "price": "8.50"
     },
     {
@@ -196,41 +167,33 @@
     {
       "img": "/menu/food/fish/friedShrimps.webp",
       "price": "11.00"
-      "price": "11.00"
     },
     {
       "img": "/menu/food/fish/shrimpsSaganaki.webp",
-      "price": "12.00"
       "price": "12.00"
     },
     {
       "img": "/menu/food/fish/steamMussels.webp",
       "price": "7.50"
-      "price": "7.50"
     },
     {
       "img": "/menu/food/fish/friedGavros.webp",
-      "price": "7.00"
       "price": "7.00"
     },
     {
       "img": "/menu/food/fish/sardines.webp",
       "price": "7.00"
-      "price": "7.00"
     },
     {
       "img": "/menu/food/fish/seaBream.webp",
-      "price": "12.00"
       "price": "12.00"
     },
     {
       "img": "/menu/food/fish/seaBass.webp",
       "price": "13.00"
-      "price": "13.00"
     },
     {
       "img": "/menu/food/fish/octapus.webp",
-      "price": "14.00"
       "price": "14.00"
     }
   ],
@@ -245,7 +208,6 @@
     },
     {
       "img": "/menu/food/pasta/carbonara.webp",
-      "price": "7.50"
       "price": "7.50"
     },
     {
