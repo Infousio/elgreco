@@ -2,31 +2,31 @@
   "softDrinks": [
     {
       "img": "/menu/drink/soft/cola.webp",
-      "price": "1.50"
+      "price": "1.80"
     },
     {
       "img": "/menu/drink/soft/colazero.webp",
-      "price": "1.50"
+      "price": "1.80"
     },
     {
       "img": "/menu/drink/soft/fantaorange.webp",
-      "price": "1.50"
+      "price": "1.80"
     },
     {
       "img": "/menu/drink/soft/fantalemon.webp",
-      "price": "1.50"
+      "price": "1.80"
     },
     {
       "img": "/menu/drink/soft/sprite.webp",
-      "price": "1.50"
+      "price": "1.80"
     },
     {
       "img": "/menu/drink/soft/souroti.webp",
-      "price": "1.50"
+      "price": "1.80"
     },
     {
       "img": "",
-      "price": "1.50"
+      "price": "1.80"
     },
     {
       "img": "/menu/drink/soft/fuzetea.webp",
@@ -56,15 +56,15 @@
   "beers": [
     {
       "img": "/menu/drink/beer/amstel.webp",
-      "price": "3.00"
+      "price": "3.30"
     },
     {
       "img": "/menu/drink/beer/amstelradler.webp",
-      "price": "2.50"
+      "price": "2.70"
     },
     {
       "img": "",
-      "price": "2.50"
+      "price": "2.70"
     },
     {
       "img": "",
@@ -72,11 +72,11 @@
     },
     {
       "img": "/menu/drink/beer/mythos.webp",
-      "price": "3.20"
+      "price": "3.30"
     },
     {
       "img": "/menu/drink/beer/alfa.webp",
-      "price": "3.00"
+      "price": "3.30"
     },
     {
       "img": "/menu/drink/beer/nymfi.webp",
@@ -84,37 +84,29 @@
     },
     {
       "img": "/menu/drink/beer/mamos.webp",
-      "price": "3.20"
-    },
-    {
-      "img": "/menu/drink/beer/verginaweiss.webp",
-      "price": "3.60"
-    },
-    {
-      "img": "/menu/drink/beer/verginared.webp",
       "price": "3.50"
     },
     {
       "img": "",
-      "price": "3.00"
+      "price": "3.30"
     },
     {
       "img": "",
-      "price": "4.00 || 2.80"
+      "price": "4.50 || 3.00"
     }
   ],
   "retsina": [
     {
       "img": "/menu/drink/retsina/malamatina.webp",
-      "price": "3.30"
+      "price": "3.60"
     },
     {
       "img": "/menu/drink/retsina/georgiadi.webp",
-      "price": "3.40"
+      "price": "3.60"
     },
     {
       "img": "/menu/drink/retsina/vasiliki.webp",
-      "price": "3.90"
+      "price": "4.20"
     }
   ],
   "wine": [
@@ -150,33 +142,33 @@
     },
     {
       "img": "/menu/drink/tsipouro/idoniko.webp",
-      "price": "8.00"
+      "price": "9.00"
     },
     {
       "img": "",
-      "price": "5.50"
+      "price": "6.00"
     }
   ],
   "spirits": [
     {
       "img": "/menu/drink/spirits/jameson.webp",
-      "price": "5.00"
+      "price": "6.00"
     },
     {
       "img": "/menu/drink/spirits/beefeater.webp",
-      "price": "5.00"
+      "price": "6.00"
     },
     {
       "img": "/menu/drink/spirits/stolichnaya.webp",
-      "price": "5.00"
+      "price": "6.00"
     },
     {
       "img": "/menu/drink/spirits/campari.webp",
-      "price": "5.00"
+      "price": "6.00"
     },
     {
       "img": "/menu/drink/spirits/metaxa.webp",
-      "price": "5.00"
+      "price": "6.00"
     }
   ]
 }
