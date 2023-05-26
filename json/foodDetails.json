@@ -141,18 +141,6 @@
     {
       "img": "/menu/food/grill/schnitzel.webp",
       "price": "7.50"
-    },
-    {
-      "img": "/noimage.webp",
-      "price": "7.50"
-    },
-    {
-      "img": "/menu/food/grill/pikantika.webp",
-      "price": "9.50"
-    },
-    {
-      "img": "/menu/food/grill/motsarela.webp",
-      "price": "9.50"
     }
   ],
   "fish": [
@@ -201,10 +189,6 @@
     {
       "img": "/menu/food/pasta/bolognese.webp",
       "price": "6.50"
-    },
-    {
-      "img": "/menu/food/pasta/spaghettiTomato.webp",
-      "price": "5.50"
     },
     {
       "img": "/menu/food/pasta/carbonara.webp",
