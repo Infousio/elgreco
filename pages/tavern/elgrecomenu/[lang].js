@@ -55,7 +55,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.details.salads[i].img}
+        //imgUrl={props.details.salads[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.details.salads[i].price}
@@ -67,7 +67,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.details.apperatives[i].img}
+        //imgUrl={props.details.apperatives[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.details.apperatives[i].price}
@@ -79,7 +79,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.details.dips[i].img}
+        //imgUrl={props.details.dips[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.details.dips[i].price}
@@ -91,7 +91,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.details.meat[i].img}
+        //imgUrl={props.details.meat[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.details.meat[i].price}
@@ -103,7 +103,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.details.fish[i].img}
+        //imgUrl={props.details.fish[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.details.fish[i].price}
@@ -115,7 +115,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.details.pasta[i].img}
+        //imgUrl={props.details.pasta[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.details.pasta[i].price}
@@ -128,7 +128,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.drinks.softDrinks[i].img}
+        //imgUrl={props.drinks.softDrinks[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.drinks.softDrinks[i].price}
@@ -139,7 +139,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.drinks.beers[i].img}
+        //imgUrl={props.drinks.beers[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.drinks.beers[i].price}
@@ -150,7 +150,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.drinks.retsina[i].img}
+        //imgUrl={props.drinks.retsina[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.drinks.retsina[i].price}
@@ -161,7 +161,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.drinks.wine[i].img}
+        //imgUrl={props.drinks.wine[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.drinks.wine[i].price}
@@ -172,7 +172,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.drinks.ouzo[i].img}
+        //imgUrl={props.drinks.ouzo[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.drinks.ouzo[i].price}
@@ -183,7 +183,7 @@ export default function Food(props) {
     return (
       <MenuCard
         key={product.name}
-        imgUrl={props.drinks.spirits[i].img}
+        //imgUrl={props.drinks.spirits[i].img}
         imgName={product.name}
         imgText={product.description}
         price={props.drinks.spirits[i].price}
