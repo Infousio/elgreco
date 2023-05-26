@@ -4,10 +4,10 @@ import ReactGA from "react-ga";
 
 import MenuCard from "../../../components/MenuCard";
 import fooden from "../../../json/languages/fooden.json";
-import foodbg from "../../../json/languages/foodbg.json";
+// import foodbg from "../../../json/languages/foodbg.json";
 import foodgr from "../../../json/languages/foodgr.json";
-import foodde from "../../../json/languages/foodde.json";
-import foodro from "../../../json/languages/foodro.json";
+// import foodde from "../../../json/languages/foodde.json";
+// import foodro from "../../../json/languages/foodro.json";
 import foodDetails from "../../../json/foodDetails.json";
 import drinken from "../../../json/drinkMenu.json";
 import drinkDetails from "../../../json/drinkDetails.json";
@@ -427,10 +427,10 @@ export async function getStaticPaths() {
   return {
     paths: [
       { params: { lang: "en" } },
-      { params: { lang: "bg" } },
-      { params: { lang: "de" } },
+      // { params: { lang: "bg" } },
+      // { params: { lang: "de" } },
       { params: { lang: "gr" } },
-      { params: { lang: "ro" } },
+      // { params: { lang: "ro" } },
     ],
     fallback: false,
   };
@@ -449,15 +449,15 @@ export async function getStaticProps(context) {
     case "gr":
       menu = foodgr.menus;
       break;
-    case "bg":
-      menu = foodbg.menus;
-      break;
-    case "de":
-      menu = foodde.menus;
-      break;
-    case "ro":
-      menu = foodro.menus;
-      break;
+    // case "bg":
+    //   menu = foodbg.menus;
+    //   break;
+    // case "de":
+    //   menu = foodde.menus;
+    //   break;
+    // case "ro":
+    //   menu = foodro.menus;
+    //   break;
     default:
       break;
   }
