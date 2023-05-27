@@ -15,22 +15,22 @@
           "description": "250ml"
         },
         {
-          "name": "Fanta Orange",
+          "name": "Epsa Orange",
           "img": "/menu/drink/soft/fantaorange.webp",
           "description": "250ml"
         },
         {
-          "name": "Fanta Lemon",
+          "name": "Epsa Lemon",
           "img": "/menu/drink/soft/fantalemon.webp",
           "description": "250ml"
         },
         {
-          "name": "Sprite",
+          "name": "Epsa Sprite",
           "img": "/menu/drink/soft/sprite.webp",
           "description": "250ml"
         },
         {
-          "name": "Souroti",
+          "name": "Epsa Soda",
           "img": "/menu/drink/soft/souroti.webp",
           "description": "250ml"
         },
@@ -81,7 +81,7 @@
           "description": "500ml"
         },
         {
-          "name": "Amstel Radler",
+          "name": "Mythos Radler",
           "img": "/menu/drink/beer/amstelradler.webp",
           "description": "330ml"
         },
@@ -113,16 +113,6 @@
         {
           "name": "Mamos",
           "img": "/menu/drink/beer/mamos.webp",
-          "description": "500ml"
-        },
-        {
-          "name": "Vergina Weiss",
-          "img": "/menu/drink/beer/verginaweiss.webp",
-          "description": "500ml"
-        },
-        {
-          "name": "Vergina Red",
-          "img": "/menu/drink/beer/verginared.webp",
           "description": "500ml"
         },
         {
