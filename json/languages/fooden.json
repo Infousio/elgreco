@@ -149,18 +149,6 @@
         {
           "name": "Chicken schnitzel",
           "description": "Fried Chicken schnitzel."
-        },
-        {
-          "name": "Tzoumagias sausages",
-          "description": ""
-        },
-        {
-          "name": "Buffalo spicy sausages",
-          "description": ""
-        },
-        {
-          "name": "Buffalo sausages with motsarela",
-          "description": ""
         }
       ]
     },
@@ -213,10 +201,6 @@
         {
           "name": "Spaghetti bolognese",
           "description": "Spaghetti with beef minced meat and parmesan."
-        },
-        {
-          "name": "Spaghetti with tomato sauce",
-          "description": "Spaghetti with tomato sauce and parmesan."
         },
         {
           "name": "Spaghetti carbonara",
