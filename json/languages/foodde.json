@@ -175,8 +175,16 @@
           "description": "Gedünstete Muscheln mit weißem Wein, Senf und verschiedenen Gewürzen."
         },
         {
+          "name": "Muscheln Saganaki",
+          "description": "Muscheln Saganaki mit Tomate und Senf."
+        },
+        {
           "name": "Gebratene Anchovis",
           "description": ""
+        },
+        {
+          "name": "Anchovis Saganaki",
+          "description": "Anchovis Saganaki mit Tomate, Senf, Knoblauch und verschiedenen Gewürzen."
         },
         {
           "name": "Gegrillte Sardellen",

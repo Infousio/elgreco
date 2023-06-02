@@ -175,8 +175,16 @@
           "description": "Steam mussels with white wine, mustard and aromatic herbs."
         },
         {
+          "name": "Mussels saganaki",
+          "description": "Mussels saganaki with tomato sauce and mustard."
+        },
+        {
           "name": "Fried gavros",
           "description": ""
+        },
+        {
+          "name": "Gavros saganaki",
+          "description": "Gavros saganaki fried with tomato sauce, mustard, garlic, and various aromatic herbs."
         },
         {
           "name": "Grilled sardines",

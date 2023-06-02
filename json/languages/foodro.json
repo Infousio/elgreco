@@ -167,8 +167,16 @@
           "description": "Creveţi prăjiţi cu dressing din ulei de măsline şi lămâie cu sos de iaurt şi usturoi"
         },
         {
+          "name": "Creveţi saganaki",
+          "description": "Creveţi saganaki în sos de roşii şi brânză feta"
+        },
+        {
           "name": "Midii la abur",
           "description": "Midii la abur cu vin alb, muştar şi mirodenii"
+        },
+        {
+          "name": "Midii saganaki",
+          "description": "Midii saganaki cu roşii şi muştar"
         },
         {
           "name": "Gavros la tigaie",
