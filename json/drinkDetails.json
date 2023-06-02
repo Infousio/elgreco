@@ -9,19 +9,23 @@
       "price": "1.80"
     },
     {
-      "img": "/menu/drink/soft/fantaorange.webp",
+      "img": "/noimage.webp",
       "price": "1.80"
     },
     {
-      "img": "/menu/drink/soft/fantalemon.webp",
+      "img": "/noimage.webp",
       "price": "1.80"
     },
     {
-      "img": "/menu/drink/soft/sprite.webp",
+      "img": "/noimage.webp",
       "price": "1.80"
     },
     {
-      "img": "/menu/drink/soft/souroti.webp",
+      "img": "/noimage.webp",
+      "price": "1.80"
+    },
+    {
+      "img": "/noimage.webp",
       "price": "1.80"
     },
     {
@@ -59,14 +63,6 @@
       "price": "3.30"
     },
     {
-      "img": "/menu/drink/beer/amstelradler.webp",
-      "price": "2.70"
-    },
-    {
-      "img": "",
-      "price": "2.70"
-    },
-    {
       "img": "",
       "price": "3.80"
     },
@@ -93,6 +89,14 @@
     {
       "img": "",
       "price": "4.50 || 3.00"
+    },
+    {
+      "img": "/noimage.webp",
+      "price": "2.70"
+    },
+    {
+      "img": "",
+      "price": "2.70"
     }
   ],
   "retsina": [
@@ -107,6 +111,10 @@
     {
       "img": "/menu/drink/retsina/vasiliki.webp",
       "price": "4.20"
+    },
+    {
+      "img": "/noimage.webp",
+      "price": "6.00"
     }
   ],
   "wine": [
@@ -135,6 +143,10 @@
     {
       "img": "/menu/drink/tsipouro/mpampatzimouzo.webp",
       "price": "8.00"
+    },
+    {
+      "img": "/noimage.webp",
+      "price": "7.50"
     },
     {
       "img": "/menu/drink/tsipouro/mpampatzimtsipouro.webp",

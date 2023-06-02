@@ -16,22 +16,27 @@
         },
         {
           "name": "Epsa Orange",
-          "img": "/menu/drink/soft/fantaorange.webp",
+          "img": "/noimage.webp",
           "description": "250ml"
         },
         {
           "name": "Epsa Lemon",
-          "img": "/menu/drink/soft/fantalemon.webp",
+          "img": "/noimage.webp",
           "description": "250ml"
         },
         {
           "name": "Epsa Sprite",
-          "img": "/menu/drink/soft/sprite.webp",
+          "img": "/noimage.webp",
           "description": "250ml"
         },
         {
           "name": "Epsa Soda",
-          "img": "/menu/drink/soft/souroti.webp",
+          "img": "/noimage.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Epsa Sour cherry",
+          "img": "/noimage.webp",
           "description": "250ml"
         },
         {
@@ -81,16 +86,6 @@
           "description": "500ml"
         },
         {
-          "name": "Mythos Radler",
-          "img": "/menu/drink/beer/amstelradler.webp",
-          "description": "330ml"
-        },
-        {
-          "name": "Heineken Free",
-          "img": "",
-          "description": "330ml"
-        },
-        {
           "name": "Heineken",
           "img": "",
           "description": "500ml"
@@ -124,6 +119,16 @@
           "name": "Alfta Draft",
           "img": "",
           "description": "500ml || 300ml"
+        },
+        {
+          "name": "Mythos Radler",
+          "img": "/menu/drink/beer/amstelradler.webp",
+          "description": "330ml"
+        },
+        {
+          "name": "Heineken Free",
+          "img": "",
+          "description": "330ml"
         }
       ]
     },
@@ -144,6 +149,11 @@
         {
           "name": "Vasiliki",
           "img": "/menu/drink/retsina/vasiliki.webp",
+          "description": "500ml"
+        },
+        {
+          "name": "Kechrimpari",
+          "img": "/noimage.webp",
           "description": "500ml"
         }
       ]
@@ -186,6 +196,11 @@
         {
           "name": "Ouzo Mpampatzim",
           "img": "/menu/drink/tsipouro/mpampatzimouzo.webp",
+          "description": "250ml"
+        },
+        {
+          "name": "Ouzo Fragkoula",
+          "img": "/noimage.webp",
           "description": "250ml"
         },
         {
