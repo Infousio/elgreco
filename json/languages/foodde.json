@@ -8,7 +8,11 @@
         },
         {
           "name": "Mediterraner Salat",
-          "description": "Mediterraner Salat mit Baby Rote Beete Blätter- Kopfsalat - Spinat – Rucola - Kirschtomaten - Parmesan – Balsamico Essig."
+          "description": "Mediterraner Salat mit Rote-Bete-Blättern, Salat, Spinat, Rucola, Kirschtomaten, Preiselbeeren, Walnüssen, Sesam, Granatapfel, Parmesan und Balsamico-Essig."
+        },
+        {
+          "name": "Dakos Salat",
+          "description": "Dakos-Salat mit Tomaten, Feta, getrockneten Tomaten und Kapern."
         },
         {
           "name": "Griechischer Salat",
@@ -47,6 +51,10 @@
           "description": "Käsekroketten aus verschiedenen Käsesorten."
         },
         {
+          "name": "Gemüsebällchen",
+          "description": "Gemüsebällchen aus Spinat, Salat, Zwiebeln, Kräutern und Feta."
+        },
+        {
           "name": "Frisch geschnittene Pommes",
           "description": ""
         },
@@ -57,6 +65,10 @@
         {
           "name": "Feta-Käse",
           "description": "Feta-Käse mit Oregano &amp; Olivenöl."
+        },
+        {
+          "name": "Feta gebraten",
+          "description": "Feta gebraten mit Sesam und Honig."
         },
         {
           "name": "Florina Paprikas",

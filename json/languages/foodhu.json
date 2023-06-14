@@ -8,7 +8,11 @@
         },
         {
           "name": "Mediterrán saláta",
-          "description": "Mediterrán saláta céklával, baba levelekkel, salátával, spenóttal, rakétával, koktélparadicsommal, parmezánnal és balzsamecettel."
+          "description": "Mediterrán saláta céklalevéllel, salátával, spenóttal, cseresznye paradicsommal, áfonyával, dióval, szezámmal, gránátalmával, parmezánnal és balzsamecettel."
+        },
+        {
+          "name": "Dakos saláta",
+          "description": "Dakos saláta paradicsommal, fetával, szárított paradicsommal és kapribogyóval."
         },
         {
           "name": "Görögsaláta",
@@ -47,6 +51,10 @@
           "description": "Käsekroketten aus verschiedenen Käsesorten."
         },
         {
+          "name": "Zöldséggolyók",
+          "description": "Spenóttal, salátával, hagymával, fűszernövényekkel és fetával készült zöldséggolyók."
+        },
+        {
           "name": "Frisch geschnittene Pommes",
           "description": ""
         },
@@ -57,6 +65,10 @@
         {
           "name": "Feta-Käse",
           "description": "Feta-Käse mit Oregano &amp; Olivenöl."
+        },
+        {
+          "name": "Sült Feta",
+          "description": "Szezámmal és mézzel sült feta."
         },
         {
           "name": "Florina Paprikas",

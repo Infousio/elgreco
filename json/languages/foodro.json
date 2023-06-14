@@ -4,27 +4,31 @@
       "products": [
         {
           "name": "Salată El Greco",
-          "description": "Salată El Greco Cu salată verde - roşii - crutoane - şuncă - caşcaval - ouă - dressing"
+          "description": "Salată El Greco Cu salată verde - roşii - crutoane - şuncă - caşcaval - ouă - dressing."
         },
         {
           "name": "Salată mediteraneană",
-          "description": "Salată mediteraneană Frunze fragede de sfeclă roşie-salată verde-spanac-rucola-roşii cherry parmezan-oţet balsamic"
+          "description": "Salata mediteraneana cu frunze de sfecla rosie, salata verde, spanac, rucola, rosii cherry, merisor, nuca, susan, rodie, parmezan si otet balsamic."
+        },
+        {
+          "name": "Salată Ntakos",
+          "description": "Salată Ntakos cu roșii, feta, roșii uscate și capere."
         },
         {
           "name": "Salată grecească",
-          "description": "Salată grecească Cu roşii - castraveţi-ardei gras-ceapă-măsline-brânză feta – ulei de măsline"
+          "description": "Salată grecească Cu roşii - castraveţi-ardei gras-ceapă-măsline-brânză feta – ulei de măsline."
         },
         {
           "name": "Salată de roşii",
-          "description": "Salată de roşii Cu castravete-ardei gras - ceapă – ulei de măsline"
+          "description": "Salată de roşii Cu castravete-ardei gras - ceapă – ulei de măsline."
         },
         {
           "name": "Salată verde",
-          "description": "Salată verde cu ceapă nouă"
+          "description": "Salată verde cu ceapă nouă."
         },
         {
           "name": "Verdeţuri de sezon",
-          "description": "Verdeţuri de sezon cu lămâie şi ulei de măsline"
+          "description": "Verdeţuri de sezon cu lămâie şi ulei de măsline."
         }
       ]
     },
@@ -32,23 +36,27 @@
       "products": [
         {
           "name": "Dovlecei prăjite",
-          "description": "Dovlecei prăjite cu tzatziki"
+          "description": "Dovlecei prăjite cu tzatziki."
         },
         {
           "name": "Kefalotiri saganaki",
-          "description": "Brânză kefalotiri saganaki (prăjită în tigaie)"
+          "description": "Brânză kefalotiri saganaki (prăjită în tigaie)."
         },
         {
           "name": "Haloumi",
-          "description": "Brânză haloumi prăjită cu roşii şi mentă"
+          "description": "Brânză haloumi prăjită cu roşii şi mentă."
         },
         {
           "name": "Crochete de brânză",
-          "description": "Crochete de brânză din diferite tipuri de brânză"
+          "description": "Crochete de brânză din diferite tipuri de brânză."
+        },
+        {
+          "name": "Biluțe de legume",
+          "description": "Biluțe de legume făcute cu spanac, salată verde, ceapă, ierburi și feta."
         },
         {
           "name": "Cartofi prăjiţi",
-          "description": "Cartofi prăjiţi (din cartofi noi)"
+          "description": "Cartofi prăjiţi (din cartofi noi)."
         },
         {
           "name": "Brânză feta la cuptor",
@@ -56,23 +64,27 @@
         },
         {
           "name": "Brânză feta",
-          "description": "Brânză feta cu oregano şi ulei de măsline"
+          "description": "Brânză feta cu oregano şi ulei de măsline."
+        },
+        {
+          "name": "Feta prajita",
+          "description": "Feta prajita cu susan si miere."
         },
         {
           "name": "Ardei capia",
-          "description": "Ardei capia proaspăt prăjiţi"
+          "description": "Ardei capia proaspăt prăjiţi."
         },
         {
           "name": "Ardei iute",
-          "description": "Ardei iute cu roşii păjite"
+          "description": "Ardei iute cu roşii păjite."
         },
         {
           "name": "Vinete prăjite",
-          "description": "Vinete prăjite Cu brânză feta- roşii-usturoi-ulei de măsline"
+          "description": "Vinete prăjite Cu brânză feta- roşii-usturoi-ulei de măsline."
         },
         {
           "name": "Ciuperci de fag",
-          "description": "Ciuperci de fag prăjite"
+          "description": "Ciuperci de fag prăjite."
         },
         {
           "name": "Scrumbii afumate",
@@ -80,7 +92,7 @@
         },
         {
           "name": "Gavros marinat",
-          "description": "Gavros (hamsie mare) marinat Cu usturoi – pătrunjel-ulei de măsline"
+          "description": "Gavros (hamsie mare) marinat Cu usturoi – pătrunjel-ulei de măsline."
         }
       ]
     },
@@ -88,11 +100,11 @@
       "products": [
         {
           "name": "Cremă de brânză",
-          "description": "Cremă de brânză de casă, clasică, cu brânză feta-anthotiro-brânză picantă –ulei de măsline"
+          "description": "Cremă de brânză de casă, clasică, cu brânză feta-anthotiro-brânză picantă –ulei de măsline."
         },
         {
           "name": "Tzatziki",
-          "description": "Sos tzatziki tradiţional, făcut în casă, cu iaurt dens de cea mai bună calitate"
+          "description": "Sos tzatziki tradiţional, făcut în casă, cu iaurt dens de cea mai bună calitate."
         },
         {
           "name": "Fish roe dip",
@@ -108,11 +120,11 @@
       "products": [
         {
           "name": "Meatballs",
-          "description": "Meatlballs din carne tocată de porc şi viţel Bazat pe o reţetă din 1976"
+          "description": "Meatlballs din carne tocată de porc şi viţel Bazat pe o reţetă din 1976."
         },
         {
           "name": "Meatball umplut",
-          "description": "Meatball de casă umplut Cu brânză feta – caşcaval – ardei gras"
+          "description": "Meatball de casă umplut Cu brânză feta – caşcaval – ardei gras."
         },
         {
           "name": "Suvlaki",
@@ -120,31 +132,31 @@
         },
         {
           "name": "File de pui",
-          "description": "File din piept de pui la grătar"
+          "description": "File din piept de pui la grătar."
         },
         {
           "name": "Suvlaki de pui",
-          "description": "Suvlaki (frigărui) din pulpă de pui marinat"
+          "description": "Suvlaki (frigărui) din pulpă de pui marinat."
         },
         {
           "name": "File fraged de purcel",
-          "description": "File fraged de purcel la grătar"
+          "description": "File fraged de purcel la grătar."
         },
         {
           "name": "Burtă de porc",
-          "description": "Burtă de porc marinată la grătar"
+          "description": "Burtă de porc marinată la grătar."
         },
         {
           "name": "Friptură de ceafă",
-          "description": "Friptură de ceafă de porc la tigaie Gătită în ulei de măsline şi stinsă cu vin alb şi mirodenii"
+          "description": "Friptură de ceafă de porc la tigaie Gătită în ulei de măsline şi stinsă cu vin alb şi mirodenii."
         },
         {
           "name": "El Greco Mix",
-          "description": "Mix din diferite preparate (frigărui, burger, burtă de porc...)"
+          "description": "Mix din diferite preparate (frigărui, burger, burtă de porc...)."
         },
         {
           "name": "Friptură de pancetta",
-          "description": "Friptură din omoplat de porc, marinată în ierburi aromatice"
+          "description": "Friptură din omoplat de porc, marinată în ierburi aromatice."
         },
         {
           "name": "Snitzel de pui",
@@ -156,51 +168,51 @@
       "products": [
         {
           "name": "Calamar la tigaie",
-          "description": "Calamar la tigaie cu sos de iaurt şi usturoi"
+          "description": "Calamar la tigaie cu sos de iaurt şi usturoi."
         },
         {
           "name": "Calamar la gratar",
-          "description": "Calamar la gratar cu dressing din ulei de măsline, lămâie şi mirodenii"
+          "description": "Calamar la gratar cu dressing din ulei de măsline, lămâie şi mirodenii."
         },
         {
           "name": "Creveţi prăjiţi",
-          "description": "Creveţi prăjiţi cu dressing din ulei de măsline şi lămâie cu sos de iaurt şi usturoi"
+          "description": "Creveţi prăjiţi cu dressing din ulei de măsline şi lămâie cu sos de iaurt şi usturoi."
         },
         {
           "name": "Creveţi saganaki",
-          "description": "Creveţi saganaki în sos de roşii şi brânză feta"
+          "description": "Creveţi saganaki în sos de roşii şi brânză feta."
         },
         {
           "name": "Midii la abur",
-          "description": "Midii la abur cu vin alb, muştar şi mirodenii"
+          "description": "Midii la abur cu vin alb, muştar şi mirodenii."
         },
         {
           "name": "Midii saganaki",
-          "description": "Midii saganaki cu roşii şi muştar"
+          "description": "Midii saganaki cu roşii şi muştar."
         },
         {
           "name": "Gavros la tigaie",
-          "description": "Gavros (hamsie mare) la tigaie"
+          "description": "Gavros (hamsie mare) la tigaie."
         },
         {
           "name": "Gavros saganaki",
-          "description": "Gavros saganaki cu roşii, muştar, usturoi şi diferite mirodenii"
+          "description": "Gavros saganaki cu roşii, muştar, usturoi şi diferite mirodenii."
         },
         {
           "name": "Sardine la gratar",
-          "description": "Sardine la gratar, cu dressing din ulei de măsline, lămâie şi mirodenii"
+          "description": "Sardine la gratar, cu dressing din ulei de măsline, lămâie şi mirodenii."
         },
         {
           "name": "Dorada",
-          "description": "Dorada prăjită cu lămâie, pătrunjel şi oregano"
+          "description": "Dorada prăjită cu lămâie, pătrunjel şi oregano."
         },
         {
           "name": "Lavrac",
-          "description": "Lavrac (biban de mare) cu lămâie, pătrunjel şi oregano"
+          "description": "Lavrac (biban de mare) cu lămâie, pătrunjel şi oregano."
         },
         {
           "name": "Caracatiţă la grătar",
-          "description": "Caracatiţă la grătar cu sos de ulei şi lămâie"
+          "description": "Caracatiţă la grătar cu sos de ulei şi lămâie."
         }
       ]
     },
@@ -208,18 +220,18 @@
       "products": [
         {
           "name": "Spaghetti cu carne",
-          "description": "Spaghetti cu carne tocată de viţel şi parmezan"
+          "description": "Spaghetti cu carne tocată de viţel şi parmezan."
         },
         {
           "name": "Spaghete carbonara",
-          "description": "Spaghete carbonara cu costiţă afumată, cremă de lapte şi parmezan"
+          "description": "Spaghete carbonara cu costiţă afumată, cremă de lapte şi parmezan."
         },
         {
           "name": "Spaghete cu creveţi",
-          "description": "Spaghete cu creveţi de talie mică, usturoi şi roşii"
+          "description": "Spaghete cu creveţi de talie mică, usturoi şi roşii."
         },
         {
-          "name": "Risotto cu fructe de mare",
+          "name": "Risotto cu fructe de mare.",
           "description": ""
         }
       ]
