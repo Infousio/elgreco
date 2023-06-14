@@ -60,7 +60,7 @@
   "beers": [
     {
       "img": "/menu/drink/beer/amstel.webp",
-      "price": "3.30"
+      "price": "3.50"
     },
     {
       "img": "",
@@ -68,11 +68,11 @@
     },
     {
       "img": "/menu/drink/beer/mythos.webp",
-      "price": "3.30"
+      "price": "3.50"
     },
     {
       "img": "/menu/drink/beer/alfa.webp",
-      "price": "3.30"
+      "price": "3.50"
     },
     {
       "img": "/menu/drink/beer/nymfi.webp",
