@@ -2,15 +2,15 @@
   "salads": [
     {
       "img": "/menu/food/salads/elgrecoSalad.webp",
-      "price": "6.80"
+      "price": "7.00"
     },
     {
       "img": "/menu/food/salads/mediterraneanSalad.webp",
-      "price": "6.50"
+      "price": "7.20"
     },
     {
       "img": "/menu/food/salads/greekSalad.webp",
-      "price": "6.00"
+      "price": "6.20"
     },
     {
       "img": "/menu/food/salads/tomatoSalad.webp",
@@ -124,7 +124,7 @@
     },
     {
       "img": "/menu/food/grill/porkChops.webp",
-      "price": "7.50"
+      "price": "8.00"
     },
     {
       "img": "/menu/food/grill/friedPork.webp",
@@ -132,7 +132,7 @@
     },
     {
       "img": "/menu/food/grill/elgrecoMix.webp",
-      "price": "7.50"
+      "price": "8.00"
     },
     {
       "img": "/noimage.webp",
@@ -140,13 +140,13 @@
     },
     {
       "img": "/menu/food/grill/schnitzel.webp",
-      "price": "7.50"
+      "price": "8.00"
     }
   ],
   "fish": [
     {
       "img": "/menu/food/fish/friedKalamari.webp",
-      "price": "8.00"
+      "price": "8.20"
     },
     {
       "img": "/menu/food/fish/grilledKalamari.webp",
