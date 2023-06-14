@@ -10,8 +10,14 @@
         },
         {
           "name": "Mediterranean salad",
-          "description": "Mediterranean salad with beetroot, baby leaves, lettuce, spinach, rocket, cherry tomato, parmesan and balsamic vinegar.",
+          "description": "Mediterranean salad with beetroot leafs, lettuce, spinach, rocket, cherry tomato, cranberry, walnuts, sesame, pomegranate, parmesan and balsamic vinegar.",
           "img": "/menu/food/salads/mediterraneanSalad.webp",
+          "price": "5.50"
+        },
+        {
+          "name": "Ntakos salad",
+          "description": "Ntakos salad with tomato, feta, dried tomato and caper.",
+          "img": "/noimage.webp",
           "price": "5.50"
         },
         {
@@ -68,6 +74,12 @@
           "price": "3.30"
         },
         {
+          "name": "Veggie balls",
+          "description": "Veggie balls made with spinach, lettuce, onion, herbs and feta.",
+          "img": "/noimage.webp",
+          "price": "3.30"
+        },
+        {
           "name": "Fried Potatoes",
           "description": "Fresh fried potatoes.",
           "img": "/menu/food/apperatives/potatoes.webp",
@@ -82,6 +94,12 @@
         {
           "name": "Feta cheese",
           "description": "Feta cheese with oregano and olive oil.",
+          "img": "/menu/food/apperatives/feta.webp",
+          "price": "2.90"
+        },
+        {
+          "name": "Feta fried",
+          "description": "Feta fried with sesame and honey.",
           "img": "/menu/food/apperatives/feta.webp",
           "price": "2.90"
         },

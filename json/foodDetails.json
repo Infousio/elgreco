@@ -9,6 +9,10 @@
       "price": "7.20"
     },
     {
+      "img": "/noimage.webp",
+      "price": "6.00"
+    },
+    {
       "img": "/menu/food/salads/greekSalad.webp",
       "price": "6.20"
     },
@@ -43,6 +47,10 @@
       "price": "4.00"
     },
     {
+      "img": "/noimage.webp",
+      "price": "5.00"
+    },
+    {
       "img": "/menu/food/apperatives/potatoes.webp",
       "price": "3.20"
     },
@@ -53,6 +61,10 @@
     {
       "img": "/menu/food/apperatives/feta.webp",
       "price": "3.80"
+    },
+    {
+      "img": "/noimage.webp",
+      "price": "5.00"
     },
     {
       "img": "/menu/food/apperatives/florina.webp",
