@@ -119,6 +119,22 @@
   ],
   "wine": [
     {
+      "img": "/menu/drink/wine/malagousia_1.webp",
+      "price": "35.00"
+    },
+    {
+      "img": "/menu/drink/wine/juliaChardonnay_1.webp",
+      "price": "28.00"
+    },
+    {
+      "img": "/menu/drink/wine/paranga_1.webp",
+      "price": "18.00"
+    },
+    {
+      "img": "/menu/drink/wine/domaineRose_1.webp",
+      "price": "30.00"
+    },
+    {
       "img": "/menu/drink/wine/draftwine.webp",
       "price": "3.80 || 2.00"
     },

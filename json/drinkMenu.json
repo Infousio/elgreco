@@ -163,6 +163,26 @@
       "img": "/menu/drink/wine/wines.webp",
       "products": [
         {
+          "name": "Malagousia Gerovasiliou Estate",
+          "img": "/menu/drink/wine/malagousia_1.webp",
+          "description": "750ml"
+        },
+        {
+          "name": "Chateau Julia Chardonnay Costa Lazaridi Estate",
+          "img": "/menu/drink/wine/juliaChardonnay_1.webp",
+          "description": "750ml"
+        },
+        {
+          "name": "Paranga White Kir-Yianni Estate",
+          "img": "/menu/drink/wine/paranga_1.webp",
+          "description": "750ml"
+        },
+        {
+          "name": "Domaine Rose Costa Lazaridi Estate",
+          "img": "/menu/drink/wine/domaineRose_1.webp",
+          "description": "750ml"
+        },
+        {
           "name": "Draft White wine dry",
           "img": "/menu/drink/wine/draftwine.webp",
           "description": "500ml & 250ml"

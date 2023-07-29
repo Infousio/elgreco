@@ -14,7 +14,7 @@
     },
     {
       "img": "/menu/food/salads/greekSalad.webp",
-      "price": "6.20"
+      "price": "6.50"
     },
     {
       "img": "/menu/food/salads/tomatoSalad.webp",
@@ -158,7 +158,7 @@
   "fish": [
     {
       "img": "/menu/food/fish/friedKalamari.webp",
-      "price": "8.20"
+      "price": "8.90"
     },
     {
       "img": "/menu/food/fish/grilledKalamari.webp",
@@ -174,7 +174,7 @@
     },
     {
       "img": "/menu/food/fish/steamMussels.webp",
-      "price": "7.50"
+      "price": "8.00"
     },
     {
       "img": "/menu/food/fish/musselsSaganaki.webp",
@@ -182,15 +182,15 @@
     },
     {
       "img": "/menu/food/fish/friedGavros.webp",
-      "price": "7.00"
-    },
-    {
-      "img": "/menu/food/fish/gavrosSaganaki.webp",
       "price": "7.50"
     },
     {
+      "img": "/menu/food/fish/gavrosSaganaki.webp",
+      "price": "8.00"
+    },
+    {
       "img": "/menu/food/fish/sardines.webp",
-      "price": "7.00"
+      "price": "8.00"
     },
     {
       "img": "/menu/food/fish/seaBream.webp",
@@ -202,7 +202,7 @@
     },
     {
       "img": "/menu/food/fish/octapus.webp",
-      "price": "14.00"
+      "price": "14.50"
     }
   ],
   "pasta": [
@@ -212,15 +212,15 @@
     },
     {
       "img": "/menu/food/pasta/carbonara.webp",
-      "price": "7.50"
+      "price": "8.00"
     },
     {
       "img": "/menu/food/pasta/shrimpSpaghetti.webp",
-      "price": "8.00"
+      "price": "9.00"
     },
     {
       "img": "/menu/food/pasta/risotto.webp",
-      "price": "8.00"
+      "price": "9.00"
     }
   ]
 }
